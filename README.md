@@ -78,8 +78,8 @@ cd <unzipped-folder>
 Or from Git:
 
 ```bash
-git clone https://github.com/guiyun466/WAD2-Project-G2-T1.git
-cd WAD2-Project-G2-T1
+git clone https://github.com/CatCanCap/FoundIt.git
+cd FoundIt
 ```
 
 ### Step 2: install the packages
