@@ -1,0 +1,558 @@
+/* The FoundIt design system (the 2026 overhaul). A rebuilt page puts class="ds"
+   on its outer element and uses only the --ds- tokens and .ds- classes below:
+   no hex codes, pixel sizes or durations in a page's own styles, so night
+   mode and later changes reach every page. Pages not rebuilt yet keep the
+   older tokens in tokens.css until their turn.
+
+   Type: Bricolage Grotesque for page and section titles only, Public Sans
+   for everything else (fonts are loaded in index.html). */
+
+:root {
+  --ds-font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --ds-font-text:
+    'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+
+  /* Type scale: size and line height in pairs. Phones use the smaller
+     display, h1, h2 and h3 (media query below). */
+  --ds-size-display: 3.5rem;
+  --ds-leading-display: 1.07;
+  --ds-size-h1: 2.5rem;
+  --ds-leading-h1: 1.2;
+  --ds-size-h2: 1.875rem;
+  --ds-leading-h2: 1.27;
+  --ds-size-h3: 1.5rem;
+  --ds-leading-h3: 1.33;
+  --ds-size-title: 1.25rem;
+  --ds-leading-title: 1.4;
+  --ds-size-lead: 1.125rem;
+  --ds-leading-lead: 1.56;
+  --ds-size-body: 1rem;
+  --ds-leading-body: 1.5;
+  --ds-size-small: 0.875rem;
+  --ds-leading-small: 1.43;
+  --ds-size-caption: 0.75rem;
+  --ds-leading-caption: 1.33;
+  --ds-weight-regular: 400;
+  --ds-weight-medium: 600;
+  --ds-weight-bold: 700;
+
+  /* Space, on Bootstrap's 4px step (so p-*, gap-* still line up) */
+  --ds-space-1: 0.25rem;
+  --ds-space-2: 0.5rem;
+  --ds-space-3: 0.75rem;
+  --ds-space-4: 1rem;
+  --ds-space-5: 1.5rem;
+  --ds-space-6: 2rem;
+  --ds-space-7: 3rem;
+  --ds-space-8: 4rem;
+  --ds-space-9: 6rem;
+
+  /* Colour roles. Contrast on --ds-surface is in brackets. */
+  --ds-canvas: #f6f7fa; /* the page */
+  --ds-surface: #fff; /* panels that hold controls */
+  --ds-surface-sunken: #eef1f6; /* input wells, table heads */
+  /* Behind an item's picture: a mid tone, so a white item and a black one both
+     show, in either theme (worked out again at night from the night colours) */
+  --ds-surface-tile: color-mix(in srgb, var(--ds-text-muted) 22%, var(--ds-surface));
+  --ds-text: #121a3d; /* 16.9:1 */
+  --ds-text-muted: #4e5578; /* 7.3:1, secondary text */
+  --ds-border: #e1e5ee; /* dividers only, never "clickable" */
+  --ds-border-control: #8a92b0; /* input and outline-button edges, 3.1:1 */
+  --ds-action: #1a2b6d; /* SMU navy: the one colour that means "do this", 13:1 */
+  --ds-action-hover: #101c50;
+  --ds-action-pressed: #0b1440;
+  --ds-on-action: #fff;
+  --ds-action-wash: color-mix(in srgb, var(--ds-action) 7%, transparent); /* hover behind rows */
+  --ds-signal: #c9a24a; /* SMU gold, "a match": fills, bars and dots only, never text on white */
+  --ds-signal-text: #8a6716; /* gold words, 5.2:1 */
+  --ds-danger: #b3261e; /* 6.5:1 */
+  --ds-success: #2e7d4f; /* 5.1:1 */
+  --ds-warning: #9a5b00; /* 5.4:1 */
+  --ds-focus: #4a5ad8; /* the focus ring, 5.6:1 */
+  --ds-band: #0f1a45; /* navy bands (footer, sign-in panel) */
+  --ds-on-band: #eef0f8;
+  --ds-on-band-muted: #b8bfdc; /* 9.2:1 on the band */
+  /* Report kinds (added by WS4): yellow for found, red for lost, so the two
+     reports never look alike. Text colours are AA on their wash. */
+  --ds-found: #8a6716; /* 5.2:1 on white */
+  --ds-found-wash: #fbefd6;
+  --ds-lost: #b23e27; /* 5.6:1 on white */
+  --ds-lost-wash: #fbe2df;
+  /* Brighter fills for pins, heat and bars on the map (never text) */
+  --ds-found-fill: #d4a63a;
+  --ds-lost-fill: #e0645a;
+
+  /* Shape: tight corners on controls, softer on containers, round only for
+     avatars, count badges and status pills */
+  --ds-radius-control: 6px;
+  --ds-radius-surface: 12px;
+  --ds-radius-round: 999px;
+
+  /* Elevation: flat at rest. 1 = "you can pick this up" (interactive cards on
+     hover), 2 = floats over the page (menus, dialogs, toasts) */
+  --ds-elev-1: 0 1px 2px rgb(18 26 61 / 8%), 0 4px 12px rgb(18 26 61 / 10%);
+  --ds-elev-2: 0 2px 6px rgb(18 26 61 / 10%), 0 16px 40px rgb(18 26 61 / 20%);
+
+  /* Motion: three easings and four lengths. Loops (spinners, skeletons) use
+     --ds-loop, which is a cycle, not a transition. */
+  --ds-dur-fast: 120ms; /* hover, press, colour */
+  --ds-dur-base: 200ms; /* menus, toasts, small enter and exit */
+  --ds-dur-slow: 320ms; /* page changes, a card turning into its page */
+  --ds-dur-max: 400ms; /* the score building up, nothing else */
+  --ds-ease-out: cubic-bezier(0.2, 0, 0, 1); /* arriving */
+  --ds-ease-in: cubic-bezier(0.4, 0, 1, 1); /* leaving */
+  --ds-ease-press: cubic-bezier(0.3, 1.3, 0.6, 1); /* a short damped bounce */
+  --ds-stagger: 40ms;
+  --ds-loop: 900ms;
+
+  /* Layout and sizes */
+  --ds-page-max: 75rem;
+  --ds-gutter: 1rem;
+  --ds-control-h: 2.75rem; /* 44px: the smallest tap target */
+  --ds-control-h-lg: 3rem;
+  --ds-row-h: 4rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --ds-gutter: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --ds-gutter: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --ds-size-display: 2.5rem;
+    --ds-leading-display: 1.1;
+    --ds-size-h1: 2rem;
+    --ds-leading-h1: 1.19;
+    --ds-size-h2: 1.5rem;
+    --ds-leading-h2: 1.25;
+    --ds-size-h3: 1.25rem;
+    --ds-leading-h3: 1.4;
+  }
+}
+
+/* Compact lists and tables, picked once per device */
+:root[data-density='compact'] {
+  --ds-row-h: 3rem;
+}
+
+/* Night: the same roles on navy. Shadows vanish on navy, so the elevations
+   also draw a lighter edge. */
+:root[data-theme='night'] {
+  --ds-canvas: #0b1230;
+  --ds-surface: #141b45; /* text 15.4:1, muted 7.2:1 */
+  --ds-surface-sunken: #0e1538;
+  --ds-text: #e8ebf4;
+  --ds-text-muted: #a3aacb;
+  --ds-border: #262e5c;
+  --ds-border-control: #6d77a6; /* 3.8:1 */
+  --ds-action: #b9c6ff; /* 9.9:1 */
+  --ds-action-hover: #d8dfff;
+  --ds-action-pressed: #e8ecff;
+  --ds-on-action: #0b1230;
+  --ds-action-wash: color-mix(in srgb, var(--ds-action) 10%, transparent);
+  --ds-signal-text: #e2b955; /* 8.9:1 */
+  --ds-danger: #f29483;
+  --ds-success: #7ccb9b;
+  --ds-warning: #f2b65f;
+  --ds-focus: #e2b955;
+  --ds-band: #060b24;
+  --ds-elev-1: 0 0 0 1px #2c3566, 0 4px 12px rgb(0 0 0 / 35%);
+  --ds-elev-2: 0 0 0 1px #343e74, 0 16px 40px rgb(0 0 0 / 50%);
+  --ds-found: #e2b955;
+  --ds-found-wash: #3a2f17;
+  --ds-lost: #f29483;
+  --ds-lost-wash: #3a1f28;
+  --ds-found-fill: #e2b955;
+  --ds-lost-fill: #f29483;
+}
+
+/* A panel that stands out by wearing the other theme's colours: night's on the
+   light page, light's at night. Anything inside it that uses these roles,
+   buttons included, follows. */
+.ds-inverse {
+  --ds-surface: #141b45;
+  --ds-surface-sunken: #0e1538;
+  --ds-surface-tile: color-mix(in srgb, var(--ds-text-muted) 22%, var(--ds-surface));
+  --ds-text: #e8ebf4;
+  --ds-text-muted: #a3aacb;
+  --ds-border: #262e5c;
+  --ds-border-control: #6d77a6;
+  --ds-action: #b9c6ff;
+  --ds-action-hover: #d8dfff;
+  --ds-action-pressed: #e8ecff;
+  --ds-on-action: #0b1230;
+  --ds-action-wash: color-mix(in srgb, var(--ds-action) 10%, transparent);
+  --ds-signal-text: #e2b955;
+  --ds-focus: #e2b955;
+}
+
+:root[data-theme='night'] .ds-inverse {
+  --ds-surface: #fff;
+  --ds-surface-sunken: #eef1f6;
+  --ds-text: #121a3d;
+  --ds-text-muted: #4e5578;
+  --ds-border: #e1e5ee;
+  --ds-border-control: #8a92b0;
+  --ds-action: #1a2b6d;
+  --ds-action-hover: #101c50;
+  --ds-action-pressed: #0b1440;
+  --ds-on-action: #fff;
+  --ds-action-wash: color-mix(in srgb, var(--ds-action) 7%, transparent);
+  --ds-signal-text: #8a6716;
+  --ds-focus: #4a5ad8;
+}
+
+/* ---- Base: everything inside a rebuilt page ---- */
+
+.ds {
+  background: var(--ds-canvas);
+  color: var(--ds-text);
+  font-family: var(--ds-font-text);
+  font-size: var(--ds-size-body);
+  line-height: var(--ds-leading-body);
+  font-weight: var(--ds-weight-regular);
+  -webkit-font-smoothing: antialiased;
+  accent-color: var(--ds-action);
+  caret-color: var(--ds-action);
+}
+
+.ds ::selection {
+  background: color-mix(in srgb, var(--ds-signal) 40%, transparent);
+  color: var(--ds-text);
+}
+
+.ds :focus-visible {
+  outline: 3px solid var(--ds-focus);
+  outline-offset: 2px;
+}
+
+.ds :where(h1, h2, h3, h4, p, ul, ol, figure) {
+  margin: 0;
+}
+
+.ds :where(h1, h2, h3) {
+  font-family: var(--ds-font-display);
+  font-weight: var(--ds-weight-bold);
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.ds :where(h4) {
+  font-family: var(--ds-font-text);
+  font-weight: var(--ds-weight-bold);
+}
+
+.ds :where(ul, ol) {
+  padding: 0;
+  list-style: none;
+}
+
+/* ---- Type ---- */
+
+.ds-display {
+  font-size: var(--ds-size-display);
+  line-height: var(--ds-leading-display);
+}
+
+.ds-h1 {
+  font-size: var(--ds-size-h1);
+  line-height: var(--ds-leading-h1);
+}
+
+.ds-h2 {
+  font-size: var(--ds-size-h2);
+  line-height: var(--ds-leading-h2);
+}
+
+.ds-h3 {
+  font-size: var(--ds-size-h3);
+  line-height: var(--ds-leading-h3);
+}
+
+/* Card and row titles: the text face, not the display face */
+.ds-title {
+  font-family: var(--ds-font-text);
+  font-size: var(--ds-size-title);
+  line-height: var(--ds-leading-title);
+  font-weight: var(--ds-weight-bold);
+  letter-spacing: -0.01em;
+}
+
+.ds-lead {
+  font-size: var(--ds-size-lead);
+  line-height: var(--ds-leading-lead);
+}
+
+.ds-small {
+  font-size: var(--ds-size-small);
+  line-height: var(--ds-leading-small);
+}
+
+.ds-caption {
+  font-size: var(--ds-size-caption);
+  line-height: var(--ds-leading-caption);
+}
+
+.ds-muted {
+  color: var(--ds-text-muted);
+}
+
+/* Times, counts and scores: digits of one width, so columns line up */
+.ds-num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Layout ---- */
+
+.ds-wrap {
+  width: 100%;
+  max-width: calc(var(--ds-page-max) + 2 * var(--ds-gutter));
+  margin-inline: auto;
+  padding-inline: var(--ds-gutter);
+}
+
+/* ---- Buttons: primary is filled, secondary outlined, tertiary is words
+   with an icon. Links (.ds-link) are underlined words and never a box. ---- */
+
+.ds-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ds-space-2);
+  min-height: var(--ds-control-h);
+  padding: 0 var(--ds-space-5);
+  border: 1.5px solid transparent;
+  border-radius: var(--ds-radius-control);
+  font-family: var(--ds-font-text);
+  font-size: var(--ds-size-body);
+  font-weight: var(--ds-weight-medium);
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background-color var(--ds-dur-fast) var(--ds-ease-out),
+    border-color var(--ds-dur-fast) var(--ds-ease-out),
+    color var(--ds-dur-fast) var(--ds-ease-out),
+    transform var(--ds-dur-fast) var(--ds-ease-press);
+}
+
+.ds-btn--lg {
+  min-height: var(--ds-control-h-lg);
+  padding: 0 var(--ds-space-6);
+}
+
+.ds-btn--primary {
+  background: var(--ds-action);
+  color: var(--ds-on-action);
+}
+
+.ds-btn--primary:hover {
+  background: var(--ds-action-hover);
+  color: var(--ds-on-action);
+}
+
+.ds-btn--primary:active {
+  background: var(--ds-action-pressed);
+}
+
+.ds-btn--secondary {
+  border-color: var(--ds-action);
+  background: var(--ds-surface);
+  color: var(--ds-action);
+}
+
+.ds-btn--secondary:hover {
+  background: var(--ds-action-wash);
+  color: var(--ds-action);
+}
+
+.ds-btn--tertiary {
+  padding-inline: var(--ds-space-3);
+  background: transparent;
+  color: var(--ds-action);
+}
+
+.ds-btn--tertiary:hover {
+  background: var(--ds-action-wash);
+  color: var(--ds-action);
+}
+
+/* The arrow in a tertiary button steps forward on hover */
+.ds-btn__arrow {
+  transition: transform var(--ds-dur-fast) var(--ds-ease-press);
+}
+
+.ds-btn:hover .ds-btn__arrow {
+  transform: translateX(3px);
+}
+
+.ds-btn:active {
+  transform: scale(0.98);
+}
+
+.ds-btn:disabled,
+.ds-btn[aria-disabled='true'] {
+  border-color: transparent;
+  background: var(--ds-surface-sunken);
+  color: var(--ds-text-muted);
+  cursor: not-allowed;
+  transform: none;
+}
+
+.ds-btn[aria-busy='true'] {
+  cursor: progress;
+}
+
+/* Square buttons with only an icon (night mode, close) */
+.ds-icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: var(--ds-control-h);
+  height: var(--ds-control-h);
+  padding: 0;
+  border: 1px solid var(--ds-border);
+  border-radius: var(--ds-radius-control);
+  background: var(--ds-surface);
+  color: var(--ds-text);
+  cursor: pointer;
+  transition:
+    background-color var(--ds-dur-fast) var(--ds-ease-out),
+    border-color var(--ds-dur-fast) var(--ds-ease-out),
+    transform var(--ds-dur-fast) var(--ds-ease-press);
+}
+
+.ds-icon-btn:hover {
+  border-color: var(--ds-border-control);
+  background: var(--ds-surface-sunken);
+}
+
+.ds-icon-btn:active {
+  transform: scale(0.96);
+}
+
+/* Words that go somewhere: always underlined, thicker on hover */
+.ds-link {
+  color: var(--ds-action);
+  font-weight: var(--ds-weight-medium);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition:
+    color var(--ds-dur-fast) var(--ds-ease-out),
+    text-decoration-thickness var(--ds-dur-fast) var(--ds-ease-out);
+}
+
+.ds-link:hover {
+  color: var(--ds-action-hover);
+  text-decoration-thickness: 2px;
+}
+
+/* A link on its own line still gets a full-size tap target */
+.ds-link--standalone {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--ds-control-h);
+}
+
+/* ---- Loading ---- */
+
+.ds-spinner {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: ds-spin var(--ds-loop) linear infinite;
+}
+
+/* Grey shapes the size of what is loading, so nothing jumps when it arrives */
+.ds-skeleton {
+  display: block;
+  border-radius: 4px;
+  background: var(--ds-surface-sunken);
+  animation: ds-pulse var(--ds-loop) ease-in-out infinite alternate;
+}
+
+/* ---- Motion ---- */
+
+/* Items arriving one after another: give each a --i of 0, 1, 2… */
+.ds-enter {
+  animation: ds-rise var(--ds-dur-slow) var(--ds-ease-out) both;
+  animation-delay: calc(var(--i, 0) * var(--ds-stagger));
+}
+
+/* A whole page's content fading in after its skeleton. Unlike .ds-enter this
+   leaves nothing behind when it ends, so it is safe around menus and toasts. */
+.ds-arrive {
+  animation: ds-fade var(--ds-dur-base) var(--ds-ease-out) backwards;
+}
+
+/* Sections rising into place as they scroll into view. Where the browser
+   can't tie an animation to scrolling, they are simply there. */
+@supports (animation-timeline: view()) {
+  .ds-reveal {
+    animation: ds-rise linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+}
+
+@keyframes ds-rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+@keyframes ds-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes ds-spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes ds-pulse {
+  to {
+    opacity: 0.55;
+  }
+}
+
+/* Less motion: nothing moves or pulses. Spinners keep turning, since they are
+   the only sign that something is happening. */
+@media (prefers-reduced-motion: reduce) {
+  .ds-enter,
+  .ds-arrive,
+  .ds-reveal,
+  .ds-skeleton {
+    animation: none;
+  }
+
+  .ds-btn,
+  .ds-btn__arrow,
+  .ds-icon-btn,
+  .ds-link {
+    transition-property: background-color, border-color, color;
+  }
+
+  .ds-btn:active,
+  .ds-icon-btn:active,
+  .ds-btn:hover .ds-btn__arrow {
+    transform: none;
+  }
+}

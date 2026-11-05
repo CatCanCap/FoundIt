@@ -1,0 +1,355 @@
+/* Styles shared by the claim, handoff, returns and item pages (WS5, Figma
+   sections 07 and 08). The pages are laid out with Bootstrap (grid, cards,
+   alerts, forms, tabs, list groups, badges); this file only gives Bootstrap
+   the FoundIt colours from tokens.css, so day and night mode both work.
+   .ho-chip and .ho-link are also used by My disputes (WS1): keep their names. */
+
+.ho-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--fi-backdrop);
+  color: var(--fi-ink);
+}
+
+/* Bootstrap reads its colours from these variables, so pointing them at the
+   tokens makes every card, alert, field and list inside the page follow the
+   theme. Only inside <main>, so the shared header and footer are untouched. */
+.ho-main {
+  --bs-body-color: var(--fi-ink);
+  --bs-body-bg: var(--fi-raised);
+  --bs-emphasis-color: var(--fi-ink);
+  --bs-secondary-color: var(--fi-mist);
+  --bs-tertiary-bg: color-mix(in srgb, var(--fi-line) 50%, var(--fi-raised));
+  --bs-border-color: var(--fi-line);
+  --bs-border-radius: var(--fi-radius-sm);
+  --bs-border-radius-lg: var(--fi-radius-lg);
+  --bs-link-color: var(--fi-ink);
+  --bs-link-color-rgb: 20, 26, 63;
+  --bs-link-hover-color: var(--fi-brass-strong);
+  --bs-heading-color: var(--fi-ink);
+  /* alert-danger: errors */
+  --bs-danger-text-emphasis: var(--fi-ink);
+  --bs-danger-bg-subtle: color-mix(in srgb, var(--fi-danger) 12%, var(--fi-raised));
+  --bs-danger-border-subtle: color-mix(in srgb, var(--fi-danger) 45%, var(--fi-raised));
+  /* alert-warning: notices, in brass */
+  --bs-warning-text-emphasis: var(--fi-ink);
+  --bs-warning-bg-subtle: color-mix(in srgb, var(--fi-brass) 14%, var(--fi-raised));
+  --bs-warning-border-subtle: color-mix(in srgb, var(--fi-brass) 55%, var(--fi-raised));
+  /* alert-success: resolved */
+  --bs-success-text-emphasis: var(--fi-ink);
+  --bs-success-bg-subtle: color-mix(in srgb, var(--fi-success) 12%, var(--fi-raised));
+  --bs-success-border-subtle: var(--fi-success);
+  --bs-alert-link-color: var(--fi-ink);
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0.25rem 1rem 3rem;
+}
+
+:root[data-theme='night'] .ho-main {
+  --bs-link-color-rgb: 238, 240, 248;
+}
+
+/* The heading card at the top of a page: eyebrow, title and the line under it */
+.ho-head__title {
+  font-size: clamp(1.6rem, 6vw, 2.25rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  overflow-wrap: anywhere;
+}
+
+/* Cards (.card) keep the FoundIt corners */
+.ho-main .card {
+  --bs-card-border-radius: var(--fi-radius);
+  --bs-card-inner-border-radius: var(--fi-radius);
+}
+
+.ho-main .card.ho-card--lg {
+  --bs-card-border-radius: var(--fi-radius-lg);
+}
+
+/* The one thing to do next ("Got it back?"), outlined in brass */
+.ho-main .card.ho-action {
+  --bs-card-border-color: var(--fi-brass);
+  border-width: 1.5px;
+}
+
+.ho-main .alert {
+  --bs-alert-border-radius: 6px;
+  --bs-alert-padding-y: 0.75rem;
+  border-width: 0 0 0 4px;
+  font-size: 0.9rem;
+}
+
+.ho-main .alert-success {
+  border-width: 1.5px;
+}
+
+.ho-main .alert-success .alert-heading {
+  color: var(--fi-success);
+}
+
+:root[data-theme='night'] .ho-main .alert-success .alert-heading {
+  color: #a7e3bf;
+}
+
+/* The owner's detail, or a reason, quoted */
+.ho-quote {
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--fi-brass);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--fi-brass) 12%, var(--fi-raised));
+  font-size: 0.95rem;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.ho-quote__label {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--fi-mist);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: normal;
+}
+
+/* Status chips: brass (your turn), navy (under way), green, red, grey */
+.ho-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.9rem;
+  border-radius: var(--fi-radius-pill);
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.ho-chip--brass {
+  background: color-mix(in srgb, var(--fi-brass) 22%, var(--fi-raised));
+  color: var(--fi-brass-strong);
+}
+
+.ho-chip--green {
+  background: color-mix(in srgb, var(--fi-success) 18%, var(--fi-raised));
+  color: var(--fi-success);
+}
+
+.ho-chip--red {
+  background: color-mix(in srgb, var(--fi-danger) 16%, var(--fi-raised));
+  color: var(--fi-danger);
+}
+
+.ho-chip--navy {
+  background: color-mix(in srgb, var(--fi-focus) 16%, var(--fi-raised));
+  color: var(--fi-focus);
+}
+
+.ho-chip--grey {
+  background: color-mix(in srgb, var(--fi-line) 80%, var(--fi-raised));
+  color: var(--fi-mist);
+}
+
+:root[data-theme='night'] .ho-chip--navy {
+  color: #c9d2ff;
+}
+
+:root[data-theme='night'] .ho-chip--green {
+  color: #a7e3bf;
+}
+
+:root[data-theme='night'] .ho-chip--red {
+  color: #ffaab0;
+}
+
+.ho-link {
+  color: var(--fi-ink);
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.ho-link:focus-visible {
+  outline: 3px solid var(--fi-focus);
+  outline-offset: 2px;
+}
+
+/* A text button (.btn.btn-link) in FoundIt colours, at least 32px tall to tap */
+.ho-main .btn.ho-text-btn {
+  --bs-btn-color: var(--fi-ink);
+  --bs-btn-hover-color: var(--fi-brass-strong);
+  --bs-btn-active-color: var(--fi-ink);
+  --bs-btn-padding-x: 0;
+  --bs-btn-font-weight: 600;
+  --bs-btn-focus-box-shadow: 0 0 0 3px var(--fi-focus);
+  min-height: 2rem;
+  text-underline-offset: 3px;
+}
+
+.ho-main .btn.ho-text-btn--danger {
+  --bs-btn-color: var(--fi-danger);
+  --bs-btn-hover-color: var(--fi-danger);
+}
+
+:root[data-theme='night'] .ho-main .btn.ho-text-btn--danger {
+  --bs-btn-color: #ffaab0;
+  --bs-btn-hover-color: #ffaab0;
+}
+
+/* Fields: Bootstrap's form-control and form-select on the cream (or navy) page */
+.ho-main .form-control,
+.ho-main .form-select {
+  border-width: 1.5px;
+  background-color: var(--fi-page);
+  color: var(--fi-ink);
+}
+
+.ho-main .form-control::placeholder {
+  color: var(--fi-mist);
+}
+
+.ho-main .form-control:focus,
+.ho-main .form-select:focus,
+.ho-main .form-check-input:focus {
+  border-color: var(--fi-brass);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--fi-focus) 45%, transparent);
+}
+
+/* Night mode: Bootstrap's select arrow is dark, so use its light one */
+:root[data-theme='night'] .ho-main .form-select {
+  --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23dee2e6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+.ho-main .form-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.ho-main .form-check-input {
+  border-color: var(--fi-mist);
+  background-color: var(--fi-page);
+}
+
+.ho-main .form-check-input:checked {
+  border-color: var(--fi-brass);
+  background-color: var(--fi-brass);
+}
+
+/* Radio cards: "Meet up" / "Drop it off" (form-check, with the whole card to tap) */
+.ho-option {
+  padding: 0.8rem 1rem 0.8rem 2.6rem;
+  border: 1.5px solid var(--fi-line);
+  border-radius: var(--fi-radius-sm);
+  background: color-mix(in srgb, var(--fi-line) 40%, var(--fi-raised));
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ho-option:has(input:checked) {
+  border-color: var(--fi-brass);
+  background: color-mix(in srgb, var(--fi-brass) 16%, var(--fi-raised));
+}
+
+.ho-option .form-check-label {
+  cursor: pointer;
+}
+
+/* Tabs (Bootstrap's nav-underline) with a brass line under the current one */
+.ho-main .nav-underline {
+  --bs-nav-link-color: var(--fi-mist);
+  --bs-nav-link-hover-color: var(--fi-ink);
+  --bs-nav-underline-link-active-color: var(--fi-ink);
+  --bs-nav-link-font-weight: 700;
+  border-bottom: 1px solid var(--fi-line);
+}
+
+.ho-main .nav-underline .nav-link.active {
+  border-bottom-color: var(--fi-brass);
+}
+
+/* Filter pills (.btn.rounded-pill): navy when chosen */
+.ho-main .btn.ho-pill {
+  --bs-btn-color: var(--fi-ink);
+  --bs-btn-bg: var(--fi-raised);
+  --bs-btn-border-color: var(--fi-line);
+  --bs-btn-hover-color: var(--fi-ink);
+  --bs-btn-hover-bg: color-mix(in srgb, var(--fi-line) 60%, var(--fi-raised));
+  --bs-btn-hover-border-color: var(--fi-mist);
+  --bs-btn-active-color: var(--fi-page);
+  --bs-btn-active-bg: var(--fi-ink);
+  --bs-btn-active-border-color: var(--fi-ink);
+  --bs-btn-focus-box-shadow: 0 0 0 3px var(--fi-focus);
+  --bs-btn-font-weight: 600;
+  min-height: 2rem;
+}
+
+/* Small counts (.badge) */
+.ho-count {
+  background: color-mix(in srgb, var(--fi-line) 80%, var(--fi-raised));
+  color: var(--fi-ink);
+}
+
+.ho-count--brass,
+.active > .ho-count {
+  background: var(--fi-brass);
+  color: #141a3f;
+}
+
+/* A photo, or the category's drawing in the same space */
+.ho-picture {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: var(--fi-radius-lg);
+  background: color-mix(in srgb, var(--fi-line) 70%, var(--fi-raised));
+}
+
+.ho-picture.has-photo {
+  background: #fff;
+}
+
+.ho-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* The facts table (a Bootstrap dl.row) */
+.ho-facts > dt,
+.ho-facts > dd {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--fi-line);
+}
+
+.ho-facts > dt {
+  padding-right: 1rem;
+  color: var(--fi-mist);
+  font-weight: 400;
+}
+
+.ho-facts > dd {
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+/* Big titles on the claim and item pages */
+.ho-item-title {
+  font-size: clamp(1.9rem, 7vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  overflow-wrap: anywhere;
+}
+
+.ho-muted {
+  color: var(--fi-mist);
+}
+
+/* A page that could not load: what went wrong and where to go next */
+.ho-dead-end {
+  max-width: 36rem;
+}

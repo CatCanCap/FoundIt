@@ -1,0 +1,1548 @@
+{
+  "about": "Demo accounts and stories for the presentation, added next to real data by scripts/seed-demo.js (never wiping anything else). Times are Singapore time, daysAgo days before the moment of seeding (a negative daysAgo is in the future). Photos are public-domain (CC0 or PD) files from Wikimedia Commons, uploaded once to our Cloudinary by scripts/upload-demo-photos.js.",
+  "users": [
+    {
+      "key": "nurul",
+      "name": "Nurul Aisyah binte Rahman",
+      "email": "nurul.aisyah@demo.smu.edu.sg",
+      "joinedDaysAgo": 58
+    },
+    {
+      "key": "rizky",
+      "name": "Rizky Pratama",
+      "email": "rizky.pratama@demo.smu.edu.sg",
+      "joinedDaysAgo": 51
+    },
+    {
+      "key": "trang",
+      "name": "Nguyen Thu Trang",
+      "email": "thutrang.nguyen@demo.smu.edu.sg",
+      "joinedDaysAgo": 49
+    },
+    {
+      "key": "marcus",
+      "name": "Marcus Teo Wei Jie",
+      "email": "marcus.teo@demo.smu.edu.sg",
+      "joinedDaysAgo": 44
+    },
+    {
+      "key": "priya",
+      "name": "Priya Ramasamy",
+      "email": "priya.ramasamy@demo.smu.edu.sg",
+      "joinedDaysAgo": 40
+    },
+    {
+      "key": "angelica",
+      "name": "Angelica Reyes",
+      "email": "angelica.reyes@demo.smu.edu.sg",
+      "joinedDaysAgo": 37
+    },
+    {
+      "key": "jonathan",
+      "name": "Jonathan Lee Kah Meng",
+      "email": "jonathan.lee@demo.smu.edu.sg",
+      "joinedDaysAgo": 33
+    },
+    {
+      "key": "ploy",
+      "name": "Pimchanok Srisuk",
+      "email": "ploy.srisuk@demo.smu.edu.sg",
+      "joinedDaysAgo": 30
+    },
+    {
+      "key": "hannah",
+      "name": "Hannah Lim Xin Yi",
+      "email": "hannah.lim@demo.smu.edu.sg",
+      "joinedDaysAgo": 27
+    },
+    {
+      "key": "daniel",
+      "name": "Daniel Koh Jun Hao",
+      "email": "daniel.koh@demo.smu.edu.sg",
+      "joinedDaysAgo": 24
+    },
+    {
+      "key": "ryan",
+      "name": "Ryan Goh Zhi Xuan",
+      "email": "ryan.goh@demo.smu.edu.sg",
+      "joinedDaysAgo": 21
+    },
+    {
+      "key": "kelvin",
+      "name": "Kelvin Ong",
+      "email": "kelvin.ong@demo.smu.edu.sg",
+      "joinedDaysAgo": 18
+    },
+    {
+      "key": "clarissa",
+      "name": "Clarissa Wong",
+      "email": "clarissa.wong@demo.smu.edu.sg",
+      "joinedDaysAgo": 15
+    },
+    {
+      "key": "farhan",
+      "name": "Farhan Ismail",
+      "email": "farhan.ismail@demo.smu.edu.sg",
+      "joinedDaysAgo": 60,
+      "role": "admin"
+    }
+  ],
+  "photos": {
+    "hydroflask": {
+      "file": "Hydroflask.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hydroflask.jpg/1280px-Hydroflask.jpg"
+    },
+    "pisen": {
+      "file": "Pisen MF-08EU 12W USB charger-0.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pisen_MF-08EU_12W_USB_charger-0.jpg/1280px-Pisen_MF-08EU_12W_USB_charger-0.jpg"
+    },
+    "airpodspro": {
+      "file": "AirPod pro.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/AirPod_pro.jpg/1280px-AirPod_pro.jpg"
+    },
+    "kindle": {
+      "file": "Amazon Kindle Paperwhite 5 Eleventh Generation (C2V2L3) 6-inch e-reader in etui.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Amazon_Kindle_Paperwhite_5_Eleventh_Generation_%28C2V2L3%29_6-inch_e-reader_in_etui.jpg/1280px-Amazon_Kindle_Paperwhite_5_Eleventh_Generation_%28C2V2L3%29_6-inch_e-reader_in_etui.jpg"
+    },
+    "casio": {
+      "file": "Casio fx-991EX Scientific Calculator.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Casio_fx-991EX_Scientific_Calculator.jpg/1280px-Casio_fx-991EX_Scientific_Calculator.jpg"
+    },
+    "backpack": {
+      "file": "Trendy Backpack (Unsplash).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Trendy_Backpack_%28Unsplash%29.jpg/1280px-Trendy_Backpack_%28Unsplash%29.jpg"
+    },
+    "airpods": {
+      "file": "AirPods 3.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/AirPods_3.jpg/1280px-AirPods_3.jpg"
+    },
+    "airpodsbatik": {
+      "file": "Airpods 4.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Airpods_4.jpg/1280px-Airpods_4.jpg"
+    },
+    "spiderkeys": {
+      "file": "Key and keychain.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Key_and_keychain.jpg"
+    },
+    "umbrella": {
+      "file": "Umbrella 2010 Probably Made in 2009.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Umbrella_2010_Probably_Made_in_2009.JPG/1280px-Umbrella_2010_Probably_Made_in_2009.JPG"
+    },
+    "glasses": {
+      "file": "Glasses on a bench.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Glasses_on_a_bench.jpg/1280px-Glasses_on_a_bench.jpg"
+    },
+    "jacket": {
+      "file": "Suede jacket on a chair.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Suede_jacket_on_a_chair.jpg/1280px-Suede_jacket_on_a_chair.jpg"
+    },
+    "watch": {
+      "file": "Fashion-wristwatch-time-watch (24217032812).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Fashion-wristwatch-time-watch_%2824217032812%29.jpg/1280px-Fashion-wristwatch-time-watch_%2824217032812%29.jpg"
+    },
+    "pouch": {
+      "file": "Pencil case.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Pencil_case.jpg/1280px-Pencil_case.jpg"
+    },
+    "notebook": {
+      "file": "Stickers on a notebook (Unsplash).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Stickers_on_a_notebook_%28Unsplash%29.jpg/1280px-Stickers_on_a_notebook_%28Unsplash%29.jpg"
+    },
+    "tote": {
+      "file": "Baghashtag-Kanvas-Bez-Canta.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Baghashtag-Kanvas-Bez-Canta.jpg/1280px-Baghashtag-Kanvas-Bez-Canta.jpg"
+    },
+    "macbook": {
+      "file": "Macbook Air.jpeg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Macbook_Air.jpeg/1280px-Macbook_Air.jpeg"
+    },
+    "pepsikeys": {
+      "file": "Маленький Брелок.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B9_%D0%91%D1%80%D0%B5%D0%BB%D0%BE%D0%BA.jpg/1280px-%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B9_%D0%91%D1%80%D0%B5%D0%BB%D0%BE%D0%BA.jpg"
+    }
+  },
+  "items": [
+    {
+      "key": "bottle-found",
+      "type": "found",
+      "postedBy": "nurul",
+      "photo": "hydroflask",
+      "title": "White Hydro Flask water bottle",
+      "description": "Found under the back row of seats after the evening class. Black flex cap, still half full.",
+      "category": "Water Bottle",
+      "colours": [
+        "White",
+        "Black"
+      ],
+      "brand": "Hydro Flask",
+      "daysAgo": 6,
+      "postedAt": "19:20",
+      "trail": [
+        {
+          "spot": "SOE-L2-SR",
+          "room": "SOE/SCIS2 Seminar Room 2-3",
+          "from": "19:00",
+          "to": "19:00"
+        }
+      ]
+    },
+    {
+      "key": "bottle-lost",
+      "type": "lost",
+      "postedBy": "rizky",
+      "title": "White Hydro Flask, 40 oz",
+      "description": "Wide-mouth white bottle with a black flex cap and a small dent near the base. Left it after my afternoon class, then went to Koufu for dinner.",
+      "category": "Water Bottle",
+      "colours": [
+        "White",
+        "Black"
+      ],
+      "brand": "Hydro Flask",
+      "daysAgo": 6,
+      "postedAt": "21:10",
+      "trail": [
+        {
+          "spot": "SOE-L2-SR",
+          "room": "SOE/SCIS2 Seminar Room 2-3",
+          "from": "15:30",
+          "to": "18:45"
+        },
+        {
+          "spot": "CONC-KOUFU",
+          "from": "18:45",
+          "to": "19:30"
+        }
+      ]
+    },
+    {
+      "key": "charger-found",
+      "type": "found",
+      "postedBy": "marcus",
+      "photo": "pisen",
+      "title": "White Pisen wall charger",
+      "description": "Left plugged into the wall socket in the group study room. It has two round pins, not a Singapore plug.",
+      "category": "Charger",
+      "colours": [
+        "White"
+      ],
+      "brand": "Pisen",
+      "daysAgo": 4,
+      "postedAt": "16:45",
+      "trail": [
+        {
+          "spot": "LKCSB-L2-GSR",
+          "room": "LKCSB GSR 2-2",
+          "from": "16:30",
+          "to": "16:30"
+        }
+      ]
+    },
+    {
+      "key": "charger-lost",
+      "type": "lost",
+      "postedBy": "trang",
+      "title": "White Pisen charger with a two-pin plug",
+      "description": "Small white wall charger with the round two-pin plug I brought from Vietnam, so it only works with an adapter here. I think I left it plugged in at the group study room after our project meeting.",
+      "category": "Charger",
+      "colours": [
+        "White"
+      ],
+      "brand": "Pisen",
+      "daysAgo": 4,
+      "postedAt": "20:30",
+      "trail": [
+        {
+          "spot": "LKCSB-L2-GSR",
+          "room": "LKCSB GSR 2-2",
+          "from": "13:00",
+          "to": "16:00"
+        }
+      ]
+    },
+    {
+      "key": "airpodspro-found",
+      "type": "found",
+      "postedBy": "rizky",
+      "photo": "airpodspro",
+      "title": "AirPods Pro case",
+      "description": "Found on the floor next to the study booths on Level 3. The case was closed with both earbuds inside.",
+      "category": "Earbuds",
+      "colours": [
+        "White"
+      ],
+      "brand": "Apple",
+      "daysAgo": 2,
+      "postedAt": "19:15",
+      "trail": [
+        {
+          "spot": "LKS-L3-BOOTH",
+          "from": "19:00",
+          "to": "19:00"
+        }
+      ]
+    },
+    {
+      "key": "airpodspro-lost",
+      "type": "lost",
+      "postedBy": "hannah",
+      "title": "AirPods Pro in a white case",
+      "description": "AirPods Pro, 2nd generation. The case has a small scratch next to the status light. I was studying at a booth on Level 3 of the library and only realised they were gone when I got home.",
+      "category": "Earbuds",
+      "colours": [
+        "White"
+      ],
+      "brand": "Apple",
+      "daysAgo": 2,
+      "postedAt": "21:40",
+      "trail": [
+        {
+          "spot": "LKS-L3-BOOTH",
+          "room": "LKSLIB Study Booth 3-1",
+          "from": "14:00",
+          "to": "18:30"
+        },
+        {
+          "spot": "CONC-BENCOOLEN",
+          "from": "18:30",
+          "to": "18:45"
+        }
+      ]
+    },
+    {
+      "key": "kindle-found",
+      "type": "found",
+      "postedBy": "hannah",
+      "photo": "kindle",
+      "title": "Kindle e-reader in a black stand cover",
+      "description": "Left on a table at the Level 2 study area, next to an empty coffee cup.",
+      "category": "Tablet",
+      "colours": [
+        "Black"
+      ],
+      "brand": "Amazon",
+      "daysAgo": 2,
+      "postedAt": "16:50",
+      "trail": [
+        {
+          "spot": "SMUC-L2-STUDY",
+          "from": "16:30",
+          "to": "16:30"
+        }
+      ]
+    },
+    {
+      "key": "kindle-lost",
+      "type": "lost",
+      "postedBy": "marcus",
+      "title": "Kindle Paperwhite in a black cover",
+      "description": "Kindle Paperwhite with a black cover that folds into a stand. I was reading at the Connexion Level 2 study area before my 4pm class.",
+      "category": "Tablet",
+      "colours": [
+        "Black"
+      ],
+      "brand": "Amazon",
+      "daysAgo": 2,
+      "postedAt": "18:00",
+      "trail": [
+        {
+          "spot": "SMUC-L2-STUDY",
+          "from": "13:30",
+          "to": "15:45"
+        }
+      ]
+    },
+    {
+      "key": "calc-found",
+      "type": "found",
+      "postedBy": "jonathan",
+      "photo": "casio",
+      "title": "Casio fx-991EX calculator",
+      "description": "Black ClassWiz calculator left on a table in the Learning Commons. No name on the front.",
+      "category": "Stationery",
+      "colours": [
+        "Black"
+      ],
+      "brand": "Casio",
+      "daysAgo": 2,
+      "postedAt": "17:10",
+      "trail": [
+        {
+          "spot": "LKS-L2-COMMONS",
+          "from": "17:00",
+          "to": "17:00"
+        }
+      ]
+    },
+    {
+      "key": "calc-lost",
+      "type": "lost",
+      "postedBy": "trang",
+      "title": "Black Casio fx-991EX ClassWiz",
+      "description": "Black Casio ClassWiz calculator with a cat sticker on the back of the cover. I need it for my statistics quiz this week! I went from class to the library and then to Each-a-Cup.",
+      "category": "Stationery",
+      "colours": [
+        "Black"
+      ],
+      "brand": "Casio",
+      "daysAgo": 2,
+      "postedAt": {
+        "daysAgo": 1,
+        "time": "09:00"
+      },
+      "trail": [
+        {
+          "spot": "SCIS1-L2-SR",
+          "room": "SCIS1 Seminar Room 2-1",
+          "from": "08:15",
+          "to": "11:30"
+        },
+        {
+          "spot": "LKS-L2-COMMONS",
+          "from": "12:00",
+          "to": "16:30"
+        },
+        {
+          "spot": "CONC-EACHACUP",
+          "from": "16:30",
+          "to": "17:00"
+        }
+      ]
+    },
+    {
+      "key": "backpack-found",
+      "type": "found",
+      "postedBy": "nurul",
+      "photo": "backpack",
+      "title": "Mustard canvas backpack with brown straps",
+      "description": "Left on the bench outside the group study rooms on Level 2. Inside there is only a laptop sleeve and a water bottle, nothing with a name.",
+      "category": "Bag",
+      "colours": [
+        "Yellow",
+        "Brown"
+      ],
+      "brand": "",
+      "daysAgo": 5,
+      "postedAt": "18:20",
+      "trail": [
+        {
+          "spot": "SOE-L2-GSR",
+          "from": "18:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "key": "backpack-lost",
+      "type": "lost",
+      "postedBy": "jonathan",
+      "title": "Mustard yellow canvas backpack",
+      "description": "Canvas backpack with brown leather straps. It has my Muji pencil case and IS111 lecture notes inside. I was in a group study room at SOE in the afternoon.",
+      "category": "Bag",
+      "colours": [
+        "Yellow",
+        "Brown"
+      ],
+      "brand": "",
+      "daysAgo": 5,
+      "postedAt": "21:00",
+      "trail": [
+        {
+          "spot": "SOE-L3-GSR",
+          "from": "14:00",
+          "to": "17:30"
+        }
+      ]
+    },
+    {
+      "key": "airpods-daniel",
+      "type": "lost",
+      "postedBy": "daniel",
+      "title": "White AirPods",
+      "description": "AirPods in a white case. Lost them somewhere around the law library.",
+      "category": "Earbuds",
+      "colours": [
+        "White"
+      ],
+      "brand": "Apple",
+      "daysAgo": 4,
+      "postedAt": "18:00",
+      "trail": [
+        {
+          "spot": "YPHSL-B1-KGC",
+          "from": "10:00",
+          "to": "17:00"
+        }
+      ]
+    },
+    {
+      "key": "airpods-found",
+      "type": "found",
+      "postedBy": "angelica",
+      "photo": "airpods",
+      "title": "White AirPods in an open case",
+      "description": "Found on a desk in the Kwa Geok Choo Law Library, basement level. The lid was open with both earbuds inside.",
+      "category": "Earbuds",
+      "colours": [
+        "White"
+      ],
+      "brand": "Apple",
+      "daysAgo": 3,
+      "postedAt": "21:00",
+      "trail": [
+        {
+          "spot": "YPHSL-B1-KGC",
+          "from": "20:45",
+          "to": "20:45"
+        }
+      ]
+    },
+    {
+      "key": "airpods-priya",
+      "type": "lost",
+      "postedBy": "priya",
+      "title": "AirPods 4 in a white case",
+      "description": "Left them on my desk in the law library basement while revising for my contract law quiz. The left earbud has a tiny chip on the stem.",
+      "category": "Earbuds",
+      "colours": [
+        "White"
+      ],
+      "brand": "Apple",
+      "daysAgo": 3,
+      "postedAt": {
+        "daysAgo": 2,
+        "time": "19:00"
+      },
+      "trail": [
+        {
+          "spot": "YPHSL-B1-KGC",
+          "from": "18:00",
+          "to": "20:30"
+        }
+      ]
+    },
+    {
+      "key": "keys-found",
+      "type": "found",
+      "postedBy": "ryan",
+      "photo": "spiderkeys",
+      "title": "Keys with a Spider-Man keychain",
+      "description": "Two keys on a ring with a small Spider-Man figure. Found on a table at the food hall.",
+      "category": "Keys",
+      "colours": [
+        "Silver",
+        "Red"
+      ],
+      "brand": "",
+      "daysAgo": 5,
+      "postedAt": "13:40",
+      "trail": [
+        {
+          "spot": "SMUC-L1-FOODHALL",
+          "from": "13:20",
+          "to": "13:20"
+        }
+      ]
+    },
+    {
+      "key": "keys-lost",
+      "type": "lost",
+      "postedBy": "ploy",
+      "title": "House keys with a Spider-Man keychain",
+      "description": "Two silver keys on a ring with a small Spider-Man figure. I lost them during lunch at the Connexion food hall.",
+      "category": "Keys",
+      "colours": [
+        "Silver",
+        "Red"
+      ],
+      "brand": "",
+      "daysAgo": 5,
+      "postedAt": "14:00",
+      "trail": [
+        {
+          "spot": "SMUC-L1-FOODHALL",
+          "from": "12:00",
+          "to": "13:00"
+        }
+      ]
+    },
+    {
+      "key": "umbrella-found",
+      "type": "found",
+      "postedBy": "ploy",
+      "photo": "umbrella",
+      "title": "Black folding umbrella",
+      "description": "Left open to dry next to the Bras Basah MRT exit. Plain black folding umbrella, one rib is slightly bent.",
+      "category": "Umbrella",
+      "colours": [
+        "Black"
+      ],
+      "brand": "",
+      "daysAgo": 1,
+      "postedAt": "08:50",
+      "trail": [
+        {
+          "spot": "CONC-MRT",
+          "from": "08:40",
+          "to": "08:40"
+        }
+      ]
+    },
+    {
+      "key": "glasses-found",
+      "type": "found",
+      "postedBy": "priya",
+      "photo": "glasses",
+      "title": "Tortoiseshell glasses",
+      "description": "Brown tortoiseshell frames left on one of the wooden benches by the library.",
+      "category": "Other",
+      "colours": [
+        "Brown"
+      ],
+      "brand": "",
+      "daysAgo": 12,
+      "postedAt": "17:00",
+      "trail": [
+        {
+          "spot": "GREEN-BENCHES",
+          "from": "16:45",
+          "to": "16:45"
+        }
+      ]
+    },
+    {
+      "key": "glasses-lost",
+      "type": "lost",
+      "postedBy": "angelica",
+      "title": "Brown tortoiseshell glasses",
+      "description": "Prescription glasses with brown tortoiseshell frames. I took them off while reading on a bench by the library and forgot them there.",
+      "category": "Other",
+      "colours": [
+        "Brown"
+      ],
+      "brand": "",
+      "daysAgo": 12,
+      "postedAt": "18:00",
+      "trail": [
+        {
+          "spot": "GREEN-BENCHES",
+          "from": "15:00",
+          "to": "16:30"
+        }
+      ]
+    },
+    {
+      "key": "cardholder-found",
+      "type": "found",
+      "postedBy": "rizky",
+      "title": "Navy card holder",
+      "description": "Slim navy card holder with an EZ-Link card inside. Found on a table at Koufu after lunch.",
+      "category": "Cardholder",
+      "colours": [
+        "Navy"
+      ],
+      "brand": "",
+      "daysAgo": 2,
+      "postedAt": "13:30",
+      "trail": [
+        {
+          "spot": "CONC-KOUFU",
+          "from": "13:15",
+          "to": "13:15"
+        }
+      ]
+    },
+    {
+      "key": "cardholder-lost",
+      "type": "lost",
+      "postedBy": "angelica",
+      "title": "Navy Bellroy card holder",
+      "description": "Slim navy card holder with my EZ-Link card and SMU student card. I had lunch at Koufu, then went to class at SOA.",
+      "category": "Cardholder",
+      "colours": [
+        "Navy"
+      ],
+      "brand": "Bellroy",
+      "daysAgo": 2,
+      "postedAt": "20:00",
+      "trail": [
+        {
+          "spot": "CONC-KOUFU",
+          "from": "12:15",
+          "to": "13:00"
+        },
+        {
+          "spot": "SOA-L2-SR",
+          "from": "13:00",
+          "to": "15:00"
+        }
+      ]
+    },
+    {
+      "key": "mouse-found",
+      "type": "found",
+      "postedBy": "jonathan",
+      "title": "Black Logitech wireless mouse",
+      "description": "Small black wireless mouse left on a desk after the evening class. The USB receiver is still inside it.",
+      "category": "Other",
+      "colours": [
+        "Black"
+      ],
+      "brand": "Logitech",
+      "daysAgo": 1,
+      "postedAt": "19:10",
+      "trail": [
+        {
+          "spot": "SOE-L3-CLASS",
+          "from": "18:50",
+          "to": "18:50"
+        }
+      ]
+    },
+    {
+      "key": "notebook-found",
+      "type": "found",
+      "postedBy": "rizky",
+      "photo": "notebook",
+      "title": "Black notebook with stickers",
+      "description": "Hardcover notebook with an orange mountain sticker and a round black sticker on the cover, with a black pen clipped to it. Found in the Learning Commons.",
+      "category": "Stationery",
+      "colours": [
+        "Black",
+        "Orange"
+      ],
+      "brand": "",
+      "daysAgo": 1,
+      "postedAt": "15:20",
+      "trail": [
+        {
+          "spot": "LKS-L2-COMMONS",
+          "from": "15:00",
+          "to": "15:00"
+        }
+      ]
+    },
+    {
+      "key": "tote-found",
+      "type": "found",
+      "postedBy": "nurul",
+      "photo": "tote",
+      "title": "Cream canvas tote bag",
+      "description": "Plain cream tote with a small red label, with a folder of tutorial printouts inside. Left on a chair at the food hall.",
+      "category": "Bag",
+      "colours": [
+        "Beige",
+        "Red"
+      ],
+      "brand": "",
+      "daysAgo": 3,
+      "postedAt": "13:50",
+      "trail": [
+        {
+          "spot": "SMUC-L1-FOODHALL",
+          "from": "13:30",
+          "to": "13:30"
+        }
+      ]
+    },
+    {
+      "key": "pouch-found",
+      "type": "found",
+      "postedBy": "hannah",
+      "photo": "pouch",
+      "title": "Navy and red pencil pouch",
+      "description": "Zip pouch with STAR printed on the front, full of highlighters and pens. Found on a study table on Level 3.",
+      "category": "Stationery",
+      "colours": [
+        "Navy",
+        "Red"
+      ],
+      "brand": "",
+      "daysAgo": 4,
+      "postedAt": "19:45",
+      "trail": [
+        {
+          "spot": "SOE-L3-STUDY",
+          "from": "19:30",
+          "to": "19:30"
+        }
+      ]
+    },
+    {
+      "key": "jacket-found",
+      "type": "found",
+      "postedBy": "angelica",
+      "photo": "jacket",
+      "title": "Tan suede jacket",
+      "description": "Left on the back of a chair after the morning class, with a yellow patterned scarf. The aircon in this room is freezing, so someone will want it back!",
+      "category": "Clothing",
+      "colours": [
+        "Brown",
+        "Yellow"
+      ],
+      "brand": "",
+      "daysAgo": 2,
+      "postedAt": "11:45",
+      "trail": [
+        {
+          "spot": "SOA-L2-SR",
+          "room": "SOA Seminar Room 2-1",
+          "from": "11:30",
+          "to": "11:30"
+        }
+      ]
+    },
+    {
+      "key": "watch-found",
+      "type": "found",
+      "postedBy": "jonathan",
+      "photo": "watch",
+      "title": "Silver watch with a black leather strap",
+      "description": "White face, still ticking. Found on the bench by the badminton courts after the evening session.",
+      "category": "Other",
+      "colours": [
+        "Silver",
+        "Black"
+      ],
+      "brand": "",
+      "daysAgo": 4,
+      "postedAt": "21:15",
+      "trail": [
+        {
+          "spot": "ADMIN-L3-SPORTS",
+          "from": "21:00",
+          "to": "21:00"
+        }
+      ]
+    },
+    {
+      "key": "macbook-found",
+      "type": "found",
+      "postedBy": "priya",
+      "photo": "macbook",
+      "title": "Gold MacBook Air",
+      "description": "Left in a project room on Level 4. I handed it to the security counter at the YPHSL lobby, so the owner can collect it there.",
+      "category": "Laptop",
+      "colours": [
+        "Gold"
+      ],
+      "brand": "Apple",
+      "daysAgo": 5,
+      "postedAt": "17:20",
+      "trail": [
+        {
+          "spot": "YPHSL-L4-ROOMS",
+          "room": "KGC-4.03-PR",
+          "from": "17:00",
+          "to": "17:00"
+        }
+      ]
+    },
+    {
+      "key": "pepsikeys-found",
+      "type": "found",
+      "postedBy": "marcus",
+      "photo": "pepsikeys",
+      "title": "Key ring with a mini Pepsi can",
+      "description": "Key ring with a tiny Pepsi can charm. Found on the floor of the walkway near LKCSB.",
+      "category": "Keys",
+      "colours": [
+        "Silver",
+        "Blue"
+      ],
+      "brand": "",
+      "daysAgo": 3,
+      "postedAt": "09:25",
+      "trail": [
+        {
+          "spot": "CONC-WALK-LKCSB",
+          "from": "09:10",
+          "to": "09:10"
+        }
+      ]
+    },
+    {
+      "key": "headphones-lost",
+      "type": "lost",
+      "postedBy": "marcus",
+      "title": "Black Sony WH-1000XM5 headphones",
+      "description": "Over-ear headphones in a black carrying case. I probably left them in a study booth at Connexion Level 4.",
+      "category": "Headphones",
+      "colours": [
+        "Black"
+      ],
+      "brand": "Sony",
+      "daysAgo": 3,
+      "postedAt": "16:00",
+      "trail": [
+        {
+          "spot": "SMUC-L4-BOOTH",
+          "from": "10:00",
+          "to": "14:00"
+        }
+      ]
+    },
+    {
+      "key": "owala-lost",
+      "type": "lost",
+      "postedBy": "ploy",
+      "title": "Lilac Owala water bottle",
+      "description": "Lilac and teal Owala FreeSip with a Chiikawa sticker on the side. Last had it in a group study room at SCIS 1.",
+      "category": "Water Bottle",
+      "colours": [
+        "Purple",
+        "Green"
+      ],
+      "brand": "Owala",
+      "daysAgo": 3,
+      "postedAt": "18:30",
+      "trail": [
+        {
+          "spot": "SCIS1-L3-GSR",
+          "room": "SCIS1 GSR 3-1",
+          "from": "10:00",
+          "to": "13:00"
+        }
+      ]
+    },
+    {
+      "key": "studentcard-lost",
+      "type": "lost",
+      "postedBy": "nurul",
+      "title": "SMU student card in a green lanyard",
+      "description": "Student card in a green lanyard with a small kopi cup charm. I had it at my morning class and noticed it was gone after lunch.",
+      "category": "Student Card",
+      "colours": [
+        "Green"
+      ],
+      "brand": "",
+      "daysAgo": 1,
+      "postedAt": "14:30",
+      "trail": [
+        {
+          "spot": "SOSS-L2-SR",
+          "from": "08:15",
+          "to": "11:30"
+        },
+        {
+          "spot": "SMUC-L1-INDO",
+          "from": "12:00",
+          "to": "13:00"
+        }
+      ]
+    },
+    {
+      "key": "textbook-ad",
+      "type": "found",
+      "postedBy": "kelvin",
+      "status": "removed",
+      "title": "Selling FNCE101 textbook",
+      "description": "Barely used, no highlights. $25, can meet at Bras Basah MRT.",
+      "category": "Other",
+      "colours": [],
+      "brand": "",
+      "daysAgo": 10,
+      "postedAt": "12:10",
+      "trail": [
+        {
+          "spot": "CONC-MRT",
+          "from": "12:00",
+          "to": "12:00"
+        }
+      ]
+    },
+    {
+      "key": "iphone-ad",
+      "type": "found",
+      "postedBy": "kelvin",
+      "title": "Selling iPhone 13, 128GB",
+      "description": "Good condition, battery health 88%. $350, no lowballers. Meet at Bras Basah MRT.",
+      "category": "Phone",
+      "colours": [
+        "Blue"
+      ],
+      "brand": "",
+      "daysAgo": 1,
+      "postedAt": "18:10",
+      "trail": [
+        {
+          "spot": "CONC-MRT",
+          "from": "18:00",
+          "to": "18:00"
+        }
+      ]
+    }
+  ],
+  "rejectedMatches": [
+    {
+      "lost": "airpods-priya",
+      "found": "airpodspro-found"
+    }
+  ],
+  "claims": [
+    {
+      "key": "bottle",
+      "lost": "bottle-lost",
+      "found": "bottle-found",
+      "daysAgo": 5,
+      "time": "08:05",
+      "detail": "There is a small dent near the base, and my initials R.P. are written in marker under the cap.",
+      "messages": [
+        {
+          "from": "owner",
+          "daysAgo": 5,
+          "time": "08:06",
+          "text": "Hi! I think this is mine. I left it in Seminar Room 2-3 after class yesterday."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 5,
+          "time": "08:40",
+          "text": "Hi! Yes, the dent and the initials under the cap are both there."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 5,
+          "time": "08:41",
+          "text": "Thank you so much 🙏 Are you on campus tomorrow?"
+        },
+        {
+          "from": "finder",
+          "daysAgo": 5,
+          "time": "08:55",
+          "text": "I have class in SOA till 12. Can we meet at the SOA lobby at 12.15? I've set it in the app."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 5,
+          "time": "08:57",
+          "text": "Perfect. I'll be in a grey SMU hoodie."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 4,
+          "time": "12:10",
+          "text": "I'm here, sitting near the security counter."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 4,
+          "time": "12:14",
+          "text": "Coming down now!"
+        },
+        {
+          "from": "owner",
+          "daysAgo": 4,
+          "time": "12:25",
+          "text": "Got it, thanks again! Have a good day."
+        }
+      ],
+      "handoff": {
+        "method": "meetup",
+        "spot": "SOA-L1-LOBBY",
+        "created": {
+          "daysAgo": 5,
+          "time": "08:55"
+        },
+        "scheduled": {
+          "daysAgo": 4,
+          "time": "12:15"
+        },
+        "handedOver": {
+          "daysAgo": 4,
+          "time": "12:20"
+        },
+        "completed": {
+          "daysAgo": 4,
+          "time": "12:24"
+        }
+      }
+    },
+    {
+      "key": "charger",
+      "lost": "charger-lost",
+      "found": "charger-found",
+      "daysAgo": 3,
+      "time": "09:12",
+      "detail": "There is a strip of washi tape on the back with NTT written on it. Those are my initials.",
+      "messages": [
+        {
+          "from": "owner",
+          "daysAgo": 3,
+          "time": "09:13",
+          "text": "Hello! I think this is my charger. I had a project meeting in GSR 2-2 yesterday afternoon."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 3,
+          "time": "10:02",
+          "text": "Hey, yes there's tape with NTT on the back. Must be yours."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 3,
+          "time": "10:04",
+          "text": "Yay, thank you! My laptop is almost dead haha"
+        },
+        {
+          "from": "finder",
+          "daysAgo": 3,
+          "time": "10:06",
+          "text": "Haha no worries. I'm at LKCSB most of tomorrow. Can we meet at the lobby around 11?"
+        },
+        {
+          "from": "owner",
+          "daysAgo": 3,
+          "time": "10:07",
+          "text": "11 works for me!"
+        },
+        {
+          "from": "finder",
+          "daysAgo": 2,
+          "time": "11:03",
+          "text": "I'm at the lobby, next to the security counter."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 2,
+          "time": "11:05",
+          "text": "I see you, coming!"
+        }
+      ],
+      "handoff": {
+        "method": "meetup",
+        "spot": "LKCSB-L1-LOBBY",
+        "created": {
+          "daysAgo": 3,
+          "time": "10:10"
+        },
+        "scheduled": {
+          "daysAgo": 2,
+          "time": "11:00"
+        },
+        "handedOver": {
+          "daysAgo": 2,
+          "time": "11:08"
+        }
+      }
+    },
+    {
+      "key": "airpodspro",
+      "lost": "airpodspro-lost",
+      "found": "airpodspro-found",
+      "daysAgo": 1,
+      "time": "08:30",
+      "detail": "The case has a scratch beside the status light, and the earbuds have a small heart engraved on them.",
+      "messages": [
+        {
+          "from": "owner",
+          "daysAgo": 1,
+          "time": "08:31",
+          "text": "Hi, these look like my AirPods! I was in Study Booth 3-1 till about 6.30pm."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 1,
+          "time": "09:15",
+          "text": "Hello! I found them right outside the booths. There's a scratch near the light, so I think they're yours."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 1,
+          "time": "09:16",
+          "text": "Thank you!! I was so worried."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 1,
+          "time": "09:20",
+          "text": "I'm in school tomorrow. Can we meet at the library security counter at 1pm? I've set it in the app."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 1,
+          "time": "09:22",
+          "text": "Yes, see you at 1!"
+        }
+      ],
+      "handoff": {
+        "method": "meetup",
+        "spot": "LKS-L1-SECURITY",
+        "created": {
+          "daysAgo": 1,
+          "time": "09:20"
+        },
+        "scheduled": {
+          "daysAgo": -1,
+          "time": "13:00"
+        }
+      }
+    },
+    {
+      "key": "kindle",
+      "lost": "kindle-lost",
+      "found": "kindle-found",
+      "daysAgo": 1,
+      "time": "10:15",
+      "detail": "The book open on it is Crazy Rich Asians, and the lock screen shows a photo of my dog.",
+      "messages": [
+        {
+          "from": "owner",
+          "daysAgo": 1,
+          "time": "10:16",
+          "text": "Hi, I think you found my Kindle! I was at the Level 2 study area yesterday till about 3.45."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 1,
+          "time": "12:40",
+          "text": "Hi! Just checked, it's open to Crazy Rich Asians and there's a dog on the lock screen 😄"
+        },
+        {
+          "from": "owner",
+          "daysAgo": 1,
+          "time": "12:41",
+          "text": "Yes, that's my dog Mochi! Thank you so much."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 1,
+          "time": "12:45",
+          "text": "No problem! Let me check my timetable and I'll set a time to meet."
+        }
+      ]
+    },
+    {
+      "key": "backpack",
+      "lost": "backpack-lost",
+      "found": "backpack-found",
+      "daysAgo": 4,
+      "time": "08:00",
+      "detail": "There is a Muji pencil case and my IS111 notes inside, and a small Malaysia flag pin on the front pocket.",
+      "messages": [
+        {
+          "from": "owner",
+          "daysAgo": 4,
+          "time": "08:01",
+          "text": "Hi, I think this might be my bag. I was in a group study room at SOE that afternoon."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 4,
+          "time": "09:30",
+          "text": "Hi! I had another look inside. There's only a laptop sleeve and a water bottle, no pencil case or notes, and no pin on the front."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 4,
+          "time": "09:35",
+          "text": "Oh no, then it's probably not mine. Sorry about that!"
+        }
+      ],
+      "declined": {
+        "daysAgo": 4,
+        "time": "09:37",
+        "reason": "The bag only has a laptop sleeve and a water bottle inside, with no pencil case, notes or flag pin. Hope you find yours soon!"
+      }
+    },
+    {
+      "key": "airpods",
+      "lost": "airpods-daniel",
+      "found": "airpods-found",
+      "daysAgo": 2,
+      "time": "08:00",
+      "detail": "They are AirPods 4 and there is a small scratch on the lid.",
+      "messages": [
+        {
+          "from": "owner",
+          "daysAgo": 2,
+          "time": "08:01",
+          "text": "Hi, these are mine. I lost them at the law library a couple of days ago."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 2,
+          "time": "10:20",
+          "text": "Hi! Ok, there is a small scratch on the lid. Can we meet tomorrow?"
+        },
+        {
+          "from": "owner",
+          "daysAgo": 2,
+          "time": "10:22",
+          "text": "Sure, anytime after 2pm."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 2,
+          "time": "10:25",
+          "text": "Ok, I've set 3pm at the YPHSL lobby."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 1,
+          "time": "13:05",
+          "text": "Hi, someone else also says these are theirs, so the handoff is on hold until an admin checks. Sorry!"
+        },
+        {
+          "from": "owner",
+          "daysAgo": 1,
+          "time": "13:30",
+          "text": "Ok"
+        }
+      ],
+      "handoff": {
+        "method": "meetup",
+        "spot": "YPHSL-L1-LOBBY",
+        "created": {
+          "daysAgo": 2,
+          "time": "10:25"
+        },
+        "scheduled": {
+          "daysAgo": 1,
+          "time": "15:00"
+        }
+      }
+    },
+    {
+      "key": "keys",
+      "lost": "keys-lost",
+      "found": "keys-found",
+      "daysAgo": 5,
+      "time": "14:10",
+      "detail": "One key has a blue rubber cover, and the Spider-Man is missing some paint on one foot.",
+      "messages": [
+        {
+          "from": "owner",
+          "daysAgo": 5,
+          "time": "14:11",
+          "text": "Hi! I think these are my keys. I had lunch at the food hall around 12."
+        },
+        {
+          "key": "paynow",
+          "from": "finder",
+          "daysAgo": 5,
+          "time": "14:30",
+          "text": "Ya the Spider-Man is there. Can PayNow me $20 first? Took me quite a while to bring it down."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 5,
+          "time": "14:33",
+          "text": "Sorry, I don't think I should have to pay for this?"
+        },
+        {
+          "from": "finder",
+          "daysAgo": 5,
+          "time": "15:02",
+          "text": "ok whatever. Dropped them at the Connexion security counter."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 5,
+          "time": "15:05",
+          "text": "Ok, thanks. I'll collect them later."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 5,
+          "time": "18:20",
+          "text": "Collected them."
+        }
+      ],
+      "handoff": {
+        "method": "drop-off",
+        "spot": "SMUC-L1-LOBBY",
+        "created": {
+          "daysAgo": 5,
+          "time": "15:00"
+        },
+        "handedOver": {
+          "daysAgo": 5,
+          "time": "15:00"
+        },
+        "completed": {
+          "daysAgo": 5,
+          "time": "18:15"
+        }
+      }
+    },
+    {
+      "key": "glasses",
+      "lost": "glasses-lost",
+      "found": "glasses-found",
+      "daysAgo": 12,
+      "time": "18:10",
+      "detail": "The left arm has a small crack near the hinge, and the lenses are quite thick because my eyesight is minus 5.",
+      "messages": [
+        {
+          "from": "owner",
+          "daysAgo": 12,
+          "time": "18:11",
+          "text": "Hi! Those are my glasses. I left them on the bench this afternoon."
+        },
+        {
+          "from": "finder",
+          "daysAgo": 12,
+          "time": "18:40",
+          "text": "Hi! Yes, I can see the little crack by the hinge. I've handed them to the library security counter so you can collect them anytime."
+        },
+        {
+          "from": "owner",
+          "daysAgo": 12,
+          "time": "18:42",
+          "text": "Amazing, thank you! I can barely see anything right now haha"
+        },
+        {
+          "from": "owner",
+          "daysAgo": 11,
+          "time": "09:10",
+          "text": "Collected them this morning. Thank you!"
+        }
+      ],
+      "handoff": {
+        "method": "drop-off",
+        "spot": "LKS-L1-SECURITY",
+        "created": {
+          "daysAgo": 12,
+          "time": "18:38"
+        },
+        "handedOver": {
+          "daysAgo": 12,
+          "time": "18:38"
+        },
+        "completed": {
+          "daysAgo": 11,
+          "time": "09:05"
+        }
+      }
+    }
+  ],
+  "disputes": [
+    {
+      "claim": "airpods",
+      "raisedBy": "priya",
+      "lostItem": "airpods-priya",
+      "proofPhoto": "airpodsbatik",
+      "daysAgo": 1,
+      "time": "12:40",
+      "description": "These are my AirPods. I was revising at a desk in the law library basement until about 8.30pm and left them there. Find My last showed them at the Yong Pung How School of Law at 8.41pm that night, and the left earbud has a tiny chip on the stem. I've attached a photo I took of them last month.",
+      "response": {
+        "daysAgo": 1,
+        "time": "18:10",
+        "text": "I lost mine at the law library that week too and they look the same. I didn't know someone else had lost the same pair."
+      }
+    }
+  ],
+  "reports": [
+    {
+      "key": "paynow-report",
+      "kind": "message",
+      "message": "paynow",
+      "reportedBy": "ploy",
+      "daysAgo": 5,
+      "time": "14:35",
+      "reason": "Asked me to pay $20 before giving back my keys.",
+      "decided": {
+        "status": "actioned",
+        "by": "farhan",
+        "daysAgo": 4,
+        "time": "10:00"
+      }
+    },
+    {
+      "key": "textbook-report-1",
+      "kind": "item",
+      "item": "textbook-ad",
+      "reportedBy": "rizky",
+      "daysAgo": 10,
+      "time": "13:00",
+      "reason": "This is an advert for a textbook, not a found item.",
+      "decided": {
+        "status": "actioned",
+        "by": "farhan",
+        "daysAgo": 9,
+        "time": "10:30"
+      }
+    },
+    {
+      "key": "textbook-report-2",
+      "kind": "item",
+      "item": "textbook-ad",
+      "reportedBy": "hannah",
+      "daysAgo": 10,
+      "time": "14:20",
+      "reason": "Selling something on a lost and found app.",
+      "decided": {
+        "status": "actioned",
+        "by": "farhan",
+        "daysAgo": 9,
+        "time": "10:30"
+      }
+    },
+    {
+      "key": "iphone-report-1",
+      "kind": "item",
+      "item": "iphone-ad",
+      "reportedBy": "marcus",
+      "daysAgo": 1,
+      "time": "20:05",
+      "reason": "He is selling a phone. This is not something he found."
+    },
+    {
+      "key": "iphone-report-2",
+      "kind": "item",
+      "item": "iphone-ad",
+      "reportedBy": "trang",
+      "daysAgo": 1,
+      "time": "21:30",
+      "reason": "Looks like an advert, not a found item."
+    }
+  ],
+  "adminActions": [
+    {
+      "action": "remove_item",
+      "by": "farhan",
+      "report": "textbook-report-1",
+      "user": "kelvin",
+      "item": "textbook-ad",
+      "daysAgo": 9,
+      "time": "10:30",
+      "reason": "Adverts are not allowed. FoundIt is only for lost and found items."
+    },
+    {
+      "action": "warn_user",
+      "by": "farhan",
+      "report": "textbook-report-1",
+      "user": "kelvin",
+      "daysAgo": 9,
+      "time": "10:31",
+      "reason": "Posted an advert as a found item. A second one may lead to a suspension."
+    },
+    {
+      "action": "remove_message",
+      "by": "farhan",
+      "report": "paynow-report",
+      "user": "ryan",
+      "message": "paynow",
+      "daysAgo": 4,
+      "time": "10:00",
+      "reason": "Asking for payment to return an item is not allowed."
+    },
+    {
+      "action": "suspend_user",
+      "by": "farhan",
+      "report": "paynow-report",
+      "user": "ryan",
+      "daysAgo": 4,
+      "time": "10:01",
+      "reason": "Asked the owner of a found item for money before returning it. Returning items on FoundIt is always free."
+    }
+  ],
+  "appeals": [
+    {
+      "user": "ryan",
+      "daysAgo": 3,
+      "time": "21:15",
+      "message": "Sorry, I didn't know asking for money wasn't allowed. I was half joking, and I still dropped the keys at the Connexion security counter the same day, so the owner got them back. Could you please lift the suspension? I won't do it again."
+    }
+  ]
+}

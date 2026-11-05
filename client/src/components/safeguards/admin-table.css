@@ -1,0 +1,284 @@
+/* The lists on the Admin page (disputes, reports, log, people), shared by the
+   Admin*Rows components with <style scoped src="./admin-table.css">.
+   Phone first: one narrow table at 375px; the wide columns open from 768px. */
+
+/* The table reaches 0.75rem past the card's padding on each side, so a row's
+   hover tint has room around the text while the text itself stays in line
+   with the search box above it */
+.admin-table {
+  width: calc(100% + 1.5rem);
+  margin: 0 -0.75rem;
+  border-collapse: collapse;
+}
+
+/* The column names stay in view under the sticky header on a long list. The
+   line is a shadow because a collapsed border does not stick with its cell. */
+.admin-table th {
+  position: sticky;
+  top: var(--sg-header-h, 4.0625rem);
+  z-index: 1;
+  padding: var(--ds-space-2) var(--ds-space-3) var(--ds-space-2) 0;
+  background: var(--ds-canvas);
+  box-shadow: inset 0 -1px var(--ds-border);
+  font-size: var(--ds-size-caption);
+  font-weight: var(--ds-weight-medium);
+  text-align: left;
+  white-space: nowrap;
+  color: var(--ds-text-muted);
+}
+
+.admin-table td {
+  padding: var(--ds-space-4) var(--ds-space-3) var(--ds-space-4) 0;
+  border-bottom: 1px solid var(--ds-border);
+  vertical-align: middle;
+}
+
+.admin-table th:first-child,
+.admin-table td:first-child {
+  padding-left: var(--ds-space-3);
+}
+
+.admin-table tbody tr {
+  transition: background-color var(--ds-dur-fast) var(--ds-ease-out);
+}
+
+.admin-table tbody tr:hover {
+  background: var(--ds-action-wash);
+}
+
+.admin-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* From 768px: the item column gets the most room and the status column a
+   steady width, so the columns line up from one page to the next */
+@media (min-width: 768px) {
+  .admin-table .admin-col-item {
+    width: 38%;
+  }
+
+  .admin-table .admin-col-status {
+    width: 11rem;
+  }
+}
+
+.admin-item {
+  align-items: center;
+  gap: var(--ds-space-3);
+}
+
+.admin-icon {
+  display: inline-grid;
+  place-items: center;
+  font-size: var(--ds-size-body);
+  color: var(--ds-text-muted);
+}
+
+.admin-min {
+  min-width: 0;
+}
+
+.admin-item-title {
+  font-weight: var(--ds-weight-bold);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.admin-code {
+  margin-top: 0.15rem;
+  font-size: var(--ds-size-caption);
+}
+
+/* "No. 117 · D-0141" may wrap between the two codes, never inside one */
+.admin-code span {
+  white-space: nowrap;
+}
+
+/* At most three lines of what someone wrote */
+.admin-said {
+  display: -webkit-box;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+.admin-wait {
+  font-weight: var(--ds-weight-bold);
+  white-space: nowrap;
+}
+
+/* A wait of a day or more stands out */
+.admin-wait .is-long {
+  color: var(--ds-warning);
+}
+
+.admin-outcome {
+  font-size: var(--ds-size-small);
+}
+
+.admin-go {
+  width: 1%;
+  padding-right: var(--ds-space-3) !important;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* "Needs attention" labels under the item */
+.admin-flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0.4rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.admin-flag {
+  padding: 0.1rem var(--ds-space-2);
+  border-radius: var(--ds-radius-round);
+  background: color-mix(in srgb, var(--ds-warning) 14%, var(--ds-surface));
+  font-size: var(--ds-size-caption);
+  font-weight: var(--ds-weight-bold);
+  color: var(--ds-warning);
+}
+
+/* On a phone the table keeps the item (with what was said under it), the wait
+   and the button; from 768px what was said gets its own column */
+.admin-wide {
+  display: none;
+}
+
+.admin-narrow {
+  margin-top: var(--ds-space-1);
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+@media (min-width: 768px) {
+  .admin-wide {
+    display: table-cell;
+  }
+
+  .admin-narrow {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .admin-table .sg-thumb {
+    display: none;
+  }
+
+  .admin-table td {
+    padding-right: var(--ds-space-2);
+  }
+}
+
+/* What the claimer said back, on its own line under the dispute */
+.admin-reply {
+  display: block;
+  margin-top: 0.2rem;
+  font-style: normal;
+  color: var(--ds-text-muted);
+}
+
+/* The rows rise in one after another when a list appears (--i is the row's
+   place on the page) */
+.admin-table tbody tr,
+.admin-list > li {
+  animation: ds-rise var(--ds-dur-slow) var(--ds-ease-out) both;
+  animation-delay: calc(var(--i, 0) * var(--ds-stagger));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .admin-table tbody tr,
+  .admin-list > li {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* The log and people lists */
+.admin-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.admin-list > li {
+  padding: var(--ds-space-4) 0;
+  border-bottom: 1px solid var(--ds-border);
+}
+
+.admin-list > li:first-child {
+  padding-top: var(--ds-space-1);
+}
+
+.admin-list > li:last-child {
+  border-bottom: 0;
+}
+
+.admin-list-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--ds-space-1) var(--ds-space-4);
+}
+
+.admin-list a {
+  color: var(--ds-action);
+}
+
+.admin-reason {
+  margin-top: var(--ds-space-1);
+  overflow-wrap: anywhere;
+}
+
+/* Inside the rebuilt Admin page: one edge, the page's own type */
+.admin-table {
+  width: 100%;
+  margin: 0;
+}
+
+.admin-table th {
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ds-text-muted);
+  font-size: var(--ds-size-small);
+  font-weight: var(--ds-weight-medium);
+}
+
+.admin-table th,
+.admin-table td {
+  border-color: var(--ds-border);
+}
+
+.admin-table th:first-child,
+.admin-table td:first-child {
+  padding-left: 0;
+}
+
+.admin-table th:last-child,
+.admin-table td:last-child {
+  padding-right: 0;
+}
+
+.ds-num,
+.admin-code {
+  font-family: inherit;
+  font-variant-numeric: tabular-nums;
+}
+
+.admin-list {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--ds-border);
+}
+
+.admin-list > li {
+  padding: var(--ds-space-4) 0;
+  border-color: var(--ds-border);
+}

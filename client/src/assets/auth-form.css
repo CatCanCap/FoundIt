@@ -1,0 +1,136 @@
+/* A headline line that always ends with a line break ("Lost it?") */
+.fi-auth-line {
+  display: block;
+}
+
+/* What goes on the sign-in tag, shared by LoginView and RegisterView
+   (Figma V01: "Sign in to see what's turned up." on the manila tag). */
+
+.fi-auth-form__title {
+  margin: 0 4.5rem 1.25rem 0; /* leave room for the stamp */
+  font-size: clamp(1.5rem, 6vw, 1.9rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--fi-ink);
+}
+
+.fi-auth-form__head {
+  margin-bottom: 1.25rem;
+}
+
+.fi-auth-form__head .fi-auth-form__title {
+  margin-bottom: 0;
+}
+
+/* "Admin sign in" with its short line underneath */
+.fi-auth-form__head .fi-auth-form__title--short {
+  margin-bottom: 0.35rem;
+}
+
+.fi-auth-form__sub {
+  margin: 0 4.5rem 0 0;
+  color: var(--fi-mist);
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.fi-auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+/* The colours come from the tokens; AuthLayout keeps them at their day values
+   on the manila tag, whatever night mode is set to */
+.fi-auth-form__error {
+  margin: 0 0 1rem;
+  padding: 0.65rem 0.85rem;
+  border-left: 4px solid var(--fi-danger);
+  border-radius: 6px;
+  background: var(--fi-danger-soft);
+  color: var(--fi-ink);
+  font-size: 0.9rem;
+}
+
+/* Why the sign-in page opened: "Sign in to see your matches." */
+.fi-auth-form__reason {
+  margin: 0 0 1rem;
+  padding: 0.6rem 0.9rem;
+  border-left: 4px solid var(--fi-brass);
+  border-radius: 6px;
+  background: var(--fi-notice-soft);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.fi-auth-form__note {
+  margin: 0.75rem 0 0;
+  color: var(--fi-mist);
+  font-size: 0.85rem;
+}
+
+.fi-auth-form__switch {
+  margin: 1rem 0 0;
+  padding-top: 0.9rem;
+  border-top: 1px dashed rgb(20 26 63 / 20%);
+  color: var(--fi-ink);
+  font-size: 0.9rem;
+}
+
+.fi-auth-form__switch a {
+  /* Taller than the text, so it is an easy thumb target */
+  display: inline-block;
+  padding-block: 0.65rem;
+  color: var(--fi-ink);
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.fi-auth-form__switch a:focus-visible {
+  outline: 3px solid var(--fi-focus);
+  outline-offset: 2px;
+}
+
+/* Phones (below Bootstrap's sm, 576px): the stamp is smaller there
+   (HangingTag), so the title needs less room beside it, and the switch line
+   sits a little closer */
+@media (max-width: 575.98px) {
+  .fi-auth-form__title,
+  .fi-auth-form__sub {
+    margin-right: 3.75rem;
+  }
+
+  .fi-auth-form__switch {
+    margin-top: 0.75rem;
+    padding-top: 0.5rem;
+  }
+}
+
+/* A wrong answer: the form gives a quick "no" shake */
+.fi-auth-form--shake {
+  animation: fi-auth-shake 0.42s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+@keyframes fi-auth-shake {
+  15%,
+  85% {
+    transform: translateX(-2px);
+  }
+  30%,
+  70% {
+    transform: translateX(5px);
+  }
+  45% {
+    transform: translateX(-7px);
+  }
+  60% {
+    transform: translateX(7px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fi-auth-form--shake {
+    animation: none;
+  }
+}

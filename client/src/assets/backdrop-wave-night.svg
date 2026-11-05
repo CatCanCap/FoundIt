@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMax slice">
+  <!-- FoundIt page wallpaper, night version: the same waves and gold trail as
+       backdrop-wave-blue.svg, on the night navy page. Each wave is only a
+       step lighter than the page and stays darker than the night cards
+       (#141b45), so cards still stand out. The deepest navy, #121a43, keeps
+       the night "mist" text at 7.5:1. Used through the backdrop token in
+       tokens.css; night pages only. (No double hyphens in this comment: XML
+       does not allow them, and the image would not load.) -->
+  <rect width="1600" height="1000" fill="#0a1030"/>
+
+  <!-- A trail of three stops drifting across the top right -->
+  <path d="M 820 150 C 960 90 1060 230 1190 190 S 1400 90 1530 170" fill="none"
+        stroke="#e2b955" stroke-opacity="0.28" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="2 12"/>
+  <g fill="#0a1030" stroke="#e2b955" stroke-opacity="0.4" stroke-width="2.5">
+    <circle cx="820" cy="150" r="7"/>
+    <circle cx="1190" cy="190" r="7"/>
+    <circle cx="1530" cy="170" r="7"/>
+  </g>
+
+  <!-- Back wave: the faintest, rising highest on the right -->
+  <path d="M 0 720 C 260 690 420 610 640 560 S 1080 430 1300 420 S 1530 380 1600 340 L 1600 1000 L 0 1000 Z"
+        fill="#0d1437"/>
+  <path d="M 0 720 C 260 690 420 610 640 560 S 1080 430 1300 420 S 1530 380 1600 340"
+        fill="none" stroke="#b9c6ff" stroke-opacity="0.1" stroke-width="3"/>
+
+  <!-- Middle wave -->
+  <path d="M 0 860 C 220 830 420 760 640 700 S 1040 580 1260 560 S 1500 520 1600 480 L 1600 1000 L 0 1000 Z"
+        fill="#10173d"/>
+  <path d="M 0 860 C 220 830 420 760 640 700 S 1040 580 1260 560 S 1500 520 1600 480"
+        fill="none" stroke="#b9c6ff" stroke-opacity="0.09" stroke-width="3"/>
+
+  <!-- Front wave: the deepest navy, low along the bottom -->
+  <path d="M 120 1000 C 360 940 560 870 800 830 S 1220 740 1420 700 S 1560 660 1600 640 L 1600 1000 Z"
+        fill="#121a43"/>
+  <path d="M 120 1000 C 360 940 560 870 800 830 S 1220 740 1420 700 S 1560 660 1600 640"
+        fill="none" stroke="#b9c6ff" stroke-opacity="0.08" stroke-width="3"/>
+
+  <!-- A thin gold thread riding the middle wave -->
+  <path d="M 0 900 C 240 868 440 800 660 742 S 1060 622 1280 602 S 1510 562 1600 526"
+        fill="none" stroke="#e2b955" stroke-opacity="0.2" stroke-width="1.5"/>
+</svg>

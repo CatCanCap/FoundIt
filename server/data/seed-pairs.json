@@ -1,0 +1,1610 @@
+{
+  "pairs": [
+    {
+      "pairId": 1,
+      "note": "Easy: same spot, one day apart, same brand and colour",
+      "lost": {
+        "title": "Black Totes umbrella",
+        "description": "Compact folding umbrella with a wooden handle and a small tear near one rib",
+        "category": "Umbrella",
+        "colour": "Black",
+        "brand": "Totes",
+        "daysAgo": 3,
+        "trail": [
+          {
+            "spot": "SCIS1-L2-LIFT",
+            "from": "10:00",
+            "to": "12:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "Black folding umbrella",
+        "description": "Totes umbrella with a wooden handle, left by the lifts",
+        "category": "Umbrella",
+        "colour": "Black",
+        "brand": "Totes",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "SCIS1-L2-LIFT",
+            "from": "09:00",
+            "to": "09:30"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 2,
+      "note": "Related category: lost as Wallet, found as Cardholder",
+      "lost": {
+        "title": "Brown leather wallet",
+        "description": "Slim Bellroy wallet holding an EZ-Link card and a POSB debit card",
+        "category": "Wallet",
+        "colour": "Brown",
+        "brand": "Bellroy",
+        "daysAgo": 4,
+        "trail": [
+          {
+            "spot": "CONC-KOUFU",
+            "from": "12:00",
+            "to": "13:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "Brown card wallet",
+        "description": "Small leather cardholder with an EZ-Link card inside, found on a Koufu table",
+        "category": "Cardholder",
+        "colour": "Brown",
+        "brand": "",
+        "daysAgo": 4,
+        "trail": [
+          {
+            "spot": "CONC-KOUFU",
+            "from": "13:30",
+            "to": "13:45"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 3,
+      "note": "Trail: owner visited three places, item found at the second",
+      "lost": {
+        "title": "White AirPods Pro case",
+        "description": "AirPods Pro in a white case with a cat sticker on the lid",
+        "category": "Earbuds",
+        "colour": "White",
+        "brand": "Apple",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "SOE-L2-SR",
+            "from": "08:15",
+            "to": "11:30"
+          },
+          {
+            "spot": "LKS-L3-STUDY",
+            "from": "12:00",
+            "to": "15:00"
+          },
+          {
+            "spot": "CONC-KOUFU",
+            "from": "15:00",
+            "to": "15:45"
+          }
+        ]
+      },
+      "found": {
+        "title": "AirPods case with sticker",
+        "description": "White Apple earbuds case with a cat sticker, on a study desk",
+        "category": "Earbuds",
+        "colour": "White",
+        "brand": "Apple",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "LKS-L3-STUDY",
+            "from": "16:00",
+            "to": "16:15"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 4,
+      "note": "Different floor: same building, different floor",
+      "lost": {
+        "title": "Navy Fox long umbrella",
+        "description": "Full-length navy umbrella, Fox brand, with a curved wooden handle and my initials JL on the strap",
+        "category": "Umbrella",
+        "colour": "Navy",
+        "brand": "Fox",
+        "daysAgo": 5,
+        "trail": [
+          {
+            "spot": "SCIS1-L3-SR",
+            "from": "13:00",
+            "to": "15:15"
+          }
+        ]
+      },
+      "found": {
+        "title": "Navy long umbrella",
+        "description": "Long Fox umbrella with a wooden crook handle, initials written on the strap, left in the umbrella stand",
+        "category": "Umbrella",
+        "colour": "Navy",
+        "brand": "Fox",
+        "daysAgo": 5,
+        "trail": [
+          {
+            "spot": "SCIS1-L1-LOBBY",
+            "from": "17:00",
+            "to": "17:10"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 5,
+      "note": "Linked building: found in a building linked to where it was lost",
+      "lost": {
+        "title": "Clear umbrella with white handle",
+        "description": "Transparent Daiso umbrella, white plastic handle, one spoke slightly bent",
+        "category": "Umbrella",
+        "colour": "Clear",
+        "brand": "Daiso",
+        "daysAgo": 7,
+        "trail": [
+          {
+            "spot": "LKS-L1-ENTRANCE",
+            "from": "14:00",
+            "to": "14:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "Transparent umbrella",
+        "description": "See-through Daiso umbrella with a white handle and a bent spoke, hanging on a bench",
+        "category": "Umbrella",
+        "colour": "Clear",
+        "brand": "Daiso",
+        "daysAgo": 6,
+        "trail": [
+          {
+            "spot": "GREEN-BENCHES",
+            "from": "08:45",
+            "to": "09:00"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 6,
+      "note": "Vague finder: no brand, and the finder picked Black for a dark green umbrella",
+      "lost": {
+        "title": "Dark green Uniqlo compact umbrella",
+        "description": "Small Uniqlo UV-cut umbrella in dark green with its sleeve, sleeve has a hole",
+        "category": "Umbrella",
+        "colour": "Green",
+        "brand": "Uniqlo",
+        "daysAgo": 9,
+        "trail": [
+          {
+            "spot": "SOA-L2-SR",
+            "from": "15:30",
+            "to": "18:45"
+          }
+        ]
+      },
+      "found": {
+        "title": "Small dark umbrella",
+        "description": "Short foldable umbrella in a cover, dark colour, found under a seat",
+        "category": "Umbrella",
+        "colour": "Black",
+        "brand": "",
+        "daysAgo": 8,
+        "trail": [
+          {
+            "spot": "SOA-L2-SR",
+            "from": "08:00",
+            "to": "08:15"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 7,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "Yellow Miniso umbrella",
+        "description": "Bright yellow Miniso foldable umbrella with a bear charm on the strap",
+        "category": "Umbrella",
+        "colour": "Yellow",
+        "brand": "Miniso",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "CONC-KOUFU",
+            "from": "12:15",
+            "to": "13:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "Yellow foldable umbrella",
+        "description": "Miniso umbrella, yellow, has a small bear charm, left on a chair at Koufu",
+        "category": "Umbrella",
+        "colour": "Yellow",
+        "brand": "Miniso",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "CONC-KOUFU",
+            "from": "13:20",
+            "to": "13:30"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 8,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "Black Hydro Flask 32oz",
+        "description": "Black Hydro Flask with an SMU sticker and a dent near the base",
+        "category": "Water Bottle",
+        "colour": "Black",
+        "brand": "Hydro Flask",
+        "daysAgo": 1,
+        "trail": [
+          {
+            "spot": "LKS-L3-STUDY",
+            "from": "10:00",
+            "to": "13:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "Black Hydro Flask bottle",
+        "description": "Large black Hydro Flask, SMU sticker on the side, dented bottom",
+        "category": "Water Bottle",
+        "colour": "Black",
+        "brand": "Hydro Flask",
+        "daysAgo": 1,
+        "trail": [
+          {
+            "spot": "LKS-L3-STUDY",
+            "from": "14:00",
+            "to": "14:10"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 9,
+      "note": "Vague finder: no brand and a looser colour word in the found report",
+      "lost": {
+        "title": "Pink Stanley tumbler",
+        "description": "Pink Stanley Quencher 40oz with handle and straw, name tag says Mei",
+        "category": "Water Bottle",
+        "colour": "Pink",
+        "brand": "Stanley",
+        "daysAgo": 4,
+        "trail": [
+          {
+            "spot": "SOE-L2-SR",
+            "from": "12:00",
+            "to": "15:15"
+          }
+        ]
+      },
+      "found": {
+        "title": "Big tumbler with handle",
+        "description": "Large light pink cup with a straw and a name tag, left on the back row table",
+        "category": "Water Bottle",
+        "colour": "Pink",
+        "brand": "",
+        "daysAgo": 3,
+        "trail": [
+          {
+            "spot": "SOE-L2-SR",
+            "from": "08:20",
+            "to": "08:30"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 10,
+      "note": "Different floor: same building, different floor",
+      "lost": {
+        "title": "Green Nalgene bottle",
+        "description": "Olive green Nalgene 1L wide mouth, covered in hiking stickers",
+        "category": "Water Bottle",
+        "colour": "Green",
+        "brand": "Nalgene",
+        "daysAgo": 6,
+        "trail": [
+          {
+            "spot": "LKCSB-L2-SR",
+            "from": "08:15",
+            "to": "11:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "Green Nalgene with stickers",
+        "description": "Green Nalgene bottle with lots of stickers, found in a group study room",
+        "category": "Water Bottle",
+        "colour": "Green",
+        "brand": "Nalgene",
+        "daysAgo": 6,
+        "trail": [
+          {
+            "spot": "LKCSB-B1-STUDY",
+            "from": "13:00",
+            "to": "13:15"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 11,
+      "note": "Vague finder: no brand and a looser colour word in the found report",
+      "lost": {
+        "title": "Navy Owala FreeSip",
+        "description": "Navy Owala FreeSip 24oz, lid has a loop, slight scratch on the logo",
+        "category": "Water Bottle",
+        "colour": "Navy",
+        "brand": "Owala",
+        "daysAgo": 10,
+        "trail": [
+          {
+            "spot": "SCIS1-L2-SR",
+            "from": "15:30",
+            "to": "18:45"
+          }
+        ]
+      },
+      "found": {
+        "title": "Dark blue bottle with flip lid",
+        "description": "Metal bottle, dark blue, flip lid with a carry loop, scratched on one side",
+        "category": "Water Bottle",
+        "colour": "Navy",
+        "brand": "",
+        "daysAgo": 9,
+        "trail": [
+          {
+            "spot": "SCIS1-L2-SR",
+            "from": "08:10",
+            "to": "08:15"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 12,
+      "note": "Linked building: found in a building linked to where it was lost",
+      "lost": {
+        "title": "Silver Zojirushi flask",
+        "description": "Slim stainless steel Zojirushi flask, 480ml, lock on the lid is loose",
+        "category": "Water Bottle",
+        "colour": "Silver",
+        "brand": "Zojirushi",
+        "daysAgo": 3,
+        "trail": [
+          {
+            "spot": "SOA-L3-SR",
+            "from": "12:00",
+            "to": "15:15"
+          }
+        ]
+      },
+      "found": {
+        "title": "Silver thermal flask",
+        "description": "Zojirushi stainless steel flask with a push-button lid, found on a bench in the atrium",
+        "category": "Water Bottle",
+        "colour": "Silver",
+        "brand": "Zojirushi",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "LKCSB-L1-ATRIUM",
+            "from": "09:30",
+            "to": "09:40"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 13,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "Black Sony earbuds case",
+        "description": "Sony WF-1000XM5 earbuds in a black case, left earbud tip is missing",
+        "category": "Earbuds",
+        "colour": "Black",
+        "brand": "Sony",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "SCIS1-L4-LABS",
+            "from": "13:00",
+            "to": "16:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "Sony earbuds, black case",
+        "description": "Black Sony earbuds case with both buds, one has no ear tip",
+        "category": "Earbuds",
+        "colour": "Black",
+        "brand": "Sony",
+        "daysAgo": 1,
+        "trail": [
+          {
+            "spot": "SCIS1-L4-LABS",
+            "from": "09:00",
+            "to": "09:10"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 14,
+      "note": "Different floor: same building, different floor",
+      "lost": {
+        "title": "White Samsung Galaxy Buds",
+        "description": "Galaxy Buds2 in a white case inside a clear cover with a keyring",
+        "category": "Earbuds",
+        "colour": "White",
+        "brand": "Samsung",
+        "daysAgo": 8,
+        "trail": [
+          {
+            "spot": "LKS-L4-ROOMS",
+            "from": "10:00",
+            "to": "12:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "Galaxy Buds in clear cover",
+        "description": "White Samsung earbuds case in a transparent cover with a keyring, handed in at the desk",
+        "category": "Earbuds",
+        "colour": "White",
+        "brand": "Samsung",
+        "daysAgo": 8,
+        "trail": [
+          {
+            "spot": "LKS-L2-SERVICE",
+            "from": "15:00",
+            "to": "15:10"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 15,
+      "note": "Linked building: found in a building linked to where it was lost",
+      "lost": {
+        "title": "Black Beats Flex earphones",
+        "description": "Beats Flex neckband earphones in black, cable is a little frayed near the right bud",
+        "category": "Earbuds",
+        "colour": "Black",
+        "brand": "Beats",
+        "daysAgo": 5,
+        "trail": [
+          {
+            "spot": "ADMIN-L1-LOBBY",
+            "from": "11:00",
+            "to": "11:20"
+          }
+        ]
+      },
+      "found": {
+        "title": "Black neckband earphones",
+        "description": "Beats wireless earphones on a neck cable, black, found on the grass",
+        "category": "Earbuds",
+        "colour": "Black",
+        "brand": "Beats",
+        "daysAgo": 5,
+        "trail": [
+          {
+            "spot": "GREEN-LAWN",
+            "from": "12:30",
+            "to": "12:40"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 16,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "White Apple MacBook charger",
+        "description": "Apple 67W USB-C power adapter with cable, name label Daniel on the brick",
+        "category": "Charger",
+        "colour": "White",
+        "brand": "Apple",
+        "daysAgo": 3,
+        "trail": [
+          {
+            "spot": "LKCSB-L3-SR",
+            "from": "08:15",
+            "to": "11:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "Apple laptop charger",
+        "description": "White Apple 67W charger and cable, labelled Daniel, still plugged into the wall",
+        "category": "Charger",
+        "colour": "White",
+        "brand": "Apple",
+        "daysAgo": 3,
+        "trail": [
+          {
+            "spot": "LKCSB-L3-SR",
+            "from": "12:00",
+            "to": "12:10"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 17,
+      "note": "Different floor: same building, different floor",
+      "lost": {
+        "title": "Black Anker 65W charger",
+        "description": "Anker Nano II 65W GaN charger, black, with a braided grey cable",
+        "category": "Charger",
+        "colour": "Black",
+        "brand": "Anker",
+        "daysAgo": 11,
+        "trail": [
+          {
+            "spot": "SOE-L4-SR",
+            "from": "15:30",
+            "to": "18:45"
+          }
+        ]
+      },
+      "found": {
+        "title": "Black Anker charger",
+        "description": "Small black Anker charger with a grey braided cable, left at the lobby sofa",
+        "category": "Charger",
+        "colour": "Black",
+        "brand": "Anker",
+        "daysAgo": 10,
+        "trail": [
+          {
+            "spot": "SOE-L1-LOBBY",
+            "from": "08:00",
+            "to": "08:10"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 18,
+      "note": "Vague finder: filed as Other with no brand, and picked Grey (a related colour) for a black charger",
+      "lost": {
+        "title": "Black Lenovo ThinkPad charger",
+        "description": "Lenovo 65W slim tip charger with velcro tie, black brick",
+        "category": "Charger",
+        "colour": "Black",
+        "brand": "Lenovo",
+        "daysAgo": 6,
+        "trail": [
+          {
+            "spot": "SMUC-L3-CLASS",
+            "from": "12:00",
+            "to": "15:15"
+          }
+        ]
+      },
+      "found": {
+        "title": "Laptop power brick",
+        "description": "Dark rectangular laptop charger with a velcro strap around the cable",
+        "category": "Other",
+        "colour": "Grey",
+        "brand": "",
+        "daysAgo": 5,
+        "trail": [
+          {
+            "spot": "SMUC-L3-CLASS",
+            "from": "08:30",
+            "to": "08:40"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 19,
+      "note": "Trail: owner visited three places, item found at the third",
+      "lost": {
+        "title": "Grey Dell USB-C charger",
+        "description": "Dell 90W USB-C charger in grey, cable wrapped with a red hair tie",
+        "category": "Charger",
+        "colour": "Grey",
+        "brand": "Dell",
+        "daysAgo": 4,
+        "trail": [
+          {
+            "spot": "SOA-L2-SR",
+            "from": "09:00",
+            "to": "12:00"
+          },
+          {
+            "spot": "CONC-KOUFU",
+            "from": "12:00",
+            "to": "13:00"
+          },
+          {
+            "spot": "LKS-L3-STUDY",
+            "from": "13:00",
+            "to": "17:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "Dell charger with hair tie",
+        "description": "Grey Dell laptop charger, red hair tie around the cable, under a study desk",
+        "category": "Charger",
+        "colour": "Grey",
+        "brand": "Dell",
+        "daysAgo": 4,
+        "trail": [
+          {
+            "spot": "LKS-L3-STUDY",
+            "from": "18:00",
+            "to": "18:10"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 20,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "Black Coach bifold wallet",
+        "description": "Black Coach leather bifold, has my NRIC, about 30 dollars and a Starbucks card",
+        "category": "Wallet",
+        "colour": "Black",
+        "brand": "Coach",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "ADMIN-L1-LOBBY",
+            "from": "14:00",
+            "to": "14:20"
+          }
+        ]
+      },
+      "found": {
+        "title": "Black Coach wallet",
+        "description": "Coach bifold wallet in black leather with cash and cards inside, handed to security",
+        "category": "Wallet",
+        "colour": "Black",
+        "brand": "Coach",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "ADMIN-L1-LOBBY",
+            "from": "15:00",
+            "to": "15:05"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 21,
+      "note": "Linked building: found in a building linked to where it was lost",
+      "lost": {
+        "title": "Tan Charles & Keith long wallet",
+        "description": "Tan long zip wallet from Charles & Keith with a gold zip pull",
+        "category": "Wallet",
+        "colour": "Brown",
+        "brand": "Charles & Keith",
+        "daysAgo": 7,
+        "trail": [
+          {
+            "spot": "LKCSB-L1-ATRIUM",
+            "from": "11:30",
+            "to": "12:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "Tan zip wallet",
+        "description": "Long Charles & Keith wallet, tan, gold zipper, dropped along the basement walkway",
+        "category": "Wallet",
+        "colour": "Brown",
+        "brand": "Charles & Keith",
+        "daysAgo": 7,
+        "trail": [
+          {
+            "spot": "CONC-WALK-LKCSB",
+            "from": "12:20",
+            "to": "12:25"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 22,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "Navy Fossil cardholder",
+        "description": "Navy leather Fossil card case with three slots, holds my bank cards",
+        "category": "Cardholder",
+        "colour": "Navy",
+        "brand": "Fossil",
+        "daysAgo": 5,
+        "trail": [
+          {
+            "spot": "YPHSL-L1-LOBBY",
+            "from": "09:00",
+            "to": "09:15"
+          }
+        ]
+      },
+      "found": {
+        "title": "Fossil card case",
+        "description": "Navy Fossil cardholder with a few bank cards, found on the lobby bench",
+        "category": "Cardholder",
+        "colour": "Navy",
+        "brand": "Fossil",
+        "daysAgo": 4,
+        "trail": [
+          {
+            "spot": "YPHSL-L1-LOBBY",
+            "from": "10:00",
+            "to": "10:05"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 23,
+      "note": "Different floor: same building, different floor",
+      "lost": {
+        "title": "Pink MUJI cardholder with lanyard",
+        "description": "Soft pink MUJI card holder on a white lanyard, EZ-Link card inside",
+        "category": "Cardholder",
+        "colour": "Pink",
+        "brand": "MUJI",
+        "daysAgo": 9,
+        "trail": [
+          {
+            "spot": "SOA-L3-SR",
+            "from": "08:15",
+            "to": "11:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "Pink card holder on lanyard",
+        "description": "MUJI pink cardholder with a white lanyard and a transport card, found in the lobby",
+        "category": "Cardholder",
+        "colour": "Pink",
+        "brand": "MUJI",
+        "daysAgo": 9,
+        "trail": [
+          {
+            "spot": "SOA-L1-LOBBY",
+            "from": "12:10",
+            "to": "12:15"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 24,
+      "note": "Related category: lost and found reports use different but related categories",
+      "lost": {
+        "title": "Black leather cardholder",
+        "description": "Plain black cardholder with my matric card and a debit card inside",
+        "category": "Cardholder",
+        "colour": "Black",
+        "brand": "",
+        "daysAgo": 3,
+        "trail": [
+          {
+            "spot": "GREEN-LAWN",
+            "from": "17:00",
+            "to": "18:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "SMU student card in black holder",
+        "description": "Student card inside a black leather holder, picked up from the lawn",
+        "category": "Student Card",
+        "colour": "Black",
+        "brand": "",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "GREEN-LAWN",
+            "from": "08:30",
+            "to": "08:35"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 25,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "SMU matric card on blue lanyard",
+        "description": "My SMU matriculation card on a blue SCIS lanyard",
+        "category": "Student Card",
+        "colour": "Blue",
+        "brand": "",
+        "daysAgo": 1,
+        "trail": [
+          {
+            "spot": "SCIS1-L1-LOBBY",
+            "from": "08:00",
+            "to": "08:15"
+          }
+        ]
+      },
+      "found": {
+        "title": "Student card with blue lanyard",
+        "description": "SMU matric card on a blue SCIS lanyard, found near the entrance gantry",
+        "category": "Student Card",
+        "colour": "Blue",
+        "brand": "",
+        "daysAgo": 1,
+        "trail": [
+          {
+            "spot": "SCIS1-L1-LOBBY",
+            "from": "09:00",
+            "to": "09:05"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 26,
+      "note": "Vague finder: no brand and a looser colour word in the found report",
+      "lost": {
+        "title": "Student card on red lanyard",
+        "description": "SMU student card on a red lanyard with a small Pokeball badge",
+        "category": "Student Card",
+        "colour": "Red",
+        "brand": "",
+        "daysAgo": 8,
+        "trail": [
+          {
+            "spot": "CONC-MRT",
+            "from": "18:00",
+            "to": "18:15"
+          }
+        ]
+      },
+      "found": {
+        "title": "Card on a lanyard",
+        "description": "A card on a dark red lanyard with a round badge, near the MRT exit",
+        "category": "Student Card",
+        "colour": "Red",
+        "brand": "",
+        "daysAgo": 8,
+        "trail": [
+          {
+            "spot": "CONC-MRT",
+            "from": "19:00",
+            "to": "19:05"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 27,
+      "note": "Related category: lost and found reports use different but related categories",
+      "lost": {
+        "title": "Matric card in clear sleeve",
+        "description": "SMU matric card inside a clear plastic sleeve, sleeve corner is torn",
+        "category": "Student Card",
+        "colour": "Clear",
+        "brand": "",
+        "daysAgo": 6,
+        "trail": [
+          {
+            "spot": "LKS-L1-ENTRANCE",
+            "from": "09:00",
+            "to": "09:10"
+          }
+        ]
+      },
+      "found": {
+        "title": "Clear card sleeve with student card",
+        "description": "Transparent card sleeve holding a student card, torn at one corner",
+        "category": "Cardholder",
+        "colour": "Clear",
+        "brand": "",
+        "daysAgo": 6,
+        "trail": [
+          {
+            "spot": "LKS-L2-SERVICE",
+            "from": "10:30",
+            "to": "10:35"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 28,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "Black Sony WH-1000XM4 headphones",
+        "description": "Sony WH-1000XM4 over-ear headphones in black, in their hard case",
+        "category": "Headphones",
+        "colour": "Black",
+        "brand": "Sony",
+        "daysAgo": 4,
+        "trail": [
+          {
+            "spot": "SOSS-L1-LOBBY",
+            "from": "16:00",
+            "to": "16:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "Sony headphones in case",
+        "description": "Black Sony over-ear headphones in a hard zip case, left on the lobby sofa",
+        "category": "Headphones",
+        "colour": "Black",
+        "brand": "Sony",
+        "daysAgo": 3,
+        "trail": [
+          {
+            "spot": "SOSS-L1-LOBBY",
+            "from": "08:15",
+            "to": "08:20"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 29,
+      "note": "Linked building: found in a building linked to where it was lost",
+      "lost": {
+        "title": "Silver AirPods Max",
+        "description": "Apple AirPods Max in silver with the smart case, left ear cushion is worn",
+        "category": "Headphones",
+        "colour": "Silver",
+        "brand": "Apple",
+        "daysAgo": 10,
+        "trail": [
+          {
+            "spot": "SCIS1-L3-SR",
+            "from": "12:00",
+            "to": "15:15"
+          }
+        ]
+      },
+      "found": {
+        "title": "Silver Apple headphones",
+        "description": "AirPods Max, silver, in the soft case, found in a seminar room",
+        "category": "Headphones",
+        "colour": "Silver",
+        "brand": "Apple",
+        "daysAgo": 9,
+        "trail": [
+          {
+            "spot": "SOE-L2-SR",
+            "from": "08:15",
+            "to": "08:20"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 30,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "Silver MacBook Air 13",
+        "description": "Apple MacBook Air M2, silver, lid covered in stickers including a Ghibli one",
+        "category": "Laptop",
+        "colour": "Silver",
+        "brand": "Apple",
+        "daysAgo": 1,
+        "trail": [
+          {
+            "spot": "LKS-L4-ROOMS",
+            "from": "13:00",
+            "to": "16:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "MacBook Air with stickers",
+        "description": "Silver Apple MacBook Air with many stickers on the lid, left in a project room",
+        "category": "Laptop",
+        "colour": "Silver",
+        "brand": "Apple",
+        "daysAgo": 1,
+        "trail": [
+          {
+            "spot": "LKS-L4-ROOMS",
+            "from": "16:30",
+            "to": "16:40"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 31,
+      "note": "Different floor: same building, different floor",
+      "lost": {
+        "title": "Grey Lenovo ThinkPad X1",
+        "description": "Lenovo ThinkPad X1 Carbon, grey, in a black felt sleeve",
+        "category": "Laptop",
+        "colour": "Grey",
+        "brand": "Lenovo",
+        "daysAgo": 12,
+        "trail": [
+          {
+            "spot": "LKCSB-L3-SR",
+            "from": "15:30",
+            "to": "18:45"
+          }
+        ]
+      },
+      "found": {
+        "title": "ThinkPad in felt sleeve",
+        "description": "Grey Lenovo laptop inside a black felt sleeve, found a floor down",
+        "category": "Laptop",
+        "colour": "Grey",
+        "brand": "Lenovo",
+        "daysAgo": 12,
+        "trail": [
+          {
+            "spot": "LKCSB-L2-SR",
+            "from": "19:00",
+            "to": "19:10"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 32,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "Black iPhone 14",
+        "description": "Black iPhone 14 in a clear case, top right corner of the screen is cracked",
+        "category": "Phone",
+        "colour": "Black",
+        "brand": "Apple",
+        "daysAgo": 1,
+        "trail": [
+          {
+            "spot": "CONC-KOUFU",
+            "from": "18:00",
+            "to": "18:45"
+          }
+        ]
+      },
+      "found": {
+        "title": "iPhone with cracked corner",
+        "description": "Black Apple iPhone in a clear case, cracked at one corner, on a Koufu table",
+        "category": "Phone",
+        "colour": "Black",
+        "brand": "Apple",
+        "daysAgo": 1,
+        "trail": [
+          {
+            "spot": "CONC-KOUFU",
+            "from": "19:00",
+            "to": "19:05"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 33,
+      "note": "Trail: owner visited three places, item found at the third",
+      "lost": {
+        "title": "Blue Samsung Galaxy S23",
+        "description": "Samsung Galaxy S23 in a blue silicone case with a card slot on the back",
+        "category": "Phone",
+        "colour": "Blue",
+        "brand": "Samsung",
+        "daysAgo": 3,
+        "trail": [
+          {
+            "spot": "SCIS1-L2-SR",
+            "from": "08:15",
+            "to": "11:30"
+          },
+          {
+            "spot": "CONC-WALK-SCIS",
+            "from": "11:30",
+            "to": "11:45"
+          },
+          {
+            "spot": "GREEN-BENCHES",
+            "from": "11:45",
+            "to": "12:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "Samsung phone in blue case",
+        "description": "Blue Samsung phone, silicone case with a card pocket, left on a bench",
+        "category": "Phone",
+        "colour": "Blue",
+        "brand": "Samsung",
+        "daysAgo": 3,
+        "trail": [
+          {
+            "spot": "GREEN-BENCHES",
+            "from": "12:50",
+            "to": "13:00"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 34,
+      "note": "Easy: same spot, within a day, same brand and colour",
+      "lost": {
+        "title": "Keys with Totoro keychain",
+        "description": "Two silver keys and a hostel fob on a grey Totoro keychain",
+        "category": "Keys",
+        "colour": "Silver",
+        "brand": "",
+        "daysAgo": 6,
+        "trail": [
+          {
+            "spot": "SMUC-L1-LOBBY",
+            "from": "10:00",
+            "to": "10:20"
+          }
+        ]
+      },
+      "found": {
+        "title": "Keys on Totoro keyring",
+        "description": "Silver keys with a fob and a Totoro charm, found on the lobby counter",
+        "category": "Keys",
+        "colour": "Silver",
+        "brand": "",
+        "daysAgo": 6,
+        "trail": [
+          {
+            "spot": "SMUC-L1-LOBBY",
+            "from": "11:00",
+            "to": "11:05"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 35,
+      "note": "Vague finder: no brand and a looser colour word in the found report",
+      "lost": {
+        "title": "Room keys on orange carabiner",
+        "description": "Three keys on an orange carabiner with a gym tag",
+        "category": "Keys",
+        "colour": "Orange",
+        "brand": "",
+        "daysAgo": 11,
+        "trail": [
+          {
+            "spot": "YPHSL-B1-KGC",
+            "from": "14:00",
+            "to": "17:00"
+          }
+        ]
+      },
+      "found": {
+        "title": "Bunch of keys with clip",
+        "description": "Some keys on a reddish orange clip with a plastic tag, left on a library table",
+        "category": "Keys",
+        "colour": "Orange",
+        "brand": "",
+        "daysAgo": 10,
+        "trail": [
+          {
+            "spot": "YPHSL-B1-KGC",
+            "from": "09:00",
+            "to": "09:05"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 36,
+      "note": "Linked building: found in a building linked to where it was lost",
+      "lost": {
+        "title": "Black Herschel backpack",
+        "description": "Black Herschel Little America backpack with notes and a pencil case inside",
+        "category": "Bag",
+        "colour": "Black",
+        "brand": "Herschel",
+        "daysAgo": 5,
+        "trail": [
+          {
+            "spot": "LKS-L2-SERVICE",
+            "from": "16:00",
+            "to": "16:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "Black Herschel bag",
+        "description": "Herschel backpack in black with red striped lining, found by the lobby seats",
+        "category": "Bag",
+        "colour": "Black",
+        "brand": "Herschel",
+        "daysAgo": 5,
+        "trail": [
+          {
+            "spot": "SOA-L1-LOBBY",
+            "from": "17:15",
+            "to": "17:20"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 37,
+      "note": "Trail: owner visited three places, item found at the third",
+      "lost": {
+        "title": "Beige Uniqlo shoulder bag",
+        "description": "Beige Uniqlo round mini shoulder bag with tissue, lip balm and a portable charger",
+        "category": "Bag",
+        "colour": "Beige",
+        "brand": "Uniqlo",
+        "daysAgo": 7,
+        "trail": [
+          {
+            "spot": "LKCSB-L2-SR",
+            "from": "12:00",
+            "to": "15:15"
+          },
+          {
+            "spot": "CONC-WALK-LKCSB",
+            "from": "15:15",
+            "to": "15:30"
+          },
+          {
+            "spot": "CONC-KOUFU",
+            "from": "15:30",
+            "to": "16:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "Beige crescent bag",
+        "description": "Small beige Uniqlo sling bag with a power bank inside, hanging on a Koufu chair",
+        "category": "Bag",
+        "colour": "Beige",
+        "brand": "Uniqlo",
+        "daysAgo": 7,
+        "trail": [
+          {
+            "spot": "CONC-KOUFU",
+            "from": "17:00",
+            "to": "17:10"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 38,
+      "note": "Related category: lost and found reports use different but related categories",
+      "lost": {
+        "title": "iPad Air with Apple Pencil",
+        "description": "Grey Apple iPad Air in a keyboard case with an Apple Pencil attached",
+        "category": "Tablet",
+        "colour": "Grey",
+        "brand": "Apple",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "SOE-L2-SR",
+            "from": "15:30",
+            "to": "18:45"
+          }
+        ]
+      },
+      "found": {
+        "title": "Thin grey Apple device in keyboard case",
+        "description": "Grey Apple device with a keyboard cover and a stylus on the side, left on a desk",
+        "category": "Laptop",
+        "colour": "Grey",
+        "brand": "Apple",
+        "daysAgo": 2,
+        "trail": [
+          {
+            "spot": "SOE-L2-SR",
+            "from": "19:00",
+            "to": "19:05"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 39,
+      "note": "Different floor: same building, different floor",
+      "lost": {
+        "title": "Grey SMU hoodie",
+        "description": "Grey SMU pullover hoodie, size M, coffee stain on the left cuff",
+        "category": "Clothing",
+        "colour": "Grey",
+        "brand": "SMU",
+        "daysAgo": 8,
+        "trail": [
+          {
+            "spot": "SCIS1-L2-SR",
+            "from": "12:00",
+            "to": "15:15"
+          }
+        ]
+      },
+      "found": {
+        "title": "SMU hoodie, grey",
+        "description": "Grey SMU hoodie size M left on a lab chair, small stain on one sleeve",
+        "category": "Clothing",
+        "colour": "Grey",
+        "brand": "SMU",
+        "daysAgo": 7,
+        "trail": [
+          {
+            "spot": "SCIS1-L4-LABS",
+            "from": "10:00",
+            "to": "10:05"
+          }
+        ]
+      }
+    },
+    {
+      "pairId": 40,
+      "note": "Different floor: same building, different floor",
+      "lost": {
+        "title": "Black Casio calculator",
+        "description": "Casio fx-97SG X calculator, black, name label on the back says Wei Jie",
+        "category": "Stationery",
+        "colour": "Black",
+        "brand": "Casio",
+        "daysAgo": 4,
+        "trail": [
+          {
+            "spot": "SOA-L2-SR",
+            "from": "08:15",
+            "to": "11:30"
+          }
+        ]
+      },
+      "found": {
+        "title": "Casio scientific calculator",
+        "description": "Black Casio fx-97SG with a name label on the back, found upstairs",
+        "category": "Stationery",
+        "colour": "Black",
+        "brand": "Casio",
+        "daysAgo": 4,
+        "trail": [
+          {
+            "spot": "SOA-L3-SR",
+            "from": "12:00",
+            "to": "12:05"
+          }
+        ]
+      }
+    }
+  ],
+  "decoys": [
+    {
+      "note": "Look-alike of pair 1: different brand, different building",
+      "type": "found",
+      "title": "Black umbrella",
+      "description": "Plain black long umbrella with a curved plastic handle",
+      "category": "Umbrella",
+      "colour": "Black",
+      "brand": "",
+      "daysAgo": 2,
+      "trail": [
+        {
+          "spot": "LKCSB-L1-ATRIUM",
+          "from": "14:00",
+          "to": "14:15"
+        }
+      ]
+    },
+    {
+      "note": "Look-alike black umbrella with no true partner",
+      "type": "found",
+      "title": "Black compact umbrella",
+      "description": "Black auto-open umbrella with a rubber grip, no markings",
+      "category": "Umbrella",
+      "colour": "Black",
+      "brand": "",
+      "daysAgo": 3,
+      "trail": [
+        {
+          "spot": "SOSS-L1-LOBBY",
+          "from": "18:00",
+          "to": "18:05"
+        }
+      ]
+    },
+    {
+      "note": "Look-alike black umbrella with no true partner",
+      "type": "lost",
+      "title": "Black golf umbrella",
+      "description": "Large black golf umbrella with a foam handle, a bank logo printed on one panel",
+      "category": "Umbrella",
+      "colour": "Black",
+      "brand": "",
+      "daysAgo": 4,
+      "trail": [
+        {
+          "spot": "YPHSL-L1-LOBBY",
+          "from": "13:00",
+          "to": "13:30"
+        }
+      ]
+    },
+    {
+      "note": "Look-alike black umbrella with no true partner",
+      "type": "lost",
+      "title": "Black Muji umbrella",
+      "description": "Black Muji foldable umbrella with a loop handle that marks the owner",
+      "category": "Umbrella",
+      "colour": "Black",
+      "brand": "Muji",
+      "daysAgo": 2,
+      "trail": [
+        {
+          "spot": "SMUC-L3-CLASS",
+          "from": "09:00",
+          "to": "12:00"
+        }
+      ]
+    },
+    {
+      "note": "Look-alike of the white earbuds pairs: no sticker, no cover",
+      "type": "found",
+      "title": "White earbuds charging case",
+      "description": "Plain white wireless earbuds case, only one earbud inside",
+      "category": "Earbuds",
+      "colour": "White",
+      "brand": "",
+      "daysAgo": 2,
+      "trail": [
+        {
+          "spot": "LKCSB-L2-SR",
+          "from": "11:30",
+          "to": "11:35"
+        }
+      ]
+    },
+    {
+      "note": "Look-alike of the white earbuds pairs: no sticker, no cover",
+      "type": "found",
+      "title": "White earphone case",
+      "description": "White charging case for wireless earphones, empty, a bit scratched",
+      "category": "Earbuds",
+      "colour": "White",
+      "brand": "",
+      "daysAgo": 6,
+      "trail": [
+        {
+          "spot": "SMUC-L1-LOBBY",
+          "from": "15:00",
+          "to": "15:05"
+        }
+      ]
+    },
+    {
+      "note": "Look-alike black charger: different brand from every true charger pair",
+      "type": "found",
+      "title": "Black Baseus USB-C charger",
+      "description": "Baseus 65W black charger with a short black cable",
+      "category": "Charger",
+      "colour": "Black",
+      "brand": "Baseus",
+      "daysAgo": 5,
+      "trail": [
+        {
+          "spot": "LKS-L3-STUDY",
+          "from": "20:00",
+          "to": "20:05"
+        }
+      ]
+    },
+    {
+      "note": "Look-alike black charger: different brand from every true charger pair",
+      "type": "found",
+      "title": "Black Ugreen charger",
+      "description": "Ugreen 45W black wall charger, no cable",
+      "category": "Charger",
+      "colour": "Black",
+      "brand": "Ugreen",
+      "daysAgo": 9,
+      "trail": [
+        {
+          "spot": "SCIS1-L3-SR",
+          "from": "18:45",
+          "to": "18:50"
+        }
+      ]
+    },
+    {
+      "note": "Look-alike blue bottle: different brand from every true bottle pair",
+      "type": "lost",
+      "title": "Blue Camelbak bottle",
+      "description": "Blue Camelbak Eddy bottle with a bite valve, 750ml",
+      "category": "Water Bottle",
+      "colour": "Blue",
+      "brand": "Camelbak",
+      "daysAgo": 3,
+      "trail": [
+        {
+          "spot": "LKCSB-B1-STUDY",
+          "from": "14:00",
+          "to": "17:00"
+        }
+      ]
+    },
+    {
+      "note": "Look-alike blue bottle: different brand from every true bottle pair",
+      "type": "lost",
+      "title": "Blue Thermos bottle",
+      "description": "Light blue Thermos vacuum bottle with a cup lid",
+      "category": "Water Bottle",
+      "colour": "Blue",
+      "brand": "Thermos",
+      "daysAgo": 8,
+      "trail": [
+        {
+          "spot": "SOSS-L2-SR",
+          "from": "08:15",
+          "to": "11:30"
+        }
+      ]
+    },
+    {
+      "note": "Stale: open for more than 30 days, used to test archiving",
+      "type": "lost",
+      "title": "Bike lock keys",
+      "description": "Two small keys on a plain ring for a bicycle lock",
+      "category": "Keys",
+      "colour": "Silver",
+      "brand": "",
+      "daysAgo": 35,
+      "trail": [
+        {
+          "spot": "GREEN-BENCHES",
+          "from": "17:00",
+          "to": "17:30"
+        }
+      ]
+    },
+    {
+      "note": "Stale: open for more than 30 days, used to test archiving",
+      "type": "found",
+      "title": "Denim jacket",
+      "description": "Light blue denim jacket, size S, left on a chair for weeks",
+      "category": "Clothing",
+      "colour": "Blue",
+      "brand": "Levi's",
+      "daysAgo": 35,
+      "trail": [
+        {
+          "spot": "SOA-L1-LOBBY",
+          "from": "09:00",
+          "to": "09:05"
+        }
+      ]
+    }
+  ]
+}

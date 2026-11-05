@@ -1,0 +1,2927 @@
+{
+  "buildings": {
+    "SOE/SCIS 2": [
+      "Concourse",
+      "SCIS 1"
+    ],
+    "SCIS 1": [
+      "Concourse",
+      "SOE/SCIS 2",
+      "Li Ka Shing Library"
+    ],
+    "Li Ka Shing Library": [
+      "Concourse",
+      "SCIS 1",
+      "SOA",
+      "Campus Green"
+    ],
+    "SOA": [
+      "Concourse",
+      "Li Ka Shing Library",
+      "LKCSB"
+    ],
+    "LKCSB": [
+      "Concourse",
+      "SOA"
+    ],
+    "Administration Building": [
+      "Concourse",
+      "Campus Green"
+    ],
+    "Concourse": [
+      "SOE/SCIS 2",
+      "SCIS 1",
+      "Li Ka Shing Library",
+      "SOA",
+      "LKCSB",
+      "Administration Building"
+    ],
+    "Campus Green": [
+      "Li Ka Shing Library",
+      "Administration Building"
+    ],
+    "SOSS/CIS": [],
+    "YPHSL": [],
+    "SMU Connexion": []
+  },
+  "spots": [
+    {
+      "key": "SOE-B1-GYM",
+      "building": "SOE/SCIS 2",
+      "floor": "Basement 1",
+      "area": "Gymnasium & Fitness Centre",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-B1-ACC",
+      "building": "SOE/SCIS 2",
+      "floor": "Basement 1",
+      "area": "Arts & Culture Centre",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-B1-SR",
+      "building": "SOE/SCIS 2",
+      "floor": "Basement 1",
+      "area": "seminar rooms",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 Seminar Room B1-1",
+        "SOE/SCIS2 Seminar Room B1-2"
+      ]
+    },
+    {
+      "key": "SOE-B1-STUDY",
+      "building": "SOE/SCIS 2",
+      "floor": "Basement 1",
+      "area": "fish tanks & study areas",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-B1-WC",
+      "building": "SOE/SCIS 2",
+      "floor": "Basement 1",
+      "area": "toilets",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-B1-LIFT",
+      "building": "SOE/SCIS 2",
+      "floor": "Basement 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L1-LOBBY",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 1",
+      "area": "lobby & security counter",
+      "lat": 1.2977,
+      "lng": 103.84902,
+      "isCollectionPoint": true
+    },
+    {
+      "key": "SOE-L1-SNAPPY",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 1",
+      "area": "Snappy Bowls",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L1-TALIWANG",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 1",
+      "area": "Nasi Lemak Ayam Taliwang / Hong Seng Curry Rice Express",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L1-STUDY",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 1",
+      "area": "fish tanks & study areas",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L1-WC",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 1",
+      "area": "toilets",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L1-LIFT",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L2-SR",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 2",
+      "area": "seminar rooms",
+      "lat": 1.29789,
+      "lng": 103.84888,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 Seminar Room 2-1",
+        "SOE/SCIS2 Seminar Room 2-2",
+        "SOE/SCIS2 Seminar Room 2-3",
+        "SOE/SCIS2 Seminar Room 2-4",
+        "SOE/SCIS2 Seminar Room 2-5",
+        "SOE/SCIS2 Seminar Room 2-6",
+        "SOE/SCIS2 Seminar Room 2-7",
+        "SOE/SCIS2 Seminar Room 2-8",
+        "SOE/SCIS2 Seminar Room 2-9",
+        "SOE/SCIS2 Seminar Room 2-10"
+      ]
+    },
+    {
+      "key": "SOE-L2-GSR",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 2",
+      "area": "group study rooms",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 GSR 2-1",
+        "SOE/SCIS2 GSR 2-2",
+        "SOE/SCIS2 GSR 2-3",
+        "SOE/SCIS2 GSR 2-4",
+        "SOE/SCIS2 GSR 2-5",
+        "SOE/SCIS2 GSR 2-6",
+        "SOE/SCIS2 GSR 2-7",
+        "SOE/SCIS2 GSR 2-8",
+        "SOE/SCIS2 GSR 2-9",
+        "SOE/SCIS2 GSR 2-10",
+        "SOE/SCIS2 GSR 2-11",
+        "SOE/SCIS2 GSR 2-12",
+        "SOE/SCIS2 GSR 2-13",
+        "SOE/SCIS2 GSR 2-14",
+        "SOE/SCIS2 GSR 2-15",
+        "SOE/SCIS2 GSR 2-16",
+        "SOE/SCIS2 GSR 2-17"
+      ]
+    },
+    {
+      "key": "SOE-L2-CLASS",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 2",
+      "area": "classrooms",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 Classroom 2-1",
+        "SOE/SCIS2 Classroom 2-2"
+      ]
+    },
+    {
+      "key": "SOE-L2-STUDY",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 2",
+      "area": "fish tanks & study areas",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L2-WC",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 2",
+      "area": "toilets",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L2-LIFT",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L3-SR",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 3",
+      "area": "seminar rooms",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 Seminar Room 3-1",
+        "SOE/SCIS2 Seminar Room 3-2",
+        "SOE/SCIS2 Seminar Room 3-3",
+        "SOE/SCIS2 Seminar Room 3-4",
+        "SOE/SCIS2 Seminar Room 3-5",
+        "SOE/SCIS2 Seminar Room 3-6",
+        "SOE/SCIS2 Seminar Room 3-7",
+        "SOE/SCIS2 Seminar Room 3-8",
+        "SOE/SCIS2 Seminar Room 3-9",
+        "SOE/SCIS2 Seminar Room 3-10"
+      ]
+    },
+    {
+      "key": "SOE-L3-GSR",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 3",
+      "area": "group study rooms",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 GSR 3-1",
+        "SOE/SCIS2 GSR 3-2",
+        "SOE/SCIS2 GSR 3-3",
+        "SOE/SCIS2 GSR 3-4",
+        "SOE/SCIS2 GSR 3-5",
+        "SOE/SCIS2 GSR 3-6",
+        "SOE/SCIS2 GSR 3-7",
+        "SOE/SCIS2 GSR 3-8",
+        "SOE/SCIS2 GSR 3-9",
+        "SOE/SCIS2 GSR 3-10",
+        "SOE/SCIS2 GSR 3-11",
+        "SOE/SCIS2 GSR 3-12",
+        "SOE/SCIS2 GSR 3-13",
+        "SOE/SCIS2 GSR 3-14",
+        "SOE/SCIS2 GSR 3-15",
+        "SOE/SCIS2 GSR 3-16",
+        "SOE/SCIS2 GSR 3-17",
+        "SOE/SCIS2 GSR 3-18"
+      ]
+    },
+    {
+      "key": "SOE-L3-CLASS",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 3",
+      "area": "classrooms",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 Classroom 3-1",
+        "SOE/SCIS2 Classroom 3-2",
+        "SOE/SCIS2 Classroom 3-3"
+      ]
+    },
+    {
+      "key": "SOE-L3-STUDY",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 3",
+      "area": "fish tanks & study areas",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L3-MPOD",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 3",
+      "area": "meeting pods",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 Meeting Pod 3-1",
+        "SOE/SCIS2 Meeting Pod 3-2",
+        "SOE/SCIS2 Meeting Pod 3-3",
+        "SOE/SCIS2 Meeting Pod 3-4"
+      ]
+    },
+    {
+      "key": "SOE-L3-WC",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 3",
+      "area": "toilets",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L3-LIFT",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 3",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L4-SR",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 4",
+      "area": "seminar rooms",
+      "lat": 1.29804,
+      "lng": 103.84876,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 Seminar Room 4-1",
+        "SOE/SCIS2 Seminar Room 4-2",
+        "SOE/SCIS2 Seminar Room 4-3",
+        "SOE/SCIS2 Seminar Room 4-4"
+      ]
+    },
+    {
+      "key": "SOE-L4-GSR",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 4",
+      "area": "group study rooms",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 GSR 4-4",
+        "SOE/SCIS2 GSR 4-5",
+        "SOE/SCIS2 GSR 4-6",
+        "SOE/SCIS2 GSR 4-7",
+        "SOE/SCIS2 GSR 4-8",
+        "SOE/SCIS2 GSR 4-9",
+        "SOE/SCIS2 GSR 4-10"
+      ]
+    },
+    {
+      "key": "SOE-L4-CLASS",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 4",
+      "area": "classrooms",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 Classroom 4-1",
+        "SOE/SCIS2 Classroom 4-3"
+      ]
+    },
+    {
+      "key": "SOE-L4-STUDY",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 4",
+      "area": "study areas",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L4-WC",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 4",
+      "area": "toilets",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L4-LIFT",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 4",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L5-SR",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 5",
+      "area": "seminar rooms",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOE/SCIS2 Seminar Room 5-1",
+        "SOE/SCIS2 Seminar Room 5-2"
+      ]
+    },
+    {
+      "key": "SOE-L5-STUDY",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 5",
+      "area": "study areas",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L5-WC",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 5",
+      "area": "toilets",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L5-LIFT",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 5",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L6-WC",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 6",
+      "area": "toilets",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L6-LIFT",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 6",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L7-WC",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 7",
+      "area": "toilets",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOE-L7-LIFT",
+      "building": "SOE/SCIS 2",
+      "floor": "Level 7",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-B1-STARBUCKS",
+      "building": "SCIS 1",
+      "floor": "Basement 1",
+      "area": "Starbucks",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-B1-SR",
+      "building": "SCIS 1",
+      "floor": "Basement 1",
+      "area": "seminar rooms",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SCIS1 Seminar Room B1-1"
+      ]
+    },
+    {
+      "key": "SCIS1-B1-CLASS",
+      "building": "SCIS 1",
+      "floor": "Basement 1",
+      "area": "classrooms",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SCIS1 Classroom B1-1"
+      ]
+    },
+    {
+      "key": "SCIS1-B1-STUDY",
+      "building": "SCIS 1",
+      "floor": "Basement 1",
+      "area": "study areas",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-B1-WC",
+      "building": "SCIS 1",
+      "floor": "Basement 1",
+      "area": "toilets",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-B1-LIFT",
+      "building": "SCIS 1",
+      "floor": "Basement 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L1-LOBBY",
+      "building": "SCIS 1",
+      "floor": "Level 1",
+      "area": "lobby & security counter",
+      "lat": 1.29732,
+      "lng": 103.8497,
+      "isCollectionPoint": true
+    },
+    {
+      "key": "SCIS1-L1-SUBWAY",
+      "building": "SCIS 1",
+      "floor": "Level 1",
+      "area": "Subway",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L1-STUDY",
+      "building": "SCIS 1",
+      "floor": "Level 1",
+      "area": "study areas",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L1-WC",
+      "building": "SCIS 1",
+      "floor": "Level 1",
+      "area": "toilets",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L1-LIFT",
+      "building": "SCIS 1",
+      "floor": "Level 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L2-SR",
+      "building": "SCIS 1",
+      "floor": "Level 2",
+      "area": "seminar rooms",
+      "lat": 1.29753,
+      "lng": 103.84944,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SCIS1 Seminar Room 2-1",
+        "SCIS1 Seminar Room 2-2",
+        "SCIS1 Seminar Room 2-3",
+        "SCIS1 Seminar Room 2-4"
+      ]
+    },
+    {
+      "key": "SCIS1-L2-GSR",
+      "building": "SCIS 1",
+      "floor": "Level 2",
+      "area": "group study rooms",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SCIS1 GSR 2-1",
+        "SCIS1 GSR 2-2",
+        "SCIS1 GSR 2-3",
+        "SCIS1 GSR 2-4",
+        "SCIS1 GSR 2-5",
+        "SCIS1 GSR 2-6",
+        "SCIS1 GSR 2-7"
+      ]
+    },
+    {
+      "key": "SCIS1-L2-STUDY",
+      "building": "SCIS 1",
+      "floor": "Level 2",
+      "area": "study areas",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L2-WC",
+      "building": "SCIS 1",
+      "floor": "Level 2",
+      "area": "toilets",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L2-LIFT",
+      "building": "SCIS 1",
+      "floor": "Level 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29744,
+      "lng": 103.84956,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L3-SR",
+      "building": "SCIS 1",
+      "floor": "Level 3",
+      "area": "seminar rooms",
+      "lat": 1.29738,
+      "lng": 103.8498,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SCIS1 Seminar Room 3-1",
+        "SCIS1 Seminar Room 3-2",
+        "SCIS1 Seminar Room 3-3",
+        "SCIS1 Seminar Room 3-4"
+      ]
+    },
+    {
+      "key": "SCIS1-L3-GSR",
+      "building": "SCIS 1",
+      "floor": "Level 3",
+      "area": "group study rooms",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SCIS1 GSR 3-1",
+        "SCIS1 GSR 3-2",
+        "SCIS1 GSR 3-3",
+        "SCIS1 GSR 3-4",
+        "SCIS1 GSR 3-5",
+        "SCIS1 GSR 3-6"
+      ]
+    },
+    {
+      "key": "SCIS1-L3-CLASS",
+      "building": "SCIS 1",
+      "floor": "Level 3",
+      "area": "classrooms",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SCIS1 Classroom 3-1",
+        "SCIS1 Classroom 3-2"
+      ]
+    },
+    {
+      "key": "SCIS1-L3-STUDY",
+      "building": "SCIS 1",
+      "floor": "Level 3",
+      "area": "study areas",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L3-MPOD",
+      "building": "SCIS 1",
+      "floor": "Level 3",
+      "area": "meeting pods",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SCIS1 Meeting Pod 3-1",
+        "SCIS1 Meeting Pod 3-2"
+      ]
+    },
+    {
+      "key": "SCIS1-L3-WC",
+      "building": "SCIS 1",
+      "floor": "Level 3",
+      "area": "toilets",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L3-LIFT",
+      "building": "SCIS 1",
+      "floor": "Level 3",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L4-LABS",
+      "building": "SCIS 1",
+      "floor": "Level 4",
+      "area": "computer labs",
+      "lat": 1.29728,
+      "lng": 103.8494,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L4-STUDY",
+      "building": "SCIS 1",
+      "floor": "Level 4",
+      "area": "study areas",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L4-WC",
+      "building": "SCIS 1",
+      "floor": "Level 4",
+      "area": "toilets",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L4-LIFT",
+      "building": "SCIS 1",
+      "floor": "Level 4",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L5-WC",
+      "building": "SCIS 1",
+      "floor": "Level 5",
+      "area": "toilets",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SCIS1-L5-LIFT",
+      "building": "SCIS 1",
+      "floor": "Level 5",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29739,
+      "lng": 103.84958,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-B1-WC",
+      "building": "Li Ka Shing Library",
+      "floor": "Basement 1",
+      "area": "toilets",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-B1-LIFT",
+      "building": "Li Ka Shing Library",
+      "floor": "Basement 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L1-SECURITY",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 1",
+      "area": "Campus Security counter",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": true
+    },
+    {
+      "key": "LKS-L1-ENTRANCE",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 1",
+      "area": "entrance",
+      "lat": 1.2965,
+      "lng": 103.85008,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L1-NANYANG",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 1",
+      "area": "1983 A Taste of Nanyang",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L1-NATURE",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 1",
+      "area": "Nature Café",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L1-WC",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 1",
+      "area": "toilets",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L1-LIFT",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L2-SERVICE",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 2",
+      "area": "service desk",
+      "lat": 1.2963,
+      "lng": 103.85012,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L2-COMMONS",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 2",
+      "area": "Learning Commons",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L2-ROOMS",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 2",
+      "area": "project rooms",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKSLIB Project Room 2-4",
+        "LKSLIB Project Room 2-5"
+      ]
+    },
+    {
+      "key": "LKS-L2-PHONE",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 2",
+      "area": "phone booths",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKSLIB Phone Booth 2.1",
+        "LKSLIB Phone Booth 2.2"
+      ]
+    },
+    {
+      "key": "LKS-L2-STUDY",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 2",
+      "area": "quiet study areas",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L2-BOOTH",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 2",
+      "area": "study booths",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKSLIB Study Booth 2-1",
+        "LKSLIB Study Booth 2-2",
+        "LKSLIB Study Booth 2-3",
+        "LKSLIB Study Booth 2-4",
+        "LKSLIB Study Booth 2-5"
+      ]
+    },
+    {
+      "key": "LKS-L2-WC",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 2",
+      "area": "toilets",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L2-LIFT",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L3-STUDIO",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 3",
+      "area": "Investment and Data Studio",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L3-ROOMS",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 3",
+      "area": "project rooms",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKSLIB Project Room 3-1",
+        "LKSLIB Project Room 3-2",
+        "LKSLIB Project Room 3-3",
+        "LKSLIB Project Room 3-4",
+        "LKSLIB Project Room 3-5"
+      ]
+    },
+    {
+      "key": "LKS-L3-STUDY",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 3",
+      "area": "quiet study areas",
+      "lat": 1.29618,
+      "lng": 103.84995,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L3-BOOTH",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 3",
+      "area": "study booths",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKSLIB Study Booth 3-1"
+      ]
+    },
+    {
+      "key": "LKS-L3-WC",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 3",
+      "area": "toilets",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L3-LIFT",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 3",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L4-ROOMS",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 4",
+      "area": "project rooms",
+      "lat": 1.29612,
+      "lng": 103.8503,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKSLIB Project Room 4-1",
+        "LKSLIB Project Room 4-2",
+        "LKSLIB Project Room 4-4",
+        "LKSLIB Project Room 4-5",
+        "LKSLIB Project Room 4-6",
+        "LKSLIB Project Room 4-7",
+        "LKSLIB Project Room 4-8",
+        "LKSLIB Project Room 4-9",
+        "LKSLIB Project Room 4-10",
+        "LKSLIB Project Room 4-11",
+        "LKSLIB Project Room 4-12",
+        "LKSLIB Project Room 4-13",
+        "LKSLIB Project Room 4-14",
+        "LKSLIB Project Room 4-15",
+        "LKSLIB Project Room 4-16",
+        "LKSLIB Project Room 4-18"
+      ]
+    },
+    {
+      "key": "LKS-L4-STUDY",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 4",
+      "area": "quiet study areas",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L4-BOOTH",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 4",
+      "area": "study booths",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKSLIB Study Booth 4-1",
+        "LKSLIB Study Booth 4-2",
+        "LKSLIB Study Booth 4-3"
+      ]
+    },
+    {
+      "key": "LKS-L4-WC",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 4",
+      "area": "toilets",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L4-LIFT",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 4",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L5-ROOMS",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 5",
+      "area": "project rooms",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKSLIB Project Room 5-1",
+        "LKSLIB Project Room 5-2",
+        "LKSLIB Project Room 5-3",
+        "LKSLIB Project Room 5-4",
+        "LKSLIB Project Room 5-5",
+        "LKSLIB Project Room 5-6",
+        "LKSLIB Project Room 5-7"
+      ]
+    },
+    {
+      "key": "LKS-L5-STUDY",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 5",
+      "area": "quiet study areas",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L5-WC",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 5",
+      "area": "toilets",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKS-L5-LIFT",
+      "building": "Li Ka Shing Library",
+      "floor": "Level 5",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.296275,
+      "lng": 103.850113,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-B1-STUDY",
+      "building": "SOA",
+      "floor": "Basement 1",
+      "area": "study areas",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-B1-WC",
+      "building": "SOA",
+      "floor": "Basement 1",
+      "area": "toilets",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-B1-LIFT",
+      "building": "SOA",
+      "floor": "Basement 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L1-LOBBY",
+      "building": "SOA",
+      "floor": "Level 1",
+      "area": "lobby & security counter",
+      "lat": 1.29566,
+      "lng": 103.84988,
+      "isCollectionPoint": true
+    },
+    {
+      "key": "SOA-L1-ONALU",
+      "building": "SOA",
+      "floor": "Level 1",
+      "area": "Onalu",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L1-SR",
+      "building": "SOA",
+      "floor": "Level 1",
+      "area": "seminar rooms",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOA Seminar Room 1-1",
+        "SOA Seminar Room 1-2",
+        "SOA Seminar Room 1-3"
+      ]
+    },
+    {
+      "key": "SOA-L1-STUDY",
+      "building": "SOA",
+      "floor": "Level 1",
+      "area": "study areas",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L1-WC",
+      "building": "SOA",
+      "floor": "Level 1",
+      "area": "toilets",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L1-LIFT",
+      "building": "SOA",
+      "floor": "Level 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L2-SR",
+      "building": "SOA",
+      "floor": "Level 2",
+      "area": "seminar rooms",
+      "lat": 1.29582,
+      "lng": 103.8497,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOA Seminar Room 2-1",
+        "SOA Seminar Room 2-2",
+        "SOA Seminar Room 2-3",
+        "SOA Seminar Room 2-4",
+        "SOA Seminar Room 2-5"
+      ]
+    },
+    {
+      "key": "SOA-L2-GSR",
+      "building": "SOA",
+      "floor": "Level 2",
+      "area": "group study rooms",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOA GSR 2-1",
+        "SOA GSR 2-2",
+        "SOA GSR 2-3",
+        "SOA GSR 2-4",
+        "SOA GSR 2-5",
+        "SOA GSR 2-6",
+        "SOA GSR 2-7",
+        "SOA GSR 2-8",
+        "SOA GSR 2-9"
+      ]
+    },
+    {
+      "key": "SOA-L2-CLASS",
+      "building": "SOA",
+      "floor": "Level 2",
+      "area": "classrooms",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOA Classroom 2-1"
+      ]
+    },
+    {
+      "key": "SOA-L2-STUDY",
+      "building": "SOA",
+      "floor": "Level 2",
+      "area": "study areas",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L2-WC",
+      "building": "SOA",
+      "floor": "Level 2",
+      "area": "toilets",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L2-LIFT",
+      "building": "SOA",
+      "floor": "Level 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L3-SR",
+      "building": "SOA",
+      "floor": "Level 3",
+      "area": "seminar rooms",
+      "lat": 1.29555,
+      "lng": 103.84975,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOA Seminar Room 3-1",
+        "SOA Seminar Room 3-2",
+        "SOA Seminar Room 3-3",
+        "SOA Seminar Room 3-4",
+        "SOA Seminar Room 3-5"
+      ]
+    },
+    {
+      "key": "SOA-L3-GSR",
+      "building": "SOA",
+      "floor": "Level 3",
+      "area": "group study rooms",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOA GSR 3-2",
+        "SOA GSR 3-3",
+        "SOA GSR 3-4",
+        "SOA GSR 3-5",
+        "SOA GSR 3-6",
+        "SOA GSR 3-7",
+        "SOA GSR 3-8",
+        "SOA GSR 3-9",
+        "SOA GSR 3-10"
+      ]
+    },
+    {
+      "key": "SOA-L3-STUDY",
+      "building": "SOA",
+      "floor": "Level 3",
+      "area": "study areas",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L3-MPOD",
+      "building": "SOA",
+      "floor": "Level 3",
+      "area": "meeting pods",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOA Meeting Pod 3-1",
+        "SOA Meeting Pod 3-2"
+      ]
+    },
+    {
+      "key": "SOA-L3-WC",
+      "building": "SOA",
+      "floor": "Level 3",
+      "area": "toilets",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L3-LIFT",
+      "building": "SOA",
+      "floor": "Level 3",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L4-WC",
+      "building": "SOA",
+      "floor": "Level 4",
+      "area": "toilets",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L4-LIFT",
+      "building": "SOA",
+      "floor": "Level 4",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L5-WC",
+      "building": "SOA",
+      "floor": "Level 5",
+      "area": "toilets",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOA-L5-LIFT",
+      "building": "SOA",
+      "floor": "Level 5",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295677,
+      "lng": 103.849777,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-B1-BSTUDIO",
+      "building": "LKCSB",
+      "floor": "Basement 1",
+      "area": "Basement Studio",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-B1-STUDY",
+      "building": "LKCSB",
+      "floor": "Basement 1",
+      "area": "study areas",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-B1-WC",
+      "building": "LKCSB",
+      "floor": "Basement 1",
+      "area": "toilets",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-B1-LIFT",
+      "building": "LKCSB",
+      "floor": "Basement 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L1-LOBBY",
+      "building": "LKCSB",
+      "floor": "Level 1",
+      "area": "lobby & security counter",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": true
+    },
+    {
+      "key": "LKCSB-L1-ATRIUM",
+      "building": "LKCSB",
+      "floor": "Level 1",
+      "area": "atrium",
+      "lat": 1.2952,
+      "lng": 103.85057,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L1-SR",
+      "building": "LKCSB",
+      "floor": "Level 1",
+      "area": "seminar rooms",
+      "lat": 1.2953,
+      "lng": 103.85035,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKCSB Seminar Room 1-1",
+        "LKCSB Seminar Room 1-2"
+      ]
+    },
+    {
+      "key": "LKCSB-L1-GSR",
+      "building": "LKCSB",
+      "floor": "Level 1",
+      "area": "group study rooms",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKCSB GSR 1-1",
+        "LKCSB GSR 1-2"
+      ]
+    },
+    {
+      "key": "LKCSB-L1-WC",
+      "building": "LKCSB",
+      "floor": "Level 1",
+      "area": "toilets",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L1-LIFT",
+      "building": "LKCSB",
+      "floor": "Level 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L2-SR",
+      "building": "LKCSB",
+      "floor": "Level 2",
+      "area": "seminar rooms",
+      "lat": 1.29505,
+      "lng": 103.85075,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKCSB Seminar Room 2-1",
+        "LKCSB Seminar Room 2-2",
+        "LKCSB Seminar Room 2-3",
+        "LKCSB Seminar Room 2-4",
+        "LKCSB Seminar Room 2-5",
+        "LKCSB Seminar Room 2-6",
+        "LKCSB Seminar Room 2-7",
+        "LKCSB Seminar Room 2-8"
+      ]
+    },
+    {
+      "key": "LKCSB-L2-GSR",
+      "building": "LKCSB",
+      "floor": "Level 2",
+      "area": "group study rooms",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKCSB GSR 2-1",
+        "LKCSB GSR 2-2",
+        "LKCSB GSR 2-3",
+        "LKCSB GSR 2-4",
+        "LKCSB GSR 2-5",
+        "LKCSB GSR 2-6",
+        "LKCSB GSR 2-7",
+        "LKCSB GSR 2-8",
+        "LKCSB GSR 2-9",
+        "LKCSB GSR 2-10",
+        "LKCSB GSR 2-11",
+        "LKCSB GSR 2-12",
+        "LKCSB GSR 2-13",
+        "LKCSB GSR 2-14",
+        "LKCSB GSR 2-15",
+        "LKCSB GSR 2-16",
+        "LKCSB GSR 2-17",
+        "LKCSB GSR 2-18",
+        "LKCSB GSR 2-19",
+        "LKCSB GSR 2-20",
+        "LKCSB GSR 2-21",
+        "LKCSB GSR 2-22",
+        "LKCSB GSR 2-23",
+        "LKCSB GSR 2-24",
+        "LKCSB GSR 2-25"
+      ]
+    },
+    {
+      "key": "LKCSB-L2-CLASS",
+      "building": "LKCSB",
+      "floor": "Level 2",
+      "area": "classrooms",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKCSB Classroom 2-1"
+      ]
+    },
+    {
+      "key": "LKCSB-L2-STUDY",
+      "building": "LKCSB",
+      "floor": "Level 2",
+      "area": "study areas",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L2-WC",
+      "building": "LKCSB",
+      "floor": "Level 2",
+      "area": "toilets",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L2-LIFT",
+      "building": "LKCSB",
+      "floor": "Level 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L3-SR",
+      "building": "LKCSB",
+      "floor": "Level 3",
+      "area": "seminar rooms",
+      "lat": 1.29535,
+      "lng": 103.8508,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKCSB Seminar Room 3-1",
+        "LKCSB Seminar Room 3-2",
+        "LKCSB Seminar Room 3-3",
+        "LKCSB Seminar Room 3-4",
+        "LKCSB Seminar Room 3-5",
+        "LKCSB Seminar Room 3-6",
+        "LKCSB Seminar Room 3-7",
+        "LKCSB Seminar Room 3-8",
+        "LKCSB Seminar Room 3-9",
+        "LKCSB Seminar Room 3-10"
+      ]
+    },
+    {
+      "key": "LKCSB-L3-GSR",
+      "building": "LKCSB",
+      "floor": "Level 3",
+      "area": "group study rooms",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKCSB GSR 3-1",
+        "LKCSB GSR 3-2",
+        "LKCSB GSR 3-3",
+        "LKCSB GSR 3-4",
+        "LKCSB GSR 3-5",
+        "LKCSB GSR 3-6",
+        "LKCSB GSR 3-7",
+        "LKCSB GSR 3-8",
+        "LKCSB GSR 3-9",
+        "LKCSB GSR 3-11",
+        "LKCSB GSR 3-12",
+        "LKCSB GSR 3-13",
+        "LKCSB GSR 3-14",
+        "LKCSB GSR 3-15",
+        "LKCSB GSR 3-16",
+        "LKCSB GSR 3-17",
+        "LKCSB GSR 3-18",
+        "LKCSB GSR 3-19",
+        "LKCSB GSR 3-20",
+        "LKCSB GSR 3-21",
+        "LKCSB GSR 3-22",
+        "LKCSB GSR 3-23",
+        "LKCSB GSR 3-24",
+        "LKCSB GSR 3-25",
+        "LKCSB GSR 3-26",
+        "LKCSB GSR 3-27",
+        "LKCSB GSR 3-28",
+        "LKCSB GSR 3-29",
+        "LKCSB GSR 3-30",
+        "LKCSB GSR 3-31",
+        "LKCSB GSR 3-32",
+        "LKCSB GSR 3-33",
+        "LKCSB GSR 3-34",
+        "LKCSB GSR 3-35"
+      ]
+    },
+    {
+      "key": "LKCSB-L3-CLASS",
+      "building": "LKCSB",
+      "floor": "Level 3",
+      "area": "classrooms",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKCSB Classroom 3-2",
+        "LKCSB Classroom 3-3",
+        "LKCSB Classroom 3-4",
+        "LKCSB Classroom 3-5"
+      ]
+    },
+    {
+      "key": "LKCSB-L3-STUDY",
+      "building": "LKCSB",
+      "floor": "Level 3",
+      "area": "study areas",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L3-MPOD",
+      "building": "LKCSB",
+      "floor": "Level 3",
+      "area": "meeting pods",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false,
+      "rooms": [
+        "LKCSB Meeting Pod 3-1",
+        "LKCSB Meeting Pod 3-2",
+        "LKCSB Meeting Pod 3-3",
+        "LKCSB Meeting Pod 3-4",
+        "LKCSB Meeting Pod 3-5"
+      ]
+    },
+    {
+      "key": "LKCSB-L3-WC",
+      "building": "LKCSB",
+      "floor": "Level 3",
+      "area": "toilets",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L3-LIFT",
+      "building": "LKCSB",
+      "floor": "Level 3",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L4-OFFICES",
+      "building": "LKCSB",
+      "floor": "Level 4",
+      "area": "offices",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L4-WC",
+      "building": "LKCSB",
+      "floor": "Level 4",
+      "area": "toilets",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L4-LIFT",
+      "building": "LKCSB",
+      "floor": "Level 4",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L5-OFFICES",
+      "building": "LKCSB",
+      "floor": "Level 5",
+      "area": "offices",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L5-WC",
+      "building": "LKCSB",
+      "floor": "Level 5",
+      "area": "toilets",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "LKCSB-L5-LIFT",
+      "building": "LKCSB",
+      "floor": "Level 5",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295225,
+      "lng": 103.850618,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "ADMIN-L1-LOBBY",
+      "building": "Administration Building",
+      "floor": "Level 1",
+      "area": "lobby & security counter",
+      "lat": 1.2965,
+      "lng": 103.85195,
+      "isCollectionPoint": true
+    },
+    {
+      "key": "ADMIN-L3-SPORTS",
+      "building": "Administration Building",
+      "floor": "Level 3",
+      "area": "Sports Hall",
+      "lat": 1.2965,
+      "lng": 103.85195,
+      "isCollectionPoint": false,
+      "rooms": [
+        "Admin Badminton Court-1",
+        "Admin Badminton Court-2",
+        "Admin Badminton Court-3",
+        "Admin Basketball Court",
+        "Admin Fencing",
+        "Admin Floorball Court",
+        "Admin Netball Court",
+        "Admin Table Tennis table-1",
+        "Admin Table Tennis table-2"
+      ]
+    },
+    {
+      "key": "ADMIN-L6-POOL",
+      "building": "Administration Building",
+      "floor": "Level 6",
+      "area": "swimming pool",
+      "lat": 1.2965,
+      "lng": 103.85195,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "CONC-KOUFU",
+      "building": "Concourse",
+      "floor": "Basement 1",
+      "area": "Koufu food court",
+      "lat": 1.296306,
+      "lng": 103.850311,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "CONC-BIBIMBAP",
+      "building": "Concourse",
+      "floor": "Basement 1",
+      "area": "Bibimbap!",
+      "lat": 1.296306,
+      "lng": 103.850311,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "CONC-BRAEK",
+      "building": "Concourse",
+      "floor": "Basement 1",
+      "area": "BRÆK.",
+      "lat": 1.296306,
+      "lng": 103.850311,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "CONC-EACHACUP",
+      "building": "Concourse",
+      "floor": "Basement 1",
+      "area": "Each-a-Cup",
+      "lat": 1.296306,
+      "lng": 103.850311,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "CONC-TRIPLETS",
+      "building": "Concourse",
+      "floor": "Basement 1",
+      "area": "TripletS by Bakery Cuisine",
+      "lat": 1.296306,
+      "lng": 103.850311,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "CONC-WALK-SCIS",
+      "building": "Concourse",
+      "floor": "Basement 1",
+      "area": "walkway near SCIS 1",
+      "lat": 1.297138,
+      "lng": 103.849946,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "CONC-WALK-LKCSB",
+      "building": "Concourse",
+      "floor": "Basement 1",
+      "area": "walkway near LKCSB",
+      "lat": 1.295451,
+      "lng": 103.850103,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "CONC-MRT",
+      "building": "Concourse",
+      "floor": "Basement 1",
+      "area": "Bras Basah MRT exit",
+      "lat": 1.29609,
+      "lng": 103.85049,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "CONC-BENCOOLEN",
+      "building": "Concourse",
+      "floor": "Basement 1",
+      "area": "Bencoolen MRT link",
+      "lat": 1.297877,
+      "lng": 103.848887,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "GREEN-LAWN",
+      "building": "Campus Green",
+      "floor": "Ground",
+      "area": "central lawn",
+      "lat": 1.29685,
+      "lng": 103.85002,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "GREEN-BENCHES",
+      "building": "Campus Green",
+      "floor": "Ground",
+      "area": "benches by the library",
+      "lat": 1.29668,
+      "lng": 103.8499,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "GREEN-AMPHI",
+      "building": "Campus Green",
+      "floor": "Ground",
+      "area": "amphitheatre",
+      "lat": 1.296765,
+      "lng": 103.84996,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-B1-SR",
+      "building": "SOSS/CIS",
+      "floor": "Basement 1",
+      "area": "seminar rooms",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOSS/CIS Seminar Room B1-1"
+      ]
+    },
+    {
+      "key": "SOSS-B1-MPOD",
+      "building": "SOSS/CIS",
+      "floor": "Basement 1",
+      "area": "meeting pods",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOSS/CIS Meeting Pod B1-1",
+        "SOSS/CIS Meeting Pod B1-2",
+        "SOSS/CIS Meeting Pod B1-3",
+        "SOSS/CIS Meeting Pod B1-4",
+        "SOSS/CIS Meeting Pod B1-5"
+      ]
+    },
+    {
+      "key": "SOSS-B1-WC",
+      "building": "SOSS/CIS",
+      "floor": "Basement 1",
+      "area": "toilets",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-B1-LIFT",
+      "building": "SOSS/CIS",
+      "floor": "Basement 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-B2-WC",
+      "building": "SOSS/CIS",
+      "floor": "Basement 2",
+      "area": "toilets",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-B2-LIFT",
+      "building": "SOSS/CIS",
+      "floor": "Basement 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L1-LOBBY",
+      "building": "SOSS/CIS",
+      "floor": "Level 1",
+      "area": "lobby & security counter",
+      "lat": 1.29456,
+      "lng": 103.84862,
+      "isCollectionPoint": true
+    },
+    {
+      "key": "SOSS-L1-SR",
+      "building": "SOSS/CIS",
+      "floor": "Level 1",
+      "area": "seminar rooms",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOSS/CIS Seminar Room 1-1",
+        "SOSS/CIS Seminar Room 1-3"
+      ]
+    },
+    {
+      "key": "SOSS-L1-CLASS",
+      "building": "SOSS/CIS",
+      "floor": "Level 1",
+      "area": "classrooms",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOSS/CIS Classroom 1-2"
+      ]
+    },
+    {
+      "key": "SOSS-L1-STUDY",
+      "building": "SOSS/CIS",
+      "floor": "Level 1",
+      "area": "study areas",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L1-WC",
+      "building": "SOSS/CIS",
+      "floor": "Level 1",
+      "area": "toilets",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L1-LIFT",
+      "building": "SOSS/CIS",
+      "floor": "Level 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L2-SR",
+      "building": "SOSS/CIS",
+      "floor": "Level 2",
+      "area": "seminar rooms",
+      "lat": 1.2947,
+      "lng": 103.84852,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOSS/CIS Seminar Room 2-1",
+        "SOSS/CIS Seminar Room 2-2"
+      ]
+    },
+    {
+      "key": "SOSS-L2-STUDY",
+      "building": "SOSS/CIS",
+      "floor": "Level 2",
+      "area": "study areas",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L2-WC",
+      "building": "SOSS/CIS",
+      "floor": "Level 2",
+      "area": "toilets",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L2-LIFT",
+      "building": "SOSS/CIS",
+      "floor": "Level 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L3-SR",
+      "building": "SOSS/CIS",
+      "floor": "Level 3",
+      "area": "seminar rooms",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOSS/CIS Seminar Room 3-1",
+        "SOSS/CIS Seminar Room 3-3"
+      ]
+    },
+    {
+      "key": "SOSS-L3-CLASS",
+      "building": "SOSS/CIS",
+      "floor": "Level 3",
+      "area": "classrooms",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SOSS/CIS Classroom 3-2",
+        "SOSS/CIS Classroom 3-4",
+        "SOSS/CIS Classroom 3-5"
+      ]
+    },
+    {
+      "key": "SOSS-L3-STUDY",
+      "building": "SOSS/CIS",
+      "floor": "Level 3",
+      "area": "study areas",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L3-WC",
+      "building": "SOSS/CIS",
+      "floor": "Level 3",
+      "area": "toilets",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L3-LIFT",
+      "building": "SOSS/CIS",
+      "floor": "Level 3",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L4-STUDY",
+      "building": "SOSS/CIS",
+      "floor": "Level 4",
+      "area": "study areas",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L4-WC",
+      "building": "SOSS/CIS",
+      "floor": "Level 4",
+      "area": "toilets",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L4-LIFT",
+      "building": "SOSS/CIS",
+      "floor": "Level 4",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L5-OFFICES",
+      "building": "SOSS/CIS",
+      "floor": "Level 5",
+      "area": "offices",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L5-WC",
+      "building": "SOSS/CIS",
+      "floor": "Level 5",
+      "area": "toilets",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SOSS-L5-LIFT",
+      "building": "SOSS/CIS",
+      "floor": "Level 5",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.29463,
+      "lng": 103.84857,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-B1-KGC",
+      "building": "YPHSL",
+      "floor": "Basement 1",
+      "area": "Kwa Geok Choo Law Library",
+      "lat": 1.29517,
+      "lng": 103.84885,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-B1-SR",
+      "building": "YPHSL",
+      "floor": "Basement 1",
+      "area": "seminar rooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL Seminar Room B1-01"
+      ]
+    },
+    {
+      "key": "YPHSL-B1-GSR",
+      "building": "YPHSL",
+      "floor": "Basement 1",
+      "area": "group study rooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL GSR B1-02",
+        "YPHSL GSR B1-03",
+        "YPHSL GSR B1-04",
+        "YPHSL GSR B1-05",
+        "YPHSL GSR B1-06",
+        "YPHSL GSR B1-07",
+        "YPHSL GSR B1-08",
+        "YPHSL GSR B1-10",
+        "YPHSL GSR B1-11",
+        "YPHSL GSR B1-12"
+      ]
+    },
+    {
+      "key": "YPHSL-B1-CLASS",
+      "building": "YPHSL",
+      "floor": "Basement 1",
+      "area": "classrooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL Classroom B1-09",
+        "YPHSL Classroom B1-13"
+      ]
+    },
+    {
+      "key": "YPHSL-B1-MPOD",
+      "building": "YPHSL",
+      "floor": "Basement 1",
+      "area": "meeting pods",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL Meeting Pod B1-01"
+      ]
+    },
+    {
+      "key": "YPHSL-B1-WC",
+      "building": "YPHSL",
+      "floor": "Basement 1",
+      "area": "toilets",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-B1-LIFT",
+      "building": "YPHSL",
+      "floor": "Basement 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-B2-SR",
+      "building": "YPHSL",
+      "floor": "Basement 2",
+      "area": "seminar rooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL Seminar Room B2-01"
+      ]
+    },
+    {
+      "key": "YPHSL-B2-CLASS",
+      "building": "YPHSL",
+      "floor": "Basement 2",
+      "area": "classrooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL Classroom B2-03"
+      ]
+    },
+    {
+      "key": "YPHSL-B2-WC",
+      "building": "YPHSL",
+      "floor": "Basement 2",
+      "area": "toilets",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-B2-LIFT",
+      "building": "YPHSL",
+      "floor": "Basement 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L1-LOBBY",
+      "building": "YPHSL",
+      "floor": "Level 1",
+      "area": "lobby & security counter",
+      "lat": 1.295,
+      "lng": 103.84925,
+      "isCollectionPoint": true
+    },
+    {
+      "key": "YPHSL-L1-CLASS",
+      "building": "YPHSL",
+      "floor": "Level 1",
+      "area": "classrooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL Classroom 1-02"
+      ]
+    },
+    {
+      "key": "YPHSL-L1-WC",
+      "building": "YPHSL",
+      "floor": "Level 1",
+      "area": "toilets",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L1-LIFT",
+      "building": "YPHSL",
+      "floor": "Level 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L2-SR",
+      "building": "YPHSL",
+      "floor": "Level 2",
+      "area": "seminar rooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL Seminar Room 2-01",
+        "YPHSL Seminar Room 2-02",
+        "YPHSL Seminar Room 2-03",
+        "YPHSL Seminar Room 2-04",
+        "YPHSL Seminar Room 2-05",
+        "YPHSL Seminar Room 2-11",
+        "YPHSL Seminar Room 2-15",
+        "YPHSL Seminar Room 2-16"
+      ]
+    },
+    {
+      "key": "YPHSL-L2-GSR",
+      "building": "YPHSL",
+      "floor": "Level 2",
+      "area": "group study rooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL GSR 2-07",
+        "YPHSL GSR 2-12",
+        "YPHSL GSR 2-13",
+        "YPHSL GSR 2-14"
+      ]
+    },
+    {
+      "key": "YPHSL-L2-STUDY",
+      "building": "YPHSL",
+      "floor": "Level 2",
+      "area": "study areas",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L2-WC",
+      "building": "YPHSL",
+      "floor": "Level 2",
+      "area": "toilets",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L2-LIFT",
+      "building": "YPHSL",
+      "floor": "Level 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L3-PRINCE",
+      "building": "YPHSL",
+      "floor": "Level 3",
+      "area": "Prince Noodles",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L3-SR",
+      "building": "YPHSL",
+      "floor": "Level 3",
+      "area": "seminar rooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL Seminar Room 3-01",
+        "YPHSL Seminar Room 3-02",
+        "YPHSL Seminar Room 3-09",
+        "YPHSL Seminar Room 3-10",
+        "YPHSL Seminar Room 3-11",
+        "YPHSL Seminar Room 3-12"
+      ]
+    },
+    {
+      "key": "YPHSL-L3-GSR",
+      "building": "YPHSL",
+      "floor": "Level 3",
+      "area": "group study rooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "YPHSL GSR 3-03",
+        "YPHSL GSR 3-04",
+        "YPHSL GSR 3-05",
+        "YPHSL GSR 3-06",
+        "YPHSL GSR 3-07",
+        "YPHSL GSR 3-08"
+      ]
+    },
+    {
+      "key": "YPHSL-L3-STUDY",
+      "building": "YPHSL",
+      "floor": "Level 3",
+      "area": "study areas",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L3-MPOD",
+      "building": "YPHSL",
+      "floor": "Level 3",
+      "area": "meeting pods",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "KGC Meeting Pod 3-01"
+      ]
+    },
+    {
+      "key": "YPHSL-L3-WC",
+      "building": "YPHSL",
+      "floor": "Level 3",
+      "area": "toilets",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L3-LIFT",
+      "building": "YPHSL",
+      "floor": "Level 3",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L4-ROOMS",
+      "building": "YPHSL",
+      "floor": "Level 4",
+      "area": "project rooms",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false,
+      "rooms": [
+        "KGC-4.02-PR",
+        "KGC-4.03-PR",
+        "KGC-4.04-PR",
+        "KGC-4.05-PR",
+        "KGC-4.06-PR",
+        "KGC-4.07-PR",
+        "KGC-4.08-PR",
+        "KGC-4.09-PR",
+        "KGC-4.10-PR",
+        "KGC-4.11-PR",
+        "KGC-4.12-PR",
+        "KGC-4.13-PR"
+      ]
+    },
+    {
+      "key": "YPHSL-L4-WC",
+      "building": "YPHSL",
+      "floor": "Level 4",
+      "area": "toilets",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L4-LIFT",
+      "building": "YPHSL",
+      "floor": "Level 4",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L5-WC",
+      "building": "YPHSL",
+      "floor": "Level 5",
+      "area": "toilets",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L5-LIFT",
+      "building": "YPHSL",
+      "floor": "Level 5",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L6-WC",
+      "building": "YPHSL",
+      "floor": "Level 6",
+      "area": "toilets",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "YPHSL-L6-LIFT",
+      "building": "YPHSL",
+      "floor": "Level 6",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.295085,
+      "lng": 103.84905,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L1-LOBBY",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "lobby & security counter",
+      "lat": 1.2955,
+      "lng": 103.84935,
+      "isCollectionPoint": true
+    },
+    {
+      "key": "SMUC-L1-PRATA",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "Open Kitchen by Prata Alley",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L1-INDO",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "Indo Express Punggol",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L1-PASTA",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "Pasta Express",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L1-KINGKONG",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "King Kong Curry",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L1-YINGTHAI",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "Ying Thai",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L1-SUPERGREEN",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "Supergreen",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L1-FOODHALL",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "food hall seating",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L1-WC",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "toilets",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L1-LIFT",
+      "building": "SMU Connexion",
+      "floor": "Level 1",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L2-STUDY",
+      "building": "SMU Connexion",
+      "floor": "Level 2",
+      "area": "study areas",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L2-GAMES",
+      "building": "SMU Connexion",
+      "floor": "Level 2",
+      "area": "games lounge",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L2-BOOTH",
+      "building": "SMU Connexion",
+      "floor": "Level 2",
+      "area": "study booths",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SMUC Study Booth 2-1",
+        "SMUC Study Booth 2-2"
+      ]
+    },
+    {
+      "key": "SMUC-L2-WC",
+      "building": "SMU Connexion",
+      "floor": "Level 2",
+      "area": "toilets",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L2-LIFT",
+      "building": "SMU Connexion",
+      "floor": "Level 2",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L3-CLASS",
+      "building": "SMU Connexion",
+      "floor": "Level 3",
+      "area": "classrooms",
+      "lat": 1.2957,
+      "lng": 103.8492,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SMUC Active Learning Classroom 3-1",
+        "SMUC Active Learning Classroom 3-2",
+        "SMUC Active Learning Classroom 3-3"
+      ]
+    },
+    {
+      "key": "SMUC-L3-STUDY",
+      "building": "SMU Connexion",
+      "floor": "Level 3",
+      "area": "study areas",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L3-CHAT",
+      "building": "SMU Connexion",
+      "floor": "Level 3",
+      "area": "chatterboxes",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SMUC Chatterbox 3-1",
+        "SMUC Chatterbox 3-2",
+        "SMUC Chatterbox 3-3",
+        "SMUC Chatterbox 3-4",
+        "SMUC Chatterbox 3-5",
+        "SMUC Chatterbox 3-6"
+      ]
+    },
+    {
+      "key": "SMUC-L3-BOOTH",
+      "building": "SMU Connexion",
+      "floor": "Level 3",
+      "area": "study booths",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SMUC Study Booth 3-1",
+        "SMUC Study Booth 3-2",
+        "SMUC Study Booth 3-3",
+        "SMUC Study Booth 3-4",
+        "SMUC Study Booth 3-5",
+        "SMUC Study Booth 3-6",
+        "SMUC Study Booth 3-7"
+      ]
+    },
+    {
+      "key": "SMUC-L3-WC",
+      "building": "SMU Connexion",
+      "floor": "Level 3",
+      "area": "toilets",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L3-LIFT",
+      "building": "SMU Connexion",
+      "floor": "Level 3",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L4-STUDY",
+      "building": "SMU Connexion",
+      "floor": "Level 4",
+      "area": "study areas",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L4-CLASS",
+      "building": "SMU Connexion",
+      "floor": "Level 4",
+      "area": "classrooms",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SMUC Active Learning Classroom 4-1",
+        "SMUC Active Learning Classroom 4-2"
+      ]
+    },
+    {
+      "key": "SMUC-L4-MPOD",
+      "building": "SMU Connexion",
+      "floor": "Level 4",
+      "area": "meeting pods",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SMUC Meeting Lounge 4-1",
+        "SMUC Meeting Pod 4-1",
+        "SMUC Meeting Pod 4-2",
+        "SMUC Meeting Pod 4-3",
+        "SMUC Meeting Pod 4-4",
+        "SMUC Meeting Pod 4-5",
+        "SMUC Meeting Pod 4-6",
+        "SMUC Meeting Pod 4-7"
+      ]
+    },
+    {
+      "key": "SMUC-L4-BOOTH",
+      "building": "SMU Connexion",
+      "floor": "Level 4",
+      "area": "study booths",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SMUC Study Booth 4-1",
+        "SMUC Study Booth 4-2",
+        "SMUC Study Booth 4-3",
+        "SMUC Study Booth 4-4",
+        "SMUC Study Booth 4-5",
+        "SMUC Study Booth 4-6",
+        "SMUC Study Booth 4-7",
+        "SMUC Study Booth 4-8",
+        "SMUC Study Booth 4-9",
+        "SMUC Study Booth 4-10"
+      ]
+    },
+    {
+      "key": "SMUC-L4-JAM",
+      "building": "SMU Connexion",
+      "floor": "Level 4",
+      "area": "Jamming Room",
+      "lat": 1.2955,
+      "lng": 103.84935,
+      "isCollectionPoint": false,
+      "rooms": [
+        "SMUC Jamming Room"
+      ]
+    },
+    {
+      "key": "SMUC-L4-WC",
+      "building": "SMU Connexion",
+      "floor": "Level 4",
+      "area": "toilets",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L4-LIFT",
+      "building": "SMU Connexion",
+      "floor": "Level 4",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L5-STUDY",
+      "building": "SMU Connexion",
+      "floor": "Level 5",
+      "area": "study areas",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L5-WC",
+      "building": "SMU Connexion",
+      "floor": "Level 5",
+      "area": "toilets",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    },
+    {
+      "key": "SMUC-L5-LIFT",
+      "building": "SMU Connexion",
+      "floor": "Level 5",
+      "area": "lifts, stairs & corridors",
+      "lat": 1.2956,
+      "lng": 103.849275,
+      "isCollectionPoint": false
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Bag",
+    "related": []
+  },
+  {
+    "name": "Cardholder",
+    "related": [
+      "Wallet",
+      "Student Card"
+    ]
+  },
+  {
+    "name": "Charger",
+    "related": []
+  },
+  {
+    "name": "Clothing",
+    "related": []
+  },
+  {
+    "name": "Earbuds",
+    "related": [
+      "Headphones"
+    ]
+  },
+  {
+    "name": "Headphones",
+    "related": [
+      "Earbuds"
+    ]
+  },
+  {
+    "name": "Keys",
+    "related": []
+  },
+  {
+    "name": "Laptop",
+    "related": [
+      "Tablet"
+    ]
+  },
+  {
+    "name": "Phone",
+    "related": [
+      "Tablet"
+    ]
+  },
+  {
+    "name": "Stationery",
+    "related": []
+  },
+  {
+    "name": "Student Card",
+    "related": [
+      "Cardholder",
+      "Wallet"
+    ]
+  },
+  {
+    "name": "Tablet",
+    "related": [
+      "Laptop",
+      "Phone"
+    ]
+  },
+  {
+    "name": "Umbrella",
+    "related": []
+  },
+  {
+    "name": "Wallet",
+    "related": [
+      "Cardholder",
+      "Student Card"
+    ]
+  },
+  {
+    "name": "Water Bottle",
+    "related": []
+  },
+  {
+    "name": "Other",
+    "related": []
+  }
+]

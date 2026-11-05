@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- The tab icon: the FoundIt lion's head (the same picture as the logo in the header).
+         ?v=2 makes browsers that saved the old Vue icon for this address fetch the new one;
+         change the number whenever the icon changes. -->
+    <link rel="icon" href="/favicon.ico?v=2" sizes="16x16 32x32 48x48">
+    <link rel="icon" type="image/png" href="/brand/mascot-head.png?v=2" sizes="128x128">
+    <link rel="apple-touch-icon" href="/brand/mascot-head.png?v=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The fonts: Bricolage Grotesque for titles, Public Sans for everything on
+         rebuilt pages (assets/system.css); Instrument Serif and JetBrains Mono
+         are still used by pages not rebuilt yet (assets/tokens.css) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Public+Sans:wght@400;600;700&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;600&display=swap"
+    >
+    <title>FoundIt</title>
+  </head>
+  <body>
+    <!-- Shown until Vue starts (src/main.js replaces it) -->
+    <div id="app">
+      <p style="margin: 4rem 1rem; text-align: center; font-family: system-ui, sans-serif; color: #5c6282">
+        Loading FoundIt…
+      </p>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

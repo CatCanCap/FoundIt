@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Alice Tan",
+    "email": "alice.tan.2024@scis.smu.edu.sg",
+    "password": "FoundIt-demo-1",
+    "alertsOn": false
+  },
+  {
+    "name": "Ben Lim",
+    "email": "ben.lim.2024@business.smu.edu.sg",
+    "password": "FoundIt-demo-2",
+    "alertsOn": false
+  },
+  {
+    "name": "Chloe Ng",
+    "email": "chloe.ng.2025@economics.smu.edu.sg",
+    "password": "FoundIt-demo-3",
+    "alertsOn": false
+  },
+  {
+    "name": "FoundIt Admin",
+    "email": "foundit.admin@smu.edu.sg",
+    "password": "FoundIt-admin-1",
+    "alertsOn": false,
+    "role": "admin"
+  }
+]

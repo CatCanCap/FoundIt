@@ -1,0 +1,125 @@
+/* FoundIt design tokens. Use these variables instead of hex values so night
+   mode reaches every page. Fonts are loaded in index.html. */
+
+:root {
+  /* Colour */
+  --fi-page: #f5f7fb; /* near-white page, a touch of blue */
+  --fi-raised: #ffffff; /* cards and panels */
+  --fi-ticket: #ffffff; /* tags and tickets */
+  /* SMU blue marks the one thing to do next: main buttons, the active tab,
+     badges and focus. Gold is only for small accents (an accent word, a dot,
+     "Best match"), never for a whole button or band. */
+  --fi-primary: #1a2b6d; /* SMU blue: main buttons, active tab, badges */
+  --fi-primary-strong: #101c50; /* hover, and the key's ledge */
+  --fi-on-primary: #ffffff; /* text on SMU blue */
+  --fi-primary-soft: color-mix(in srgb, var(--fi-primary) 9%, transparent);
+  --fi-brass: #c9a24a; /* gold, for small accents only */
+  --fi-brass-strong: #8f6d1f; /* gold text on white (4.6:1) */
+  --fi-ink: #141a3f; /* text */
+  --fi-mist: #5c6282; /* secondary text */
+  --fi-line: #e1e5ee; /* hairlines on white */
+  --fi-night: #0a1030; /* navy bands */
+  --fi-night-raised: #161d4a;
+  --fi-on-night: #eef0f8; /* text on navy */
+  --fi-danger: #b3261e;
+  --fi-success: #2e7d4f;
+  --fi-info: #2f3c9e; /* "in progress" words, e.g. a claim being returned */
+  --fi-focus: #4a5ad8;
+  --fi-on-brass: #141a3f; /* text on brass; stays dark at night too */
+  --fi-manila: #f3e6c4; /* the initials' round button */
+
+  /* Category colours, one per family of items (see utils/design.js) */
+  --fi-cat-electronics: #2f57d6;
+  --fi-cat-bottles: #178a84;
+  --fi-cat-keys: #d9533b;
+  --fi-cat-cards: #5e8c5a;
+  --fi-cat-umbrellas: #7b4ba0;
+  --fi-cat-bags: #c9773e;
+  --fi-cat-other: #4a5578;
+
+  /* Type */
+  --fi-font: 'Bricolage Grotesque', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --fi-font-accent: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --fi-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Shape */
+  --fi-radius-sm: 10px;
+  --fi-radius: 16px;
+  --fi-radius-lg: 24px;
+  --fi-radius-pill: 999px;
+  --fi-shadow: 0 1px 2px rgb(20 26 63 / 6%), 0 8px 24px rgb(20 26 63 / 8%);
+  --fi-shadow-lift: 0 2px 4px rgb(20 26 63 / 10%), 0 18px 40px rgb(20 26 63 / 22%);
+
+  /* Page background: near-white with pale blue waves and a faint gold trail
+     (use on each page's outer element); night mode swaps in a navy version */
+  --fi-backdrop:
+    url('./backdrop-wave-blue.svg') center bottom / cover no-repeat fixed, var(--fi-page);
+
+  /* Tints behind error, success and note boxes */
+  --fi-danger-soft: color-mix(in srgb, var(--fi-danger) 14%, transparent);
+  --fi-success-soft: color-mix(in srgb, var(--fi-success) 14%, transparent);
+  --fi-notice-soft: color-mix(in srgb, var(--fi-brass) 16%, transparent);
+}
+
+/* Night mode: the header's moon button sets data-theme="night" on <html> */
+:root[data-theme='night'] {
+  --fi-page: #0a1030;
+  --fi-raised: #141b45;
+  --fi-ticket: #efe2c4; /* manila */
+  --fi-ink: #eef0f8;
+  --fi-mist: #a9aecb;
+  --fi-line: #262e5c;
+  --fi-brass-strong: #e2b955;
+  /* SMU blue would vanish on navy, so night buttons are a pale blue */
+  --fi-primary: #b9c6ff;
+  --fi-primary-strong: #d8dfff;
+  --fi-on-primary: #0a1030;
+  /* Lighter red and green, so error and success text can be read on navy */
+  --fi-danger: #f29483;
+  --fi-success: #7ccb9b;
+  --fi-info: #a9b4ff;
+  /* The same waves and gold trail, a step lighter than the navy page
+     (backdrop-wave-night.svg), so they don't glare */
+  --fi-backdrop:
+    url('./backdrop-wave-night.svg') center bottom / cover no-repeat fixed, var(--fi-page);
+}
+
+body {
+  background: var(--fi-backdrop);
+  color: var(--fi-ink);
+  font-family: var(--fi-font);
+}
+
+/* The italic serif accent word in a headline: <em class="fi-accent">found</em> */
+.fi-accent {
+  font-family: var(--fi-font-accent);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--fi-brass);
+}
+
+/* Ledger numbers and codes: <span class="fi-mono">No. 3307</span> */
+.fi-mono {
+  font-family: var(--fi-font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Small label above a heading */
+.fi-eyebrow {
+  margin: 0 0 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--fi-brass-strong);
+}
+
+.fi-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

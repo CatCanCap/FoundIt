@@ -1,0 +1,478 @@
+{
+  "about": "A harder test set for the matching engine, used only by matching/tune.js --hard. It is never seeded. In every group the owner and the finder describe the same item in different words, the way real reports do, and most groups add a look-alike found item (same category, colour and area) that is a different thing. Spots and times work as in seed-pairs.json.",
+  "groups": [
+    {
+      "groupId": 1,
+      "note": "Synonyms: spectacles and glasses, filed as Other on both sides",
+      "lost": {
+        "title": "Spectacles in a hard case",
+        "description": "Thin gold-rimmed specs, prescription lenses, case has a floral print",
+        "category": "Other", "colour": "Gold", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "LKS-L3-STUDY", "from": "14:00", "to": "17:00" }]
+      },
+      "found": {
+        "title": "Glasses with metal frame",
+        "description": "Pair of eyeglasses, golden frame, inside a flowery case",
+        "category": "Other", "colour": "Gold", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "LKS-L3-BOOTH", "from": "18:00", "to": "18:15" }]
+      },
+      "distractors": [
+        {
+          "title": "Sunglasses",
+          "description": "Gold aviator sunglasses with dark lenses, no case",
+          "category": "Other", "colour": "Gold", "brand": "Ray-Ban",
+          "daysAgo": 1, "trail": [{ "spot": "LKS-L3-STUDY", "from": "11:00", "to": "11:10" }]
+        }
+      ]
+    },
+    {
+      "groupId": 2,
+      "note": "Paraphrase of the one detail that tells it apart: kitten decal and cat sticker",
+      "lost": {
+        "title": "AirPods in white case",
+        "description": "Kitten decal on the lid and a scratch on the hinge",
+        "category": "Earbuds", "colour": "White", "brand": "Apple",
+        "daysAgo": 3, "trail": [{ "spot": "SCIS1-L3-SR", "from": "12:00", "to": "15:15" }]
+      },
+      "found": {
+        "title": "White earphone charging case",
+        "description": "Bluetooth earphones, cat sticker stuck on top",
+        "category": "Earbuds", "colour": "White", "brand": "",
+        "daysAgo": 3, "trail": [{ "spot": "SCIS1-L3-LIFT", "from": "15:30", "to": "15:40" }]
+      },
+      "distractors": [
+        {
+          "title": "White earbuds",
+          "description": "Plain white case, small dent on the lid, no stickers",
+          "category": "Earbuds", "colour": "White", "brand": "",
+          "daysAgo": 2, "trail": [{ "spot": "SCIS1-L3-STUDY", "from": "10:00", "to": "10:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 3,
+      "note": "Jacket and windbreaker, and the finder does not know the brand",
+      "lost": {
+        "title": "Black windbreaker",
+        "description": "Thin waterproof jacket with a hood, Nike tick on the chest, zip pocket",
+        "category": "Clothing", "colour": "Black", "brand": "Nike",
+        "daysAgo": 1, "trail": [{ "spot": "SMUC-L2-STUDY", "from": "13:00", "to": "16:00" }]
+      },
+      "found": {
+        "title": "Black rain jacket",
+        "description": "Lightweight hooded shell left over a chair, swoosh logo",
+        "category": "Clothing", "colour": "Black", "brand": "",
+        "daysAgo": 1, "trail": [{ "spot": "SMUC-L2-BOOTH", "from": "17:00", "to": "17:10" }]
+      },
+      "distractors": [
+        {
+          "title": "Black hoodie",
+          "description": "Cotton pullover with a hood and a front pocket",
+          "category": "Clothing", "colour": "Black", "brand": "",
+          "daysAgo": 1, "trail": [{ "spot": "SMUC-L2-STUDY", "from": "18:00", "to": "18:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 4,
+      "note": "Matric card and student ID, Singapore words against plain ones",
+      "lost": {
+        "title": "Matric card",
+        "description": "SMU matric card with my photo, in a holder with a Hello Kitty charm",
+        "category": "Student Card", "colour": "Pink", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "CONC-KOUFU", "from": "12:00", "to": "13:00" }]
+      },
+      "found": {
+        "title": "Student ID in pink sleeve",
+        "description": "University identification with a cartoon cat keyring attached",
+        "category": "Cardholder", "colour": "Pink", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "CONC-EACHACUP", "from": "13:30", "to": "13:40" }]
+      },
+      "distractors": [
+        {
+          "title": "Pink card holder",
+          "description": "Pink card holder with an EZ-Link card and a matric card, no charm",
+          "category": "Cardholder", "colour": "Pink", "brand": "",
+          "daysAgo": 3, "trail": [{ "spot": "CONC-KOUFU", "from": "12:30", "to": "12:35" }]
+        }
+      ]
+    },
+    {
+      "groupId": 5,
+      "note": "Power bank filed as Charger by the owner and as Other by the finder",
+      "lost": {
+        "title": "Portable power bank",
+        "description": "10000mAh battery pack with a short USB-C cable wrapped around it",
+        "category": "Charger", "colour": "White", "brand": "Xiaomi",
+        "daysAgo": 4, "trail": [{ "spot": "SOE-L2-GSR", "from": "09:00", "to": "12:00" }]
+      },
+      "found": {
+        "title": "Small white battery",
+        "description": "Rechargeable backup battery for phones, cord coiled round it",
+        "category": "Other", "colour": "White", "brand": "",
+        "daysAgo": 4, "trail": [{ "spot": "SOE-L2-LIFT", "from": "12:30", "to": "12:35" }]
+      },
+      "distractors": [
+        {
+          "title": "White phone charger",
+          "description": "USB-C wall plug with cable, white",
+          "category": "Charger", "colour": "White", "brand": "",
+          "daysAgo": 3, "trail": [{ "spot": "SOE-L2-GSR", "from": "16:00", "to": "16:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 6,
+      "note": "Ring filed as Other on both sides: band and ring, engraved and inscribed",
+      "lost": {
+        "title": "Silver ring",
+        "description": "Plain band engraved with a date on the inside, slipped off while washing hands",
+        "category": "Other", "colour": "Silver", "brand": "",
+        "daysAgo": 1, "trail": [{ "spot": "SOA-L2-WC", "from": "10:00", "to": "10:15" }]
+      },
+      "found": {
+        "title": "Ring by the sink",
+        "description": "Silver ring with an inscription inside it",
+        "category": "Other", "colour": "Silver", "brand": "",
+        "daysAgo": 1, "trail": [{ "spot": "SOA-L2-WC", "from": "11:00", "to": "11:05" }]
+      },
+      "distractors": []
+    },
+    {
+      "groupId": 7,
+      "note": "Laptop described by model nickname against a generic description",
+      "lost": {
+        "title": "Grey MacBook Pro 14",
+        "description": "Space grey, keyboard has a Korean layout, Sanrio decals on the lid",
+        "category": "Laptop", "colour": "Grey", "brand": "Apple",
+        "daysAgo": 2, "trail": [{ "spot": "LKCSB-L2-SR", "from": "08:15", "to": "11:30" }]
+      },
+      "found": {
+        "title": "Apple notebook computer",
+        "description": "Dark grey laptop with Hangul keys and cute cartoon stickers on the cover",
+        "category": "Laptop", "colour": "Grey", "brand": "Apple",
+        "daysAgo": 2, "trail": [{ "spot": "LKCSB-L2-SR", "from": "12:00", "to": "12:05" }]
+      },
+      "distractors": [
+        {
+          "title": "Grey MacBook Air",
+          "description": "Space grey MacBook with a clear hard case on the lid",
+          "category": "Laptop", "colour": "Grey", "brand": "Apple",
+          "daysAgo": 1, "trail": [{ "spot": "LKCSB-L2-CLASS", "from": "15:00", "to": "15:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 8,
+      "note": "Tote and canvas bag, contents described differently",
+      "lost": {
+        "title": "Canvas tote bag",
+        "description": "Cream tote from the Gardens by the Bay shop with my lecture notes and a pencil case",
+        "category": "Bag", "colour": "Beige", "brand": "",
+        "daysAgo": 3, "trail": [{ "spot": "YPHSL-L2-STUDY", "from": "14:00", "to": "18:00" }]
+      },
+      "found": {
+        "title": "Off-white shopping bag",
+        "description": "Cloth bag with a supertree print, papers and stationery pouch inside",
+        "category": "Bag", "colour": "White", "brand": "",
+        "daysAgo": 3, "trail": [{ "spot": "YPHSL-L2-GSR", "from": "19:00", "to": "19:10" }]
+      },
+      "distractors": [
+        {
+          "title": "Beige tote bag",
+          "description": "Plain beige tote bag, empty",
+          "category": "Bag", "colour": "Beige", "brand": "",
+          "daysAgo": 2, "trail": [{ "spot": "YPHSL-L2-STUDY", "from": "12:00", "to": "12:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 9,
+      "note": "Thermos and flask, the dent described in other words",
+      "lost": {
+        "title": "Black thermos",
+        "description": "Insulated steel flask, big dent near the bottom from dropping it",
+        "category": "Water Bottle", "colour": "Black", "brand": "Thermos",
+        "daysAgo": 5, "trail": [{ "spot": "SOSS-L3-SR", "from": "15:30", "to": "18:45" }]
+      },
+      "found": {
+        "title": "Vacuum bottle",
+        "description": "Dark metal drink bottle, base is dented in",
+        "category": "Water Bottle", "colour": "Black", "brand": "",
+        "daysAgo": 5, "trail": [{ "spot": "SOSS-L3-STUDY", "from": "19:00", "to": "19:05" }]
+      },
+      "distractors": [
+        {
+          "title": "Black water bottle",
+          "description": "Black plastic bottle with a straw lid",
+          "category": "Water Bottle", "colour": "Black", "brand": "",
+          "daysAgo": 4, "trail": [{ "spot": "SOSS-L3-SR", "from": "12:00", "to": "12:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 10,
+      "note": "Calculator filed as Stationery and as Other",
+      "lost": {
+        "title": "Graphing calculator",
+        "description": "TI-84 with my name written in marker on the back cover",
+        "category": "Stationery", "colour": "Black", "brand": "Texas Instruments",
+        "daysAgo": 2, "trail": [{ "spot": "SOE-L3-CLASS", "from": "08:15", "to": "11:30" }]
+      },
+      "found": {
+        "title": "Black calculator",
+        "description": "TI graphics calculator, someone's name inked on the slide case",
+        "category": "Other", "colour": "Black", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "SOE-L3-CLASS", "from": "12:00", "to": "12:05" }]
+      },
+      "distractors": [
+        {
+          "title": "Black pencil case",
+          "description": "Zip pencil case with pens and a ruler",
+          "category": "Stationery", "colour": "Black", "brand": "",
+          "daysAgo": 2, "trail": [{ "spot": "SOE-L3-CLASS", "from": "15:00", "to": "15:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 11,
+      "note": "Phone: cover and case, cracked and shattered",
+      "lost": {
+        "title": "iPhone 15 in purple cover",
+        "description": "Screen is shattered at the top left, MagSafe wallet stuck to the back",
+        "category": "Phone", "colour": "Purple", "brand": "Apple",
+        "daysAgo": 1, "trail": [{ "spot": "SMUC-L1-FOODHALL", "from": "12:00", "to": "13:00" }]
+      },
+      "found": {
+        "title": "Phone with lilac case",
+        "description": "Cracked display in one corner, magnetic card holder on the back",
+        "category": "Phone", "colour": "Purple", "brand": "",
+        "daysAgo": 1, "trail": [{ "spot": "SMUC-L1-KINGKONG", "from": "13:15", "to": "13:20" }]
+      },
+      "distractors": [
+        {
+          "title": "Purple iPhone",
+          "description": "iPhone in a purple silicone case, screen fine",
+          "category": "Phone", "colour": "Purple", "brand": "Apple",
+          "daysAgo": 2, "trail": [{ "spot": "SMUC-L1-FOODHALL", "from": "19:00", "to": "19:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 12,
+      "note": "Keys: fob and remote, lanyard and strap",
+      "lost": {
+        "title": "Hostel keys",
+        "description": "Two keys and a door access fob on a green SMU lanyard",
+        "category": "Keys", "colour": "Green", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "GREEN-LAWN", "from": "17:00", "to": "19:00" }]
+      },
+      "found": {
+        "title": "Keys on green strap",
+        "description": "Small bunch of keys with an electronic card tag on a neck strap",
+        "category": "Keys", "colour": "Green", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "GREEN-AMPHI", "from": "19:30", "to": "19:35" }]
+      },
+      "distractors": [
+        {
+          "title": "Car key",
+          "description": "Toyota car key with a green keychain",
+          "category": "Keys", "colour": "Green", "brand": "Toyota",
+          "daysAgo": 1, "trail": [{ "spot": "GREEN-LAWN", "from": "09:00", "to": "09:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 13,
+      "note": "Headphones: over-ear and cans, worn ear cushions",
+      "lost": {
+        "title": "Black over-ear headphones",
+        "description": "Bose QC45, the left ear cushion is peeling",
+        "category": "Headphones", "colour": "Black", "brand": "Bose",
+        "daysAgo": 6, "trail": [{ "spot": "LKS-L2-COMMONS", "from": "10:00", "to": "14:00" }]
+      },
+      "found": {
+        "title": "Noise cancelling cans",
+        "description": "Wireless headset, one pad is flaking",
+        "category": "Headphones", "colour": "Black", "brand": "",
+        "daysAgo": 6, "trail": [{ "spot": "LKS-L2-SERVICE", "from": "14:30", "to": "14:35" }]
+      },
+      "distractors": [
+        {
+          "title": "Black headphones",
+          "description": "Wired over-ear headphones with a coiled cable",
+          "category": "Headphones", "colour": "Black", "brand": "Audio-Technica",
+          "daysAgo": 5, "trail": [{ "spot": "LKS-L2-COMMONS", "from": "16:00", "to": "16:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 14,
+      "note": "Wallet: coin pouch and purse",
+      "lost": {
+        "title": "Red coin purse",
+        "description": "Small zip pouch for coins with a lucky cat charm, has my EZ-Link inside",
+        "category": "Wallet", "colour": "Red", "brand": "",
+        "daysAgo": 3, "trail": [{ "spot": "CONC-MRT", "from": "08:00", "to": "08:30" }]
+      },
+      "found": {
+        "title": "Little red purse",
+        "description": "Change pouch with a maneki-neko keychain, transport card in it",
+        "category": "Wallet", "colour": "Red", "brand": "",
+        "daysAgo": 3, "trail": [{ "spot": "CONC-BENCOOLEN", "from": "09:00", "to": "09:10" }]
+      },
+      "distractors": [
+        {
+          "title": "Red long wallet",
+          "description": "Red leather wallet with several bank cards",
+          "category": "Wallet", "colour": "Red", "brand": "",
+          "daysAgo": 2, "trail": [{ "spot": "CONC-MRT", "from": "18:00", "to": "18:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 15,
+      "note": "Umbrella: brolly and umbrella, broken spoke",
+      "lost": {
+        "title": "Navy brolly",
+        "description": "Automatic open, one spoke is bent, checked pattern lining",
+        "category": "Umbrella", "colour": "Navy", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "SOSS-L1-LOBBY", "from": "09:00", "to": "09:15" }]
+      },
+      "found": {
+        "title": "Dark blue umbrella",
+        "description": "Push-button umbrella with a damaged rib and a plaid inside",
+        "category": "Umbrella", "colour": "Blue", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "SOSS-L1-LOBBY", "from": "17:00", "to": "17:05" }]
+      },
+      "distractors": [
+        {
+          "title": "Navy umbrella",
+          "description": "Navy long umbrella with a J-shaped wooden handle",
+          "category": "Umbrella", "colour": "Navy", "brand": "",
+          "daysAgo": 1, "trail": [{ "spot": "SOSS-L1-LOBBY", "from": "12:00", "to": "12:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 16,
+      "note": "Tablet: stylus and pencil, folio and cover",
+      "lost": {
+        "title": "Samsung tablet",
+        "description": "Galaxy Tab S9 in a navy folio cover, S Pen clipped on the side",
+        "category": "Tablet", "colour": "Navy", "brand": "Samsung",
+        "daysAgo": 4, "trail": [{ "spot": "SCIS1-L2-GSR", "from": "13:00", "to": "17:00" }]
+      },
+      "found": {
+        "title": "Android tablet in blue cover",
+        "description": "Flip case, stylus attached magnetically",
+        "category": "Tablet", "colour": "Blue", "brand": "",
+        "daysAgo": 4, "trail": [{ "spot": "SCIS1-L2-STUDY", "from": "17:30", "to": "17:35" }]
+      },
+      "distractors": [
+        {
+          "title": "Navy iPad",
+          "description": "iPad in a navy Samsung-style case without a pen",
+          "category": "Tablet", "colour": "Navy", "brand": "Apple",
+          "daysAgo": 3, "trail": [{ "spot": "SCIS1-L2-GSR", "from": "10:00", "to": "10:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 17,
+      "note": "Lanyard filed as Other, owner and finder use different words for the pin",
+      "lost": {
+        "title": "CCA lanyard",
+        "description": "Lanyard from the dance club with an enamel badge of a penguin",
+        "category": "Other", "colour": "Orange", "brand": "",
+        "daysAgo": 1, "trail": [{ "spot": "ADMIN-L3-SPORTS", "from": "19:00", "to": "21:00" }]
+      },
+      "found": {
+        "title": "Orange neck strap",
+        "description": "Strap with a little penguin pin, no card on it",
+        "category": "Other", "colour": "Orange", "brand": "",
+        "daysAgo": 1, "trail": [{ "spot": "ADMIN-L1-LOBBY", "from": "21:15", "to": "21:20" }]
+      },
+      "distractors": [
+        {
+          "title": "Orange towel",
+          "description": "Sports towel left on the bench",
+          "category": "Other", "colour": "Orange", "brand": "",
+          "daysAgo": 1, "trail": [{ "spot": "ADMIN-L3-SPORTS", "from": "21:00", "to": "21:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 18,
+      "note": "Earbuds against neckband: the owner says earphones, the finder says earbuds",
+      "lost": {
+        "title": "Grey earphones",
+        "description": "Jabra in-ear buds in a grey pebble-shaped case",
+        "category": "Earbuds", "colour": "Grey", "brand": "Jabra",
+        "daysAgo": 2, "trail": [{ "spot": "LKCSB-L3-GSR", "from": "10:00", "to": "12:00" }]
+      },
+      "found": {
+        "title": "Grey earbuds case",
+        "description": "Rounded stone-like charging case with two buds inside",
+        "category": "Earbuds", "colour": "Grey", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "LKCSB-L3-STUDY", "from": "12:30", "to": "12:35" }]
+      },
+      "distractors": [
+        {
+          "title": "Grey earphones",
+          "description": "Wired earphones with a grey cable and a mic",
+          "category": "Earbuds", "colour": "Grey", "brand": "",
+          "daysAgo": 1, "trail": [{ "spot": "LKCSB-L3-GSR", "from": "16:00", "to": "16:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 19,
+      "note": "Backpack and rucksack, keychain described differently",
+      "lost": {
+        "title": "Navy rucksack",
+        "description": "JanSport rucksack with a Pikachu plushie hanging off the zip",
+        "category": "Bag", "colour": "Navy", "brand": "JanSport",
+        "daysAgo": 1, "trail": [{ "spot": "SOA-L1-ONALU", "from": "12:00", "to": "13:00" }]
+      },
+      "found": {
+        "title": "Dark blue backpack",
+        "description": "School bag with a yellow Pokemon soft toy on the zipper",
+        "category": "Bag", "colour": "Blue", "brand": "",
+        "daysAgo": 1, "trail": [{ "spot": "SOA-L1-STUDY", "from": "13:30", "to": "13:35" }]
+      },
+      "distractors": [
+        {
+          "title": "Navy JanSport backpack",
+          "description": "Navy JanSport rucksack, plain with no keychains",
+          "category": "Bag", "colour": "Navy", "brand": "JanSport",
+          "daysAgo": 2, "trail": [{ "spot": "SOA-L1-ONALU", "from": "18:00", "to": "18:05" }]
+        }
+      ]
+    },
+    {
+      "groupId": 20,
+      "note": "Watch filed as Other: smartwatch and fitness tracker",
+      "lost": {
+        "title": "Fitness tracker",
+        "description": "Garmin band with a black silicone strap, I took it off for badminton",
+        "category": "Other", "colour": "Black", "brand": "Garmin",
+        "daysAgo": 2, "trail": [{ "spot": "ADMIN-L3-SPORTS", "from": "18:00", "to": "20:00" }]
+      },
+      "found": {
+        "title": "Black smartwatch",
+        "description": "Sports watch with a rubber wristband, found near the courts",
+        "category": "Other", "colour": "Black", "brand": "",
+        "daysAgo": 2, "trail": [{ "spot": "ADMIN-L3-SPORTS", "from": "20:30", "to": "20:35" }]
+      },
+      "distractors": [
+        {
+          "title": "Black cap",
+          "description": "Black baseball cap with a Nike logo",
+          "category": "Other", "colour": "Black", "brand": "Nike",
+          "daysAgo": 2, "trail": [{ "spot": "ADMIN-L3-SPORTS", "from": "19:00", "to": "19:05" }]
+        }
+      ]
+    }
+  ]
+}
