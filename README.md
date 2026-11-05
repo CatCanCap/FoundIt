@@ -13,7 +13,7 @@ Lew Jing Yuan
 |---|---|
 | Deployed app (first page) | https://foundit-chi-amber.vercel.app |
 | API health check | https://foundit-chi-amber.vercel.app/api/health |
-| Git repository | https://github.com/guiyun466/WAD2-Project-G2-T1 |
+| Git repository | https://github.com/CatCanCap/FoundIt |
 
 The quickest way to mark the app is the deployed link with the logins below. No setup is needed.
 
