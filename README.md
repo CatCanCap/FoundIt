@@ -30,27 +30,14 @@ The quickest way to mark the app is the deployed link with the logins below. No 
 
 ## 1. Logins
 
-These work on the deployed app. **Every account uses the password `KayaToast-2026`.**
+These work on the deployed app, and on a local copy after `npm run seed`.
 
-| Name | Email | Role | Use it for |
+| Role | Email | Password | Use it for |
 |---|---|---|---|
-| Farhan Ismail | farhan.ismail@demo.smu.edu.sg | **Admin** | The Admin page: Priya's open dispute, 2 reports on Kelvin's advert, Ryan's appeal, the action log |
-| Clarissa Wong | clarissa.wong@demo.smu.edu.sg | Student | Empty account: report a lost black folding umbrella at the Bras Basah MRT exit and see it match |
-| Nguyen Thu Trang | thutrang.nguyen@demo.smu.edu.sg | Student | Claim the Casio calculator match (86.2); confirm the charger handoff |
-| Hannah Lim Xin Yi | hannah.lim@demo.smu.edu.sg | Student | Plan the meetup for Marcus's Kindle in chat |
-| Nurul Aisyah binte Rahman | nurul.aisyah@demo.smu.edu.sg | Student | A finder: one item returned, one claim declined |
-| Rizky Pratama | rizky.pratama@demo.smu.edu.sg | Student | Got his Hydro Flask back; has a meetup planned for Hannah's AirPods |
-| Marcus Teo Wei Jie | marcus.teo@demo.smu.edu.sg | Student | Handed over Trang's charger; claimed his Kindle |
-| Priya Ramasamy | priya.ramasamy@demo.smu.edu.sg | Student | Disputing Daniel's claim on the AirPods |
-| Angelica Reyes | angelica.reyes@demo.smu.edu.sg | Student | Found the disputed AirPods; has a strong card holder match |
-| Jonathan Lee Kah Meng | jonathan.lee@demo.smu.edu.sg | Student | His backpack claim was declined |
-| Pimchanok "Ploy" Srisuk | ploy.srisuk@demo.smu.edu.sg | Student | Reported a message asking for payment; found the umbrella |
-| Daniel Koh Jun Hao | daniel.koh@demo.smu.edu.sg | Student | Claimed the AirPods that Priya disputes |
-| Ryan Goh Zhi Xuan | ryan.goh@demo.smu.edu.sg | Student, suspended | Shows the suspension banner and his open appeal |
-| Kelvin Ong | kelvin.ong@demo.smu.edu.sg | Student, warned | His advert has 2 open reports |
-
-On a local copy, `npm run seed` loads the test data, and
-`DEMO_PASSWORD=KayaToast-2026 npm run seed:demo` (from `server/`) adds these accounts.
+| Student (owner) | alice.tan.2024@scis.smu.edu.sg | FoundIt-demo-1 | Owns the seeded lost reports: Matches, claim, handoff |
+| Student (finder) | ben.lim.2024@business.smu.edu.sg | FoundIt-demo-2 | Owns the seeded found items: reporting a find, accepting a claim |
+| Student | chloe.ng.2025@economics.smu.edu.sg | FoundIt-demo-3 | Owns the decoy reports: browsing, disputes |
+| Admin | foundit.admin@smu.edu.sg | FoundIt-admin-1 | The Admin page: disputes, reports, appeals, people, action log |
 
 New accounts can be registered with an `@smu.edu.sg` address (or a subdomain). A 6-digit code is
 then emailed. On a local copy with no email settings, the code is printed in the API's terminal.
